@@ -1,0 +1,64 @@
+﻿@inject NavigationManager Navigation
+@inject DomainStructureState DomainStructureState
+
+<div class="top-row ps-3 navbar navbar-dark">
+    <div class="container-fluid">
+        <a class="navbar-brand" href="">NewKinsTake2</a>
+    </div>
+</div>
+
+<input type="checkbox" title="Navigation menu" class="navbar-toggler" />
+
+<div class="nav-scrollable" onclick="document.querySelector('.navbar-toggler').click()">
+    <nav class="flex-column">
+        <!-- Domain Navigation Items -->
+        @foreach (var domain in Domains)
+        {
+            <div class="nav-item px-3">
+                <button class="subdomain-toggle" @onclick="() => ToggleAccordion(domain.DomainCode)">
+                    <span class="bi bi-plus-square-fill-nav-menu" aria-hidden="true"></span> @domain.DomainName
+                </button>
+                <div class="accordion" style="display: @(IsAccordionOpen(domain.DomainCode) ? "block" : "none")">
+                    @if (domain.SubDomainNames?.Any() == true)
+                    {
+                        @foreach (var subDomain in domain.SubDomainNames)
+                        {
+                            string address = $"/Menu/{domain.DomainCode}/{subDomain.SubDomainCode}";
+                            <div class="nav-item px-3">
+                                <NavLink class="nav-link" href=@address>
+                                    @subDomain.SubDomainName
+                                </NavLink>
+                            </div>
+                        }
+                    }
+                </div>
+            </div>
+        }
+    </nav>
+</div>
+
+@code {
+    private string? OpenAccordion { get; set; } = null;
+    private List<DomainModel> Domains { get; set; } = new();
+
+    protected override void OnInitialized()
+    {
+        // Load domain structure safely
+        DomainStructureJsonLoader.LoadDomainStructure(DomainStructureState);
+        Domains = DomainStructureState?.DomainStructure?.Workflow ?? new List<DomainModel>();
+    }
+
+    private void ToggleAccordion(string? domainCode)
+    {
+        if (string.IsNullOrEmpty(domainCode))
+            return;
+
+        // If the clicked accordion is already open, close it; otherwise, open it
+        OpenAccordion = OpenAccordion == domainCode ? null : domainCode;
+    }
+
+    private bool IsAccordionOpen(string? domainCode)
+    {
+        return OpenAccordion == domainCode;
+    }
+}

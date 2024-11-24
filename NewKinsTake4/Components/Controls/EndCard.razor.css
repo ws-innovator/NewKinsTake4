@@ -1,0 +1,35 @@
+﻿/* Process Box Styling */
+.end-box {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(248, 212, 212, 0.7);
+    border-radius: 5px;
+    overflow: hidden;
+    perspective: 1000px;
+    cursor: pointer;
+}
+
+
+        /* Image Section (Frontside) */
+    .end-box .image-section {
+        padding: 0;
+        background-color: #f0f0f0;
+    }
+
+        .end-box .image-section img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+
+
+        /* Text Section (Frontside) */
+    .end-box .text-section {
+        padding: 7px;
+        font-size: 14px;
+        font-weight: bold;
+        line-height: 1.2;
+        overflow: hidden;
+        border-top: 1px solid #ddd;
+    }

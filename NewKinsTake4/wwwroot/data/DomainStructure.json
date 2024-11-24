@@ -1,0 +1,389 @@
+{
+    "Workflow": [
+        {
+            "DomainCode": "QO",
+            "DomainName": "Trading",
+            "SubDomainNames": [
+                {
+                    "SubDomainCode": "SE",
+                    "SubDomainName": "Securities",
+                    "Scenarios": []
+                },
+                {
+                    "SubDomainCode": "FU",
+                    "SubDomainName": "Exchange-traded Derivatives",
+                    "Scenarios": []
+                },
+                {
+                    "SubDomainCode": "SW",
+                    "SubDomainName": "Over-the-counter Derivatives",
+                    "Scenarios": []
+                },
+                {
+                    "SubDomainCode": "FX",
+                    "SubDomainName": "Foreign Exchange (F/X)",
+                    "Scenarios": []
+                },
+                {
+                    "SubDomainCode": "MM",
+                    "SubDomainName": "Funding and Operations",
+                    "Scenarios": []
+                },
+                {
+                    "SubDomainCode": "TO",
+                    "SubDomainName": "Trading Common",
+                    "Scenarios": []
+                }
+            ]
+        },
+        {
+            "DomainCode": "QP",
+            "DomainName": "Integrated DW",
+            "SubDomainNames": [
+                {
+                    "SubDomainCode": "GW",
+                    "SubDomainName": "Global Data Warehouse",
+                    "Scenarios": []
+                },
+                {
+                    "SubDomainCode": "GS",
+                    "SubDomainName": "GDW Snapshot",
+                    "Scenarios": []
+                },
+                {
+                    "SubDomainCode": "DS",
+                    "SubDomainName": "Dashboard",
+                    "Scenarios": []
+                },
+                {
+                    "SubDomainCode": "HQ",
+                    "SubDomainName": "Head Office Reports",
+                    "Scenarios": []
+                }
+            ]
+        },
+        {
+            "DomainCode": "QH",
+            "DomainName": "Financial Management",
+            "SubDomainNames": [
+                {
+                    "SubDomainCode": "GL",
+                    "SubDomainName": "General Ledger",
+                    "Scenarios": []
+                },
+                {
+                    "SubDomainCode": "AR",
+                    "SubDomainName": "Outstanding Receivables/Payables",
+                    "Scenarios": []
+                },
+                {
+                    "SubDomainCode": "SR",
+                    "SubDomainName": "Provisional Payments/Receivables",
+                    "Scenarios": []
+                },
+                {
+                    "SubDomainCode": "TL",
+                    "SubDomainName": "Cash Handling",
+                    "Scenarios": []
+                },
+                {
+                    "SubDomainCode": "NV",
+                    "SubDomainName": "Deposit/Trust Funds",
+                    "Scenarios": []
+                },
+                {
+                    "SubDomainCode": "TR",
+                    "SubDomainName": "Separate Deposits",
+                    "Scenarios": []
+                },
+                {
+                    "SubDomainCode": "RE",
+                    "SubDomainName": "Foreign Exchange Dealership",
+                    "Scenarios": []
+                },
+                {
+                    "SubDomainCode": "AC",
+                    "SubDomainName": "Daily Settlement",
+                    "Scenarios": []
+                },
+                {
+                    "SubDomainCode": "GM",
+                    "SubDomainName": "Deposit Money",
+                    "Scenarios": []
+                }
+            ]
+        },
+        {
+            "DomainCode": "QD",
+            "DomainName": "Deposits",
+            "SubDomainNames": [
+                {
+                    "SubDomainCode": "DP",
+                    "SubDomainName": "Deposits",
+                    "Scenarios": []
+                }
+            ]
+        },
+        {
+            "DomainCode": "QX",
+            "DomainName": "Foreign Exchange",
+            "SubDomainNames": [
+                {
+                    "SubDomainCode": "IM",
+                    "SubDomainName": "Imports",
+                    "Scenarios": []
+                },
+                {
+                    "SubDomainCode": "EX",
+                    "SubDomainName": "Exports",
+                    "Scenarios": []
+                },
+                {
+                    "SubDomainCode": "RB",
+                    "SubDomainName": "Repayment",
+                    "Scenarios": []
+                },
+                {
+                    "SubDomainCode": "FI",
+                    "SubDomainName": "Fixed Income Operations",
+                    "Scenarios": []
+                },
+                {
+                    "SubDomainCode": "XO",
+                    "SubDomainName": "Foreign Exchange Common",
+                    "Scenarios": []
+                },
+                {
+                    "SubDomainCode": "PM",
+                    "SubDomainName": "Payment Instruction",
+                    "Scenarios": []
+                },
+                {
+                    "SubDomainCode": "SM",
+                    "SubDomainName": "SWIFT Messages",
+                    "Scenarios": []
+                },
+                {
+                    "SubDomainCode": "RM",
+                    "SubDomainName": "Remittance",
+                    "Scenarios": []
+                },
+                {
+                    "SubDomainCode": "FC",
+                    "SubDomainName": "Currency Exchange",
+                    "Scenarios": []
+                }
+            ]
+        },
+        {
+            "DomainCode": "QZ",
+            "DomainName": "Common",
+            "SubDomainNames": [
+                {
+                    "SubDomainCode": "CO",
+                    "SubDomainName": "Common",
+                    "Scenarios": []
+                },
+                {
+                    "SubDomainCode": "UM",
+                    "SubDomainName": "User",
+                    "Scenarios": []
+                },
+                {
+                    "SubDomainCode": "AP",
+                    "SubDomainName": "Manager Approval",
+                    "Scenarios": []
+                },
+                {
+                    "SubDomainCode": "CL",
+                    "SubDomainName": "Limit",
+                    "Scenarios": []
+                },
+                {
+                    "SubDomainCode": "CI",
+                    "SubDomainName": "Customer",
+                    "Scenarios": []
+                },
+                {
+                    "SubDomainCode": "PF",
+                    "SubDomainName": "Products",
+                    "Scenarios": []
+                },
+                {
+                    "SubDomainCode": "FE",
+                    "SubDomainName": "Fees",
+                    "Scenarios": []
+                },
+                {
+                    "SubDomainCode": "RT",
+                    "SubDomainName": "Interest Rate",
+                    "Scenarios": []
+                }
+            ]
+        },
+        {
+            "DomainCode": "QU",
+            "DomainName": "Management Support",
+            "SubDomainNames": [
+                {
+                    "SubDomainCode": "FA",
+                    "SubDomainName": "Fixed Assets",
+                    "Scenarios": []
+                },
+                {
+                    "SubDomainCode": "BE",
+                    "SubDomainName": "Budget/Expenses",
+                    "Scenarios": []
+                },
+                {
+                    "SubDomainCode": "VD",
+                    "SubDomainName": "Important Certificates",
+                    "Scenarios": []
+                },
+                {
+                    "SubDomainCode": "HR",
+                    "SubDomainName": "Human Resources",
+                    "Scenarios": []
+                },
+                {
+                    "SubDomainCode": "AL",
+                    "SubDomainName": "Lease Assets",
+                    "Scenarios": []
+                }
+            ]
+        },
+        {
+            "DomainCode": "QJ",
+            "DomainName": "Compliance",
+            "SubDomainNames": [
+                {
+                    "SubDomainCode": "KY",
+                    "SubDomainName": "Customer Due Diligence",
+                    "Scenarios": []
+                },
+                {
+                    "SubDomainCode": "RS",
+                    "SubDomainName": "Risk Assessment",
+                    "Scenarios": []
+                },
+                {
+                    "SubDomainCode": "SC",
+                    "SubDomainName": "Sanction Screening",
+                    "Scenarios": []
+                }
+            ]
+        },
+        {
+            "DomainCode": "QQ",
+            "DomainName": "Local DW",
+            "SubDomainNames": [
+                {
+                    "SubDomainCode": "US",
+                    "SubDomainName": "New York Reports",
+                    "Scenarios": []
+                },
+                {
+                    "SubDomainCode": "GB",
+                    "SubDomainName": "London Reports",
+                    "Scenarios": []
+                },
+                {
+                    "SubDomainCode": "CN",
+                    "SubDomainName": "China Reports",
+                    "Scenarios": []
+                },
+                {
+                    "SubDomainCode": "JP",
+                    "SubDomainName": "Tokyo Reports",
+                    "Scenarios": []
+                },
+                {
+                    "SubDomainCode": "HK",
+                    "SubDomainName": "Hong Kong Reports",
+                    "Scenarios": []
+                },
+                {
+                    "SubDomainCode": "SG",
+                    "SubDomainName": "Singapore Reports",
+                    "Scenarios": []
+                },
+                {
+                    "SubDomainCode": "LW",
+                    "SubDomainName": "Local Data Warehouse",
+                    "Scenarios": []
+                },
+                {
+                    "SubDomainCode": "LS",
+                    "SubDomainName": "LDW Snapshot",
+                    "Scenarios": []
+                },
+                {
+                    "SubDomainCode": "RO",
+                    "SubDomainName": "Report Common",
+                    "Scenarios": []
+                },
+                {
+                    "SubDomainCode": "FS",
+                    "SubDomainName": "Financial Supervisory Service Reports",
+                    "Scenarios": []
+                },
+                {
+                    "SubDomainCode": "IF",
+                    "SubDomainName": "IFRS Report",
+                    "Scenarios": []
+                },
+                {
+                    "SubDomainCode": "RC",
+                    "SubDomainName": "RMC Report",
+                    "Scenarios": []
+                },
+                {
+                    "SubDomainCode": "DA",
+                    "SubDomainName": "Unstructured Analysis",
+                    "Scenarios": []
+                }
+            ]
+        },
+        {
+            "DomainCode": "QL",
+            "DomainName": "Loans",
+            "SubDomainNames": [
+                {
+                    "SubDomainCode": "LC",
+                    "SubDomainName": "Loan Consultation/Review",
+                    "Scenarios": []
+                },
+                {
+                    "SubDomainCode": "CT",
+                    "SubDomainName": "Collateral",
+                    "Scenarios": []
+                },
+                {
+                    "SubDomainCode": "LN",
+                    "SubDomainName": "General Loans",
+                    "Scenarios": []
+                },
+                {
+                    "SubDomainCode": "LM",
+                    "SubDomainName": "Loan Post-Management",
+                    "Scenarios": []
+                },
+                {
+                    "SubDomainCode": "LT",
+                    "SubDomainName": "Medium/Long-term Loans",
+                    "Scenarios": []
+                },
+                {
+                    "SubDomainCode": "GU",
+                    "SubDomainName": "Guarantee Operations",
+                    "Scenarios": []
+                },
+                {
+                    "SubDomainCode": "LO",
+                    "SubDomainName": "Loan Common",
+                    "Scenarios": []
+                }
+            ]
+        }
+    ]
+}

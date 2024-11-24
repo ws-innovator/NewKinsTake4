@@ -1,0 +1,57 @@
+﻿/* Sticky Note */
+.sticky-note {
+    position: relative;
+    width: 205px;
+    height:300px;
+    padding: 10px;
+    background-color: rgba(245, 245, 245, 1); /* Lighter yellow background */
+    border-radius: 5px;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.1);
+    overflow:auto;
+}
+
+    /* Sticky Note Header */
+    .sticky-note .header {
+        display: flex;
+        align-items: center;
+        justify-content: start;
+        position: relative;
+    }
+
+        /* Sticky Note Pin */
+        .sticky-note .header .pin {
+            width: 20px;
+            height: 20px;
+            fill: #28a745;
+            margin-right: 5px;
+            cursor: pointer;
+            transition: transform 0.2s ease, fill 0.2s ease;
+            z-index: 200;
+        }
+
+            /* Sticky Note Pin Hover Effect */
+            .sticky-note .header .pin:hover {
+                transform: scale(1.2) translateY(-5px);
+                fill: #1c7c33;
+            }
+
+        /* Sticky Note Title */
+        .sticky-note .header .title {
+            font-weight: bold;
+            font-size: 15px;
+            color: #333;
+        }
+
+    /* Sticky Note Horizontal Line */
+    .sticky-note hr {
+        margin: 5px 0;
+        border: 1px solid #ddd;
+    }
+
+    /* Sticky Note Description Text */
+    .sticky-note .description {
+        font-size: 15px;
+        color: #666;
+    }
+
+    

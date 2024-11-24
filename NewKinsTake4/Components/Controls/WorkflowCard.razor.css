@@ -1,0 +1,57 @@
+﻿.workflow-box {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(245, 245, 245, 1); /* Lighter yellow background */
+    border-radius: 5px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    transition: transform 0.3s ease;
+    cursor: pointer;
+}
+
+    .workflow-box:hover {
+        font-weight: bold;
+    }
+
+/* Image Section */
+.workflow-image-section {
+    flex: 1;
+    padding: 0;
+    background-color: #f0f0f0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    aspect-ratio: 1024 / 837;
+}
+
+    .workflow-image-section img {
+        width: 100%;
+        height:100%;
+        object-fit: cover;
+        border-radius: 5px 5px 0 0;
+    }
+
+/* Text Section */
+.workflow-text-section {
+    flex: 1;
+    padding: 10px;
+    border-top: 1px solid #ddd;
+    word-wrap: break-word;
+    overflow-y: hidden;
+    font-size: 14px;
+    max-height: 100px;
+    line-height: 1.4;
+    display: -webkit-box;
+    -webkit-line-clamp: 5;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-align: center; /* Center text horizontally */
+}
+
+
+    /* Overflowing Text Adjustment */
+    .workflow-text-section:has(overflowing-text) {
+        font-size: calc(14px - 0.5px);
+    }

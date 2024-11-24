@@ -1,0 +1,44 @@
+﻿.workflow-card-layout {
+    display: grid;
+    grid-template-columns: repeat(9, 1fr);
+    gap: 30px;
+    width: 100%;
+    padding:30px;
+    box-sizing: border-box;
+}
+
+.workflow-card {
+    aspect-ratio: 180 / 250;
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+    overflow: hidden;
+    background-color: #f0f0f0;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+    cursor: pointer;
+}
+
+    .workflow-card:hover {
+        transform: scale(1.15);
+    }
+
+
+/* Media query for narrower screens */
+@media (max-width: 1650px) {
+    .workflow-card-layout {
+        grid-template-columns: repeat(7, 1fr);
+    }
+}
+
+@media (max-width: 1300px) {
+    .workflow-card-layout {
+        grid-template-columns: repeat(4, 1fr);
+    }
+}
+
+@media (max-width: 900px) {
+    .workflow-card-layout {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}

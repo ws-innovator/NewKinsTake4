@@ -1,0 +1,60 @@
+﻿/* Fork Box Styling */
+.fork-box {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(212, 248, 248, 0.7);
+    border-radius: 5px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+}
+
+    /* Diamond Section */
+    .fork-box .diamond-section {
+        flex: 1;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #FFFFFF;
+    }
+
+        /* Diamond Styling */
+        .fork-box .diamond-section .diamond {
+            width: 60px;
+            height: 60px;
+            background-color: #d0e7ff;
+            transform: rotate(45deg);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: #333;
+            font-weight: bold;
+            margin: 15px;
+        }
+
+            /* Diamond Text (Span) */
+            .fork-box .diamond-section .diamond span {
+                transform: rotate(-45deg);
+            }
+
+    /* Text Section */
+    .fork-box .text-section {
+        flex: 1;
+        padding: 5px;
+        border-top: 1px solid #ddd;
+        word-wrap: break-word;
+        overflow-y: hidden;
+        font-size: 14px;
+        max-height: 100px;
+        line-height: 1.2;
+        display: -webkit-box;
+        -webkit-line-clamp: 5;
+        -webkit-box-orient: vertical;
+        overflow: hidden;
+    }
+
+        /* Text Section with Overflowing Text */
+        .fork-box .text-section:has(overflowing-text) {
+            font-size: calc(14px - 0.5px);
+        }

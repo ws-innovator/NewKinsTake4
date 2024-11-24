@@ -1,0 +1,39 @@
+﻿
+<div class="workflow-box" @onclick="OnClickHappened">
+    <div class="workflow-image-section">
+        <img src="@jumpImageString" alt="Workflow Image" aria-label="@workStageName">
+    </div>
+    <div class="workflow-text-section">
+        @((MarkupString)Markdig.Markdown.ToHtml(workStageName))
+    </div>
+</div>
+
+
+
+@code {
+    [Parameter]
+    public WorkflowModel? Workflow { get; set; }
+
+    [Parameter]
+    public EventCallback<WorkflowModel> OnClick { get; set; }
+
+    private string jumpImageString = "";
+    private string workStageName = "";
+
+    protected override void OnParametersSet()
+    {
+        jumpImageString = string.IsNullOrEmpty(Workflow?.ScenarioCode)
+            ? "default_image.png"
+            : $"scenarioImages/{Workflow.ScenarioCode}.png";
+
+        workStageName = Workflow?.WorkflowName ?? "Untitled";
+    }
+
+    private async Task OnClickHappened()
+    {
+        if (Workflow != null)
+        {
+            await OnClick.InvokeAsync(Workflow);
+        }
+    }
+}

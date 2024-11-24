@@ -1,0 +1,28 @@
+﻿<div class="fork-box">
+    <div class="diamond-section">
+        <div class="diamond">
+            <span>Y / N</span>
+        </div>
+    </div>
+    <div class="text-section">
+        @((MarkupString)Markdig.Markdown.ToHtml(workStageName))
+    </div>
+</div>
+
+
+
+@code {
+    [Parameter]
+    public WorkflowModel? Workflow { get; set; }
+
+    [Parameter]
+    public EventCallback<WorkflowModel> OnClick { get; set; }
+
+    private string workStageName = "";
+
+    protected override void OnParametersSet()
+    {
+        workStageName = Workflow?.WorkStageName ?? "Untitled";
+    }
+
+}

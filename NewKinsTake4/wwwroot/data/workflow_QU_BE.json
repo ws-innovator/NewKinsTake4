@@ -1,0 +1,323 @@
+{
+    "Workflow": [
+        {
+            "ScenarioCode": "NW_BE_0001",
+            "WorkflowName": "Budget Allocation",
+            "WorkStageName": "(KR) 해외사업실은 각 글로벌 네트워크 점포에 차년도 예산 계획 작성 요청 (EN) HQ Global Business Department requests for each Global Network's budget plan of next year ",
+            "DisplayLayoutRow": "0",
+            "DisplayLayoutColumn": "0",
+            "LoadingPageType": "Image",
+            "KinsPageNumber": "수작업",
+            "KinsPageName": "",
+            "WorkStageNameKo": ""
+        },
+        {
+            "ScenarioCode": "NW_BE_0001",
+            "WorkflowName": "Budget Allocation",
+            "WorkStageName": "",
+            "DisplayLayoutRow": "0",
+            "DisplayLayoutColumn": "1",
+            "LoadingPageType": "Right",
+            "KinsPageNumber": "",
+            "KinsPageName": "",
+            "WorkStageNameKo": ""
+        },
+        {
+            "ScenarioCode": "NW_BE_0001",
+            "WorkflowName": "Budget Allocation",
+            "WorkStageName": "해당 점포가 지점이 아닌가?",
+            "DisplayLayoutRow": "0",
+            "DisplayLayoutColumn": "2",
+            "LoadingPageType": "Image",
+            "KinsPageNumber": "460100",
+            "KinsPageName": "New Lease",
+            "WorkStageNameKo": ""
+        },
+        {
+            "ScenarioCode": "NW_AL_0001",
+            "WorkflowName": "Register New Lease Contract",
+            "WorkStageName": "",
+            "DisplayLayoutRow": "0",
+            "DisplayLayoutColumn": "3",
+            "LoadingPageType": "Right",
+            "KinsPageNumber": "",
+            "KinsPageName": "",
+            "WorkStageNameKo": ""
+        },
+        {
+            "ScenarioCode": "NW_AL_0001",
+            "WorkflowName": "Register New Lease Contract",
+            "WorkStageName": "(KR) Enter 버튼 클릭 (EN) press Enter button ",
+            "DisplayLayoutRow": "0",
+            "DisplayLayoutColumn": "4",
+            "LoadingPageType": "Image",
+            "KinsPageNumber": "460100",
+            "KinsPageName": "New Lease",
+            "WorkStageNameKo": ""
+        },
+        {
+            "ScenarioCode": "NW_AL_0001",
+            "WorkflowName": "Register New Lease Contract",
+            "WorkStageName": "",
+            "DisplayLayoutRow": "0",
+            "DisplayLayoutColumn": "5",
+            "LoadingPageType": "Right",
+            "KinsPageNumber": "",
+            "KinsPageName": "",
+            "WorkStageNameKo": ""
+        },
+        {
+            "ScenarioCode": "NW_AL_0001",
+            "WorkflowName": "Register New Lease Contract",
+            "WorkStageName": "승인된 Lease 건에 대해 선급 리스료 발생하지 않음",
+            "DisplayLayoutRow": "0",
+            "DisplayLayoutColumn": "6",
+            "LoadingPageType": "Fork",
+            "KinsPageNumber": "",
+            "KinsPageName": "",
+            "WorkStageNameKo": ""
+        },
+        {
+            "ScenarioCode": "NW_BE_0001",
+            "WorkflowName": "Budget Allocation",
+            "WorkStageName": "",
+            "DisplayLayoutRow": "0",
+            "DisplayLayoutColumn": "3",
+            "LoadingPageType": "Right",
+            "KinsPageNumber": "",
+            "KinsPageName": "",
+            "WorkStageNameKo": ""
+        },
+        {
+            "ScenarioCode": "NW_BE_0001",
+            "WorkflowName": "Budget Allocation",
+            "WorkStageName": "(KR) 지점은 예산 편성 요구서를 작성 및 결재 (EN) Global Network branch submits a budget allocation request  ",
+            "DisplayLayoutRow": "0",
+            "DisplayLayoutColumn": "4",
+            "LoadingPageType": "Image",
+            "KinsPageNumber": "수작업",
+            "KinsPageName": "",
+            "WorkStageNameKo": ""
+        },
+        {
+            "ScenarioCode": "NW_BE_0001",
+            "WorkflowName": "Budget Allocation",
+            "WorkStageName": "",
+            "DisplayLayoutRow": "0",
+            "DisplayLayoutColumn": "5",
+            "LoadingPageType": "Right",
+            "KinsPageNumber": "",
+            "KinsPageName": "",
+            "WorkStageNameKo": ""
+        },
+        {
+            "ScenarioCode": "NW_BE_0001",
+            "WorkflowName": "Budget Allocation",
+            "WorkStageName": "(KR) 종합기획부는 각 주관부서에 예산 배정 통지 (EN) HQ Planning Department notifies departments for budget allocation ",
+            "DisplayLayoutRow": "0",
+            "DisplayLayoutColumn": "6",
+            "LoadingPageType": "Image",
+            "KinsPageNumber": "460400",
+            "KinsPageName": "Lease Amendment",
+            "WorkStageNameKo": ""
+        },
+        {
+            "ScenarioCode": "NW_AL_0002",
+            "WorkflowName": "Modify Lease Contract Information",
+            "WorkStageName": "",
+            "DisplayLayoutRow": "0",
+            "DisplayLayoutColumn": "7",
+            "LoadingPageType": "Right",
+            "KinsPageNumber": "",
+            "KinsPageName": "",
+            "WorkStageNameKo": ""
+        },
+        {
+            "ScenarioCode": "NW_AL_0002",
+            "WorkflowName": "Modify Lease Contract Information",
+            "WorkStageName": "",
+            "DisplayLayoutRow": "0",
+            "DisplayLayoutColumn": "8",
+            "LoadingPageType": "End",
+            "KinsPageNumber": "",
+            "KinsPageName": "",
+            "WorkStageNameKo": ""
+        },
+        {
+            "ScenarioCode": "NW_AL_0003",
+            "WorkflowName": "Terminate Lease Contract",
+            "WorkStageName": "",
+            "DisplayLayoutRow": "0",
+            "DisplayLayoutColumn": "0",
+            "LoadingPageType": "Workflow",
+            "KinsPageNumber": "NW_AL_0001",
+            "KinsPageName": "",
+            "WorkStageNameKo": ""
+        },
+        {
+            "ScenarioCode": "NW_AL_0003",
+            "WorkflowName": "Terminate Lease Contract",
+            "WorkStageName": "",
+            "DisplayLayoutRow": "0",
+            "DisplayLayoutColumn": "1",
+            "LoadingPageType": "Right",
+            "KinsPageNumber": "",
+            "KinsPageName": "",
+            "WorkStageNameKo": ""
+        },
+        {
+            "ScenarioCode": "NW_AL_0003",
+            "WorkflowName": "Terminate Lease Contract",
+            "WorkStageName": "(KR) Lease 계약 종료 검토 및 승인 (EN) Review the details of Lease contract and confirm its termination ",
+            "DisplayLayoutRow": "0",
+            "DisplayLayoutColumn": "2",
+            "LoadingPageType": "Image",
+            "KinsPageNumber": "수작업",
+            "KinsPageName": "",
+            "WorkStageNameKo": ""
+        },
+        {
+            "ScenarioCode": "NW_BE_0001",
+            "WorkflowName": "Budget Allocation",
+            "WorkStageName": "",
+            "DisplayLayoutRow": "0",
+            "DisplayLayoutColumn": "3",
+            "LoadingPageType": "Right",
+            "KinsPageNumber": "",
+            "KinsPageName": "",
+            "WorkStageNameKo": ""
+        },
+        {
+            "ScenarioCode": "NW_AL_0003",
+            "WorkflowName": "Terminate Lease Contract",
+            "WorkStageName": "(KR) Asset No., Asset Name 등 조회 조건을 입력 후 Inquiry 버튼 클릭 (EN) Fill in information such as Asset No., Asset Name and press Inquiry button ",
+            "DisplayLayoutRow": "0",
+            "DisplayLayoutColumn": "4",
+            "LoadingPageType": "Image",
+            "KinsPageNumber": "460300",
+            "KinsPageName": "Lease Termination",
+            "WorkStageNameKo": ""
+        },
+        {
+            "ScenarioCode": "NW_AL_0003",
+            "WorkflowName": "Terminate Lease Contract",
+            "WorkStageName": "",
+            "DisplayLayoutRow": "0",
+            "DisplayLayoutColumn": "5",
+            "LoadingPageType": "Right",
+            "KinsPageNumber": "",
+            "KinsPageName": "",
+            "WorkStageNameKo": ""
+        },
+        {
+            "ScenarioCode": "NW_AL_0003",
+            "WorkflowName": "Terminate Lease Contract",
+            "WorkStageName": "(KR) 종료하고자 하는 Lease 계약을 클릭 (EN) Select an entry from the search result to terminate its Lease contract ",
+            "DisplayLayoutRow": "0",
+            "DisplayLayoutColumn": "6",
+            "LoadingPageType": "Image",
+            "KinsPageNumber": "460300",
+            "KinsPageName": "Lease Termination",
+            "WorkStageNameKo": ""
+        },
+        {
+            "ScenarioCode": "NW_AL_0003",
+            "WorkflowName": "Terminate Lease Contract",
+            "WorkStageName": "",
+            "DisplayLayoutRow": "0",
+            "DisplayLayoutColumn": "7",
+            "LoadingPageType": "Right",
+            "KinsPageNumber": "",
+            "KinsPageName": "",
+            "WorkStageNameKo": ""
+        },
+        {
+            "ScenarioCode": "NW_BE_0001",
+            "WorkflowName": "Budget Allocation",
+            "WorkStageName": "(KR) 주관부서에서 예산 배정 내역 확인 (EN) Each HQ department reviews budget allocation details ",
+            "DisplayLayoutRow": "0",
+            "DisplayLayoutColumn": "8",
+            "LoadingPageType": "Image",
+            "KinsPageNumber": "(KUPID)410347",
+            "KinsPageName": "사업별 배정내역 조회",
+            "WorkStageNameKo": ""
+        },
+        {
+            "ScenarioCode": "NW_BE_0001",
+            "WorkflowName": "Budget Allocation",
+            "WorkStageName": "",
+            "DisplayLayoutRow": "0",
+            "DisplayLayoutColumn": "9",
+            "LoadingPageType": "RIght",
+            "KinsPageNumber": "",
+            "KinsPageName": "",
+            "WorkStageNameKo": ""
+        },
+        {
+            "ScenarioCode": "NW_BE_0001",
+            "WorkflowName": "Budget Allocation",
+            "WorkStageName": "(KR) 주관부서에서 해외 지점에 예산 재 배정 (EN) Each HQ department reallocate budgets for Global Networks [Desc.] 부점 코드, 단위사업코드, 비목 코드 단위 배정 통화 : USD 배정 환율 : 배정 기준일의 매매기준율 ",
+            "DisplayLayoutRow": "0",
+            "DisplayLayoutColumn": "10",
+            "LoadingPageType": "Image",
+            "KinsPageNumber": "(KUPID)410212",
+            "KinsPageName": "추가배정(반납) 등록",
+            "WorkStageNameKo": ""
+        },
+        {
+            "ScenarioCode": "NW_BE_0001",
+            "WorkflowName": "Budget Allocation",
+            "WorkStageName": "",
+            "DisplayLayoutRow": "0",
+            "DisplayLayoutColumn": "11",
+            "LoadingPageType": "Right",
+            "KinsPageNumber": "",
+            "KinsPageName": "",
+            "WorkStageNameKo": ""
+        },
+        {
+            "ScenarioCode": "NW_BE_0001",
+            "WorkflowName": "Budget Allocation",
+            "WorkStageName": "(KR) 해외 지점에서는 예산 배정 내역 확인을 위해 조회 조건 선택 후 Inquiry 버튼 클릭 (EN) Global Network branch fills in search criteria and press Inquiry button to check budget allocation details ",
+            "DisplayLayoutRow": "0",
+            "DisplayLayoutColumn": "12",
+            "LoadingPageType": "Image",
+            "KinsPageNumber": "342600",
+            "KinsPageName": "Allocation / Adjustment History ",
+            "WorkStageNameKo": ""
+        },
+        {
+            "ScenarioCode": "NW_BE_0001",
+            "WorkflowName": "Budget Allocation",
+            "WorkStageName": "",
+            "DisplayLayoutRow": "0",
+            "DisplayLayoutColumn": "13",
+            "LoadingPageType": "┐",
+            "KinsPageNumber": "",
+            "KinsPageName": "",
+            "WorkStageNameKo": ""
+        },
+        {
+            "ScenarioCode": "NW_BE_0001",
+            "WorkflowName": "Budget Allocation",
+            "WorkStageName": "",
+            "DisplayLayoutRow": "1",
+            "DisplayLayoutColumn": "12",
+            "LoadingPageType": "│",
+            "KinsPageNumber": "",
+            "KinsPageName": "",
+            "WorkStageNameKo": ""
+        },
+        {
+            "ScenarioCode": "NW_BE_0001",
+            "WorkflowName": "Budget Allocation",
+            "WorkStageName": "",
+            "DisplayLayoutRow": "2",
+            "DisplayLayoutColumn": "12",
+            "LoadingPageType": "Image",
+            "KinsPageNumber": "342600",
+            "KinsPageName": "",
+            "WorkStageNameKo": ""
+        }
+    ]
+}

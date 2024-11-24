@@ -1,0 +1,74 @@
+﻿
+
+/* General container for the process layout */
+.process-layout {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-width: 1800px;
+    padding:30px;
+    padding-bottom: 400px;
+}
+
+/* Row styling */
+.process-row {
+    display: flex;
+    width: 100%;
+}
+
+/* Height variations for odd and even rows */
+.odd-row {
+    height: 220px;
+}
+
+.even-row {
+    height: 70px;
+}
+
+/* General cell styling */
+.process-cell {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    height: 100%;
+}
+
+/* Column basis settings */
+.odd-column {
+    flex-basis: 70%;
+    min-width: 100px;
+}
+
+.even-column {
+    flex-basis: 30%;
+    min-width: 13px;
+}
+
+/* Empty space styling */
+.empty-space {
+    height: 100%;
+}
+
+
+
+
+/* Floating Panel */
+.floating-panel {
+    position: fixed;
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    padding: 10px;
+    background-color: #ffffff;
+    box-shadow: 0px 20px 40px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    z-index: 1000;
+}
+
+/* Card Container */
+.card-container {
+    display: flex;
+    gap: 10px;
+}

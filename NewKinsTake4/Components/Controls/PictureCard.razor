@@ -1,0 +1,49 @@
+﻿<div class="picture-box">
+    <div class="picture-box-inner">
+        <!-- Front Side of the Card -->
+        <div class="frontside-card">
+            <div class="image-section">
+                <img src="@imageString" alt="Card Image">
+            </div>
+            <div class="text-section">
+
+                @((MarkupString)Markdig.Markdown.ToHtml(frontCardText))
+            </div>
+        </div>
+
+        <!-- Back Side of the Card -->
+        <div class="backside-card">
+            <img src="@imageString" alt="Card Image" class="backside-image">
+        </div>
+    </div>
+</div>
+
+
+
+@code {
+    [Parameter]
+    public WorkflowModel? Workflow { get; set; }
+
+    [Parameter]
+    public EventCallback<WorkflowModel> OnClick { get; set; }
+
+    private string imageString = "";
+    private string frontCardText = "";
+    private string backCardText = "";
+
+    protected override void OnParametersSet()
+    {
+        imageString = string.IsNullOrEmpty(Workflow?.KinsPageNumber)
+            ? "default_image.png"
+            : $"relatedPictureImages/{Workflow.KinsPageNumber}.png";
+
+        frontCardText = string.IsNullOrEmpty(Workflow?.KinsPageName)
+            ? "Untitled"
+            : "**" + Workflow.KinsPageName + "**<br>" + " (" + Workflow.KinsPageNumber + ")";
+
+        backCardText = string.IsNullOrEmpty(Workflow?.WorkStageName)
+            ? "Untitled"
+            : Workflow.WorkStageName;
+    }
+
+}

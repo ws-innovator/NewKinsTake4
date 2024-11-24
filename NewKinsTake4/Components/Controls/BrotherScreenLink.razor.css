@@ -1,0 +1,57 @@
+﻿.link-list {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.link-item {
+    margin-bottom: 5px;
+}
+
+    .link-item a {
+        display: block;
+        padding: 8px;
+        border-radius: 5px;
+        color: #333;
+        font-weight: 500;
+        text-decoration: none;
+        transition: all 0.3s ease;
+        position: relative;
+        cursor: pointer;
+    }
+
+        .link-item a::after {
+            content: "";
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            width: 0;
+            height: 2px;
+            background-color: #555;
+            transition: width 0.3s ease;
+        }
+
+        .link-item a:hover {
+            color: #111;
+            background-color: #e0e0e0;
+            transform: translateY(-2px);
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+            .link-item a:hover::after {
+                width: 100%;
+            }
+
+        /* Active link style when IsOpen is true */
+        .link-item a.active-link {
+            color: #111;
+            background-color: #e0e0e0;
+            transform: translateY(-2px);
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            font-weight:bold;
+            cursor: default; /* No hand cursor */
+        }
+
+            .link-item a.active-link::after {
+                width: 100%;
+            }

@@ -1,0 +1,88 @@
+﻿@page "/Menu/{DomainCode}/{SubDomainCode}"
+
+@inject NavigationManager Navigation
+@inject DomainStructureState domainStructureState
+
+@if (workflows is null)
+{
+    <p>Loading...</p>
+}
+else if (!uniqueWorkflows.Any())
+{
+    <p>No unique workflows found.</p>
+}
+else
+{
+    <div class="workflow-card-layout">
+        @foreach (var workflow in uniqueWorkflows)
+        {
+            <div class="workflow-card">
+                <WorkflowCard Workflow="workflow" OnClick="NavigateToScenario" />
+            </div>
+        }
+    </div>
+}
+
+@code {
+    [Parameter]
+    public string? DomainCode { get; set; }
+
+    [Parameter]
+    public string? SubDomainCode { get; set; }
+
+    private List<WorkflowModel> workflows = new();
+    private List<WorkflowModel> uniqueWorkflows = new();
+    private List<DomainModel> Domains = new();
+
+    protected override void OnParametersSet()
+    {
+        DomainStructureJsonLoader.LoadDomainStructure(domainStructureState);
+
+        // Check if DomainStructureState and its nested properties are null
+        if (domainStructureState?.DomainStructure?.Workflow == null)
+        {
+            Domains = new List<DomainModel>();
+        }
+        else
+        {
+            Domains = domainStructureState.DomainStructure.Workflow;
+        }
+
+        var selectedDomain = Domains.FirstOrDefault(x => x.DomainCode == DomainCode);
+        if (selectedDomain == null)
+        {
+            workflows = new List<WorkflowModel>();
+            uniqueWorkflows = new List<WorkflowModel>();
+            return;
+        }
+
+        var selectedSubDomain = selectedDomain.SubDomainNames?
+                                    .FirstOrDefault(x => x.SubDomainCode == SubDomainCode);
+        if (selectedSubDomain?.Workflows == null)
+        {
+            workflows = new List<WorkflowModel>();
+            uniqueWorkflows = new List<WorkflowModel>();
+            return;
+        }
+
+        workflows = selectedSubDomain.Workflows;
+
+        // Ensure workflows are not null before processing unique workflows
+        uniqueWorkflows = workflows
+            .Where(w => !string.IsNullOrEmpty(w.ScenarioCode))
+            .GroupBy(w => w.ScenarioCode)
+            .Select(g => g.First())
+            .ToList();
+    }
+
+    private void NavigateToScenario(WorkflowModel? workflow)
+    {
+        if (workflow == null || string.IsNullOrEmpty(workflow.ScenarioCode))
+        {
+            return;
+        }
+
+        // Navigate to the appropriate screen based on ScenarioCode
+        Navigation.NavigateTo($"/Scenario/{DomainCode}/{SubDomainCode}/{workflow.ScenarioCode}");
+    }
+}

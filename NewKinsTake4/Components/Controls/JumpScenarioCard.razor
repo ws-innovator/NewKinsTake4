@@ -1,0 +1,58 @@
+﻿@if (Workflow is not null && workStageName is not null)
+{
+    <div class="jump-box" @onclick="ClickOnCardHappened">
+        <div class="jump-box-image-section">
+            <img src="@jumpImageString" alt="Workflow Image" aria-label="@workStageName">
+        </div>
+        <div class="jump-box-text-section">
+            @((MarkupString)Markdig.Markdown.ToHtml(workStageName))
+        </div>
+    </div>
+}
+
+@code {
+    [Parameter]
+    public WorkflowModel? Workflow { get; set; }
+
+    [Parameter]
+    public List<WorkflowModel>? UniqueWorkflows { get; set; }
+
+    [Parameter]
+    public EventCallback<WorkflowModel> OnClickOnCard { get; set; }
+
+    private string jumpImageString = "";
+    private string? workStageName;
+
+    protected override void OnParametersSet()
+    {
+        // Null check for Workflow
+        if (Workflow is null)
+        {
+            workStageName = null;
+            jumpImageString = "default_image.png";
+            return;
+        }
+
+        // Retrieve the scenario name safely with null coalescing
+        string? nameOfScenario = UniqueWorkflows?.FirstOrDefault(x => x.ScenarioCode == Workflow.KinsPageNumber)?.WorkflowName;
+
+        // Handle null case for nameOfScenario
+        workStageName = nameOfScenario is not null
+            ? $"Go to **{nameOfScenario}** process"
+            : "Go to default process";
+
+        // Set jump image string based on KinsPageNumber
+        jumpImageString = string.IsNullOrEmpty(Workflow.KinsPageNumber)
+            ? "default_image.png"
+            : $"scenarioImages/{Workflow.KinsPageNumber}.png";
+    }
+
+    private async Task ClickOnCardHappened()
+    {
+        // Check if Workflow is null before invoking the callback
+        if (Workflow is not null)
+        {
+            await OnClickOnCard.InvokeAsync(Workflow);
+        }
+    }
+}

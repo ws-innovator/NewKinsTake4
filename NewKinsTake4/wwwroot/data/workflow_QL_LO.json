@@ -1,0 +1,37 @@
+{
+    "Workflow": [
+        {
+            "ScenarioCode": "NW_LO_0001",
+            "WorkflowName": "EKCM REGISTRATION MANAGEMENT",
+            "WorkStageName": "(KR) EKCM 등록 관리  (EN)  ",
+            "DisplayLayoutRow": "0",
+            "DisplayLayoutColumn": "0",
+            "LoadingPageType": "Image",
+            "KinsPageNumber": "159120",
+            "KinsPageName": "EKCM 등록 관리",
+            "WorkStageNameKo": ""
+        },
+        {
+            "ScenarioCode": "NW_LO_0001",
+            "WorkflowName": "EKCM REGISTRATION MANAGEMENT",
+            "WorkStageName": "",
+            "DisplayLayoutRow": "0",
+            "DisplayLayoutColumn": "1",
+            "LoadingPageType": "Right",
+            "KinsPageNumber": "",
+            "KinsPageName": "",
+            "WorkStageNameKo": ""
+        },
+        {
+            "ScenarioCode": "NW_LO_0001",
+            "WorkflowName": "EKCM REGISTRATION MANAGEMENT",
+            "WorkStageName": "",
+            "DisplayLayoutRow": "0",
+            "DisplayLayoutColumn": "2",
+            "LoadingPageType": "End",
+            "KinsPageNumber": "",
+            "KinsPageName": "",
+            "WorkStageNameKo": ""
+        }
+    ]
+}

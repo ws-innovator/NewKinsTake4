@@ -1,0 +1,290 @@
+﻿@page "/Scenario/{DomainCode}/{SubDomainCode}/{ScenarioCode}"
+@inject NavigationManager Navigation
+@inject DomainStructureState domainStructureState
+
+
+
+@if (string.IsNullOrEmpty(ScenarioCode) || workflows is null)
+{
+    <p>Loading...</p>
+}
+else
+{
+    <div class="process-layout">
+        @for (int rowIndex = 0; rowIndex < ProcessLayout.Count; rowIndex++)
+        {
+            var row = ProcessLayout[rowIndex];
+            <div class="process-row @(rowIndex % 2 == 0 ? "odd-row" : "even-row")">
+                @for (int colIndex = 0; colIndex < row.Length; colIndex++)
+                {
+                    var character = row[colIndex];
+                    WorkflowModel? thisWorkflow = workflows?.FirstOrDefault(x =>
+                    x.DisplayLayoutRow == rowIndex.ToString() &&
+                    x.DisplayLayoutColumn == colIndex.ToString());
+
+                    <div class="process-cell @(colIndex % 2 == 0 ? "odd-column" : "even-column")">
+                        @switch (character)
+                        {
+                            case '0':
+                                <div class="empty-space"></div>
+                                break;
+
+                            case 'I':
+                                <ProcessCard Workflow="thisWorkflow" OnClickOnPin="ToggleCardVisibility" OnClickOnCard="NavigateToScreenShotPage" />
+                                break;
+
+                            case 'W':
+                                <JumpScenarioCard Workflow="thisWorkflow" UniqueWorkflows="uniqueWorkflows" OnClickOnCard="NavigateToTargeScenario" />
+                                break;
+
+                            case 'P':
+                                <PictureCard Workflow="thisWorkflow" />
+                                break;
+
+                            case 'F':
+                                <ForkCard Workflow="thisWorkflow" />
+                                break;
+
+                            case 'E':
+                                <EndCard />
+                                break;
+
+                            case 'D':
+                                <DownArrow />
+                                break;
+
+                            case 'U':
+                                <UpArrow />
+                                break;
+
+                            case 'R':
+                                <RightArrow />
+                                break;
+
+                            case 'L':
+                                <LeftArrow />
+                                break;
+
+                            case '┌':
+                                <ShaftUpRight />
+                                break;
+
+                            case '━':
+                                <ShaftHorizontal />
+                                break;
+
+                            case '│':
+                                <ShaftVertical />
+                                break;
+
+                            case '┳':
+                                <ShaftHorizontalDown />
+                                break;
+
+                            case '┴':
+                                <ShaftHorizontalUp />
+                                break;
+
+                            case '┤':
+                                <ShaftVerticalLeft />
+                                break;
+
+                            case '├':
+                                <ShaftVerticalRight />
+                                break;
+
+                            case '┘':
+                                <ShaftRightUp />
+                                break;
+
+                            case '└':
+                                <ShaftDownRight />
+                                break;
+
+                            case '┐':
+                                <ShaftRightDown />
+                                break;
+
+                            case 'N':
+                                <NoShaft />
+                                break;
+
+                            case 'Y':
+                                <YesShaft />
+                                break;
+
+                            default:
+                                <div class="empty-space"></div>
+                                break;
+                        }
+                    </div>
+                }
+            </div>
+        }
+    </div>
+
+    @if (IsPanelVisible)
+    {
+        <div class="floating-panel" style=@floatingPanelStyle>
+            <div class="card-container">
+                @foreach (var item in bottomCards)
+                {
+                    if (item.IsVisible && item.Workflow is not null)
+                    {
+                        <BottomStickCard Workflow="item.Workflow" OnClickOnPin="ToggleCardVisibility" />
+                    }
+                }
+            </div>
+        </div>
+    }
+}
+
+@code {
+    [Parameter]
+    public string? ScenarioCode { get; set; }
+
+    [Parameter]
+    public string? DomainCode { get; set; }
+
+    [Parameter]
+    public string? SubDomainCode { get; set; }
+
+
+    private List<WorkflowModel> workflows = new();
+    private List<WorkflowModel> uniqueWorkflows = new();
+    private List<DomainModel> Domains = new();
+
+
+    private List<string> ProcessLayout = new();
+    private List<WorkflowBottomCardModel> bottomCards = new();
+    private bool IsPanelVisible = false;
+    private string floatingPanelStyle = "width: 0px; max-width:90%;";
+
+
+
+
+
+    protected override void OnParametersSet()
+    {
+        DomainStructureJsonLoader.LoadDomainStructure(domainStructureState);
+
+        // Check if DomainStructureState and its nested properties are null
+        if (domainStructureState?.DomainStructure?.Workflow == null)
+        {
+            Domains = new List<DomainModel>();
+        }
+        else
+        {
+            Domains = domainStructureState.DomainStructure.Workflow;
+        }
+
+        var selectedDomain = Domains.FirstOrDefault(x => x.DomainCode == DomainCode);
+        if (selectedDomain == null)
+        {
+            workflows = new List<WorkflowModel>();
+            uniqueWorkflows = new List<WorkflowModel>();
+            return;
+        }
+
+        var selectedSubDomain = selectedDomain.SubDomainNames?
+                                    .FirstOrDefault(x => x.SubDomainCode == SubDomainCode);
+        if (selectedSubDomain?.Workflows == null)
+        {
+            workflows = new List<WorkflowModel>();
+            uniqueWorkflows = new List<WorkflowModel>();
+            return;
+        }
+
+        // Ensure workflows are not null before processing unique workflows
+        uniqueWorkflows = workflows
+            .Where(w => !string.IsNullOrEmpty(w.ScenarioCode))
+            .GroupBy(w => w.ScenarioCode)
+            .Select(g => g.First())
+            .ToList();
+
+        workflows = selectedSubDomain.Workflows.Where(x => x.ScenarioCode == ScenarioCode).ToList();
+
+    
+
+
+        if (string.IsNullOrEmpty(ScenarioCode))
+            return;
+
+
+        int numberOfRow = 1;
+
+        foreach (var item in workflows)
+        {
+            if (item?.DisplayLayoutRow is not null && int.TryParse(item.DisplayLayoutRow, out int rowOfItem))
+            {
+                numberOfRow = Math.Max(numberOfRow, rowOfItem + 1);
+            }
+
+            if (item?.LoadingPageType == "Image")
+            {
+                bottomCards.Add(new WorkflowBottomCardModel { Workflow = item });
+            }
+        }
+
+        ProcessLayout = CreateProcessLayout(workflows, numberOfRow, 13);
+    }
+
+    public static List<string> CreateProcessLayout(List<WorkflowModel> workflows, int totalRows, int totalColumns)
+    {
+        var processLayout = new List<string>();
+
+        for (int row = 0; row < totalRows; row++)
+        {
+            char[] rowChars = new char[totalColumns];
+            string rowString = row.ToString();
+
+            for (int col = 0; col < totalColumns; col++)
+            {
+                string colString = col.ToString();
+                WorkflowModel? workflowItem = workflows.FirstOrDefault(w =>
+                    w.DisplayLayoutRow == rowString &&
+                    w.DisplayLayoutColumn == colString);
+
+                rowChars[col] = workflowItem?.LoadingPageType?.FirstOrDefault() ?? '0';
+            }
+
+            processLayout.Add(new string(rowChars));
+        }
+
+        return processLayout;
+    }
+
+    private void ToggleCardVisibility(WorkflowModel fixedWorkflow)
+    {
+        var card = bottomCards.FirstOrDefault(x => x.Workflow == fixedWorkflow);
+        if (card is not null)
+        {
+            card.IsVisible = !card.IsVisible;
+            UpdatePanelVisibility();
+        }
+    }
+
+    private void UpdatePanelVisibility()
+    {
+        IsPanelVisible = bottomCards.Any(x => x.IsVisible);
+        int numberOfVisibleCards = bottomCards.Count(x => x.IsVisible);
+        floatingPanelStyle = $"width: calc({numberOfVisibleCards} * 200px + 40px); max-width:90%;";
+        StateHasChanged();
+    }
+
+    private void NavigateToTargeScenario(WorkflowModel? workflow)
+    {
+        if (workflow is null || string.IsNullOrEmpty(workflow.KinsPageNumber))
+            return;
+
+        Navigation.NavigateTo($"/Scenario/{workflow.KinsPageNumber}");
+    }
+
+    private void NavigateToScreenShotPage(WorkflowModel? workflow)
+    {
+        if (workflow is null || string.IsNullOrEmpty(workflow.KinsPageNumber))
+            return;
+
+        Navigation.NavigateTo($"/ScreenShot/{workflow.ScenarioCode}/{workflow.KinsPageNumber}");
+    }
+}

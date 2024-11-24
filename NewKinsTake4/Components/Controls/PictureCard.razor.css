@@ -1,0 +1,105 @@
+﻿/* Picture Box Styling */
+.picture-box {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background-color: lightgray;
+    border-radius: 5px;
+    overflow: visible; /* Allow child elements to expand beyond boundaries */
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    perspective: 1000px;
+    cursor: pointer;
+    transition: box-shadow 0.3s ease;
+}
+
+    /* Hover Effect for Picture Box */
+    .picture-box:hover {
+        z-index: 100;
+        transform-origin: 50% 0%; /* Set origin to top center */
+    }
+
+        /* Flip Effect for Picture Box Inner */
+        .picture-box:hover .picture-box-inner {
+            transform: rotateY(180deg);
+        }
+
+    /* Picture Box Inner */
+    .picture-box .picture-box-inner {
+        position: relative;
+        width: 100%;
+        height: 100%;
+        transform-style: preserve-3d;
+        transition: transform 0.6s ease-in-out;
+    }
+
+        /* Frontside Card */
+        .picture-box .picture-box-inner .frontside-card {
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            backface-visibility: hidden;
+            -webkit-backface-visibility: hidden;
+            display: flex;
+            flex-direction: column;
+        }
+
+        /* Backside Card */
+        .picture-box .picture-box-inner .backside-card {
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            backface-visibility: hidden;
+            -webkit-backface-visibility: hidden;
+            transform: rotateY(180deg);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: #f0f0f0;
+            aspect-ratio: var(--image-aspect-ratio);
+        }
+
+        /* Image Section (Frontside) */
+        .picture-box .picture-box-inner .frontside-card .image-section {
+            flex: 1;
+            background-color: #f0f0f0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+            /* Image Section Image (Frontside) */
+            .picture-box .picture-box-inner .frontside-card .image-section img {
+                width: 100%;
+                height: 100%;
+                object-fit: contain;
+            }
+
+        /* Text Section (Frontside) */
+        .picture-box .picture-box-inner .frontside-card .text-section {
+            flex: 1;
+            padding: 5px;
+            border-top: 1px solid #ddd;
+            font-size: 14px;
+            line-height: 1.2;
+            overflow: hidden;
+            display: -webkit-box;
+            -webkit-line-clamp: 5;
+            -webkit-box-orient: vertical;
+        }
+
+        /* Backside Image */
+        .picture-box .picture-box-inner .backside-card .backside-image {
+            max-width: 100%;
+            max-height: 100%;
+            object-fit: contain;
+            transition: transform 0.6s ease-in-out;
+            transform-origin: 50% 30%; /* Set origin to top center */
+        }
+
+    /* Image Scaling Effect on Hover (Elastic Behavior) */
+    .picture-box:hover .picture-box-inner .backside-card .backside-image {
+        transform: scale(5.5);
+        box-shadow: 0px 10px 15px rgba(0, 0, 0, 0.7);
+    }

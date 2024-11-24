@@ -1,0 +1,13 @@
+﻿/* Arrow container styling */
+.arrow-left {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+
+    /* SVG styling within arrows */
+    .arrow-left svg {
+        display: block;
+    }

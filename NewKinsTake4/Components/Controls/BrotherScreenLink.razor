@@ -1,0 +1,36 @@
+﻿@inject NavigationManager Navigation
+@inject DomainStructureState workflowStateService
+
+@if (Link is not null)
+{
+    <ul class="link-list">
+        @if (Link?.LoadingPageType == "Image")
+        {
+            <li class="link-item">
+                <a @onclick="IsOpen ? null : () => NavigateToWorkScreen(Link)"
+                   class="@(IsOpen ? "active-link" : "")">
+                    @Link.KinsPageName
+                </a>
+            </li>
+        }
+       
+    </ul>
+}
+
+@code {
+    [Parameter]
+    public WorkflowModel? Link { get; set; }
+
+    [Parameter]
+    public bool IsOpen { get; set; } = false;
+
+    private List<WorkflowModel>? uniqueWorkflows;
+
+    private void NavigateToWorkScreen(WorkflowModel? workflow)
+    {
+        if (!string.IsNullOrEmpty(workflow?.KinsPageNumber))
+        {
+            Navigation.NavigateTo($"/ScreenShot/{workflow.ScenarioCode}/{workflow.KinsPageNumber}");
+        }
+    }
+}
