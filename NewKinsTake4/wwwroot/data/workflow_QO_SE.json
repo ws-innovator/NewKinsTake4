@@ -94,7 +94,7 @@
             "WorkStageName": "",
             "DisplayLayoutRow": "0",
             "DisplayLayoutColumn": "8",
-            "LoadingPageType": "Right",
+            "LoadingPageType": "━",
             "KinsPageNumber": "",
             "KinsPageName": "",
             "WorkStageNameKo": ""
@@ -105,7 +105,7 @@
             "WorkStageName": "",
             "DisplayLayoutRow": "0",
             "DisplayLayoutColumn": "9",
-            "LoadingPageType": "┳",
+            "LoadingPageType": "Right",
             "KinsPageNumber": "",
             "KinsPageName": "",
             "WorkStageNameKo": ""
@@ -127,7 +127,7 @@
             "WorkStageName": "",
             "DisplayLayoutRow": "0",
             "DisplayLayoutColumn": "11",
-            "LoadingPageType": "Right",
+            "LoadingPageType": "━",
             "KinsPageNumber": "",
             "KinsPageName": "",
             "WorkStageNameKo": ""
@@ -192,7 +192,7 @@
             "WorkflowName": "Bond Purchase",
             "WorkStageName": "",
             "DisplayLayoutRow": "1",
-            "DisplayLayoutColumn": "9",
+            "DisplayLayoutColumn": "10",
             "LoadingPageType": "Up",
             "KinsPageNumber": "",
             "KinsPageName": "",
@@ -261,8 +261,8 @@
             "DisplayLayoutColumn": "6",
             "LoadingPageType": "Image",
             "KinsPageNumber": "",
-            "KinsPageName": "",
-            "WorkStageNameKo": "MUREX 연계시스템 입력"
+            "KinsPageName": "MUREX 연계시스템 입력",
+            "WorkStageNameKo": ""
         },
         {
             "ScenarioCode": "NW_SE_0001",
@@ -270,6 +270,28 @@
             "WorkStageName": "",
             "DisplayLayoutRow": "2",
             "DisplayLayoutColumn": "7",
+            "LoadingPageType": "━",
+            "KinsPageNumber": "",
+            "KinsPageName": "",
+            "WorkStageNameKo": ""
+        },
+        {
+            "ScenarioCode": "NW_SE_0001",
+            "WorkflowName": "Bond Purchase",
+            "WorkStageName": "",
+            "DisplayLayoutRow": "2",
+            "DisplayLayoutColumn": "8",
+            "LoadingPageType": "━",
+            "KinsPageNumber": "",
+            "KinsPageName": "",
+            "WorkStageNameKo": ""
+        },
+        {
+            "ScenarioCode": "NW_SE_0001",
+            "WorkflowName": "Bond Purchase",
+            "WorkStageName": "",
+            "DisplayLayoutRow": "2",
+            "DisplayLayoutColumn": "9",
             "LoadingPageType": "Right",
             "KinsPageNumber": "",
             "KinsPageName": "",
@@ -280,22 +302,11 @@
             "WorkflowName": "Bond Purchase",
             "WorkStageName": "[KR] Murex에서 종목정보를 인터페이스 [EN] Interface Bond Instruments from Murex",
             "DisplayLayoutRow": "2",
-            "DisplayLayoutColumn": "8",
+            "DisplayLayoutColumn": "10",
             "LoadingPageType": "Image",
             "KinsPageNumber": "549010",
             "KinsPageName": "Interface Screen Entry",
             "WorkStageNameKo": "[Desc.] Interface Kind를 Instrumnet로 설정 후 종목정보 수신  인터페이스 시 244010 화면으로 진입하며 수정 및 추가 필요 정보를 입력  상세화면은 수행사 PC 환경에서 진입 불가"
-        },
-        {
-            "ScenarioCode": "NW_SE_0001",
-            "WorkflowName": "Bond Purchase",
-            "WorkStageName": "",
-            "DisplayLayoutRow": "2",
-            "DisplayLayoutColumn": "9",
-            "LoadingPageType": "┘",
-            "KinsPageNumber": "",
-            "KinsPageName": "",
-            "WorkStageNameKo": ""
         },
         {
             "ScenarioCode": "NW_SE_0001",
@@ -391,7 +402,7 @@
             "WorkStageName": "",
             "DisplayLayoutRow": "3",
             "DisplayLayoutColumn": "8",
-            "LoadingPageType": "Left",
+            "LoadingPageType": "━",
             "KinsPageNumber": "",
             "KinsPageName": "",
             "WorkStageNameKo": ""
@@ -498,7 +509,7 @@
         {
             "ScenarioCode": "NW_SE_0001",
             "WorkflowName": "Bond Purchase",
-            "WorkStageName": "Guarantor/Collateral?",
+            "WorkStageName": "보증인/담보 존재?",
             "DisplayLayoutRow": "4",
             "DisplayLayoutColumn": "6",
             "LoadingPageType": "Fork",
@@ -611,7 +622,7 @@
             "WorkStageName": "",
             "DisplayLayoutRow": "5",
             "DisplayLayoutColumn": "10",
-            "LoadingPageType": "Down",
+            "LoadingPageType": "│",
             "KinsPageNumber": "",
             "KinsPageName": "",
             "WorkStageNameKo": ""
@@ -765,7 +776,7 @@
             "WorkStageName": "",
             "DisplayLayoutRow": "7",
             "DisplayLayoutColumn": "5",
-            "LoadingPageType": "Left",
+            "LoadingPageType": "━",
             "KinsPageNumber": "",
             "KinsPageName": "",
             "WorkStageNameKo": ""
@@ -850,9 +861,20 @@
         {
             "ScenarioCode": "NW_SE_0001",
             "WorkflowName": "Bond Purchase",
-            "WorkStageName": "",
+            "WorkStageName": "[KR]  유효이자율 계산 [EN]  Calculate Effective Rate",
             "DisplayLayoutRow": "8",
             "DisplayLayoutColumn": "2",
+            "LoadingPageType": "Image",
+            "KinsPageNumber": "245050",
+            "KinsPageName": "Effective Rate Calculation",
+            "WorkStageNameKo": "[Desc.] 필요시 원금 및 쿠폰 정보를 입력하고 유효이자율을 사전에 계산하여 확인한다"
+        },
+        {
+            "ScenarioCode": "NW_SE_0001",
+            "WorkflowName": "Bond Purchase",
+            "WorkStageName": "",
+            "DisplayLayoutRow": "8",
+            "DisplayLayoutColumn": "3",
             "LoadingPageType": "Right",
             "KinsPageNumber": "",
             "KinsPageName": "",
@@ -861,24 +883,13 @@
         {
             "ScenarioCode": "NW_SE_0001",
             "WorkflowName": "Bond Purchase",
-            "WorkStageName": "",
-            "DisplayLayoutRow": "8",
-            "DisplayLayoutColumn": "3",
-            "LoadingPageType": "┳",
-            "KinsPageNumber": "",
-            "KinsPageName": "",
-            "WorkStageNameKo": ""
-        },
-        {
-            "ScenarioCode": "NW_SE_0001",
-            "WorkflowName": "Bond Purchase",
-            "WorkStageName": "[KR]  유효이자율 계산 [EN]  Calculate Effective Rate",
+            "WorkStageName": "[KR] 매입정보 입력 [EN] Input the deal buying",
             "DisplayLayoutRow": "8",
             "DisplayLayoutColumn": "4",
             "LoadingPageType": "Image",
-            "KinsPageNumber": "245050",
-            "KinsPageName": "Effective Rate Calculation",
-            "WorkStageNameKo": "[Desc.] 필요시 원금 및 쿠폰 정보를 입력하고 유효이자율을 사전에 계산하여 확인한다"
+            "KinsPageNumber": "241100",
+            "KinsPageName": "Deal Buying Entry",
+            "WorkStageNameKo": "[Desc.] 매입하려는 유가증권 내역의 상세정보를 등록한다.  Bond ID 입력 시 발행자 한도가 조회되며 한도초과인 경우 등록시 알림 생성 및 거래 Block"
         },
         {
             "ScenarioCode": "NW_SE_0001",
@@ -894,13 +905,13 @@
         {
             "ScenarioCode": "NW_SE_0001",
             "WorkflowName": "Bond Purchase",
-            "WorkStageName": "[KR] 매입정보 입력 [EN] Input the deal buying",
+            "WorkStageName": "[KR] Deal Validation 수행 [EN] Deal validation",
             "DisplayLayoutRow": "8",
             "DisplayLayoutColumn": "6",
             "LoadingPageType": "Image",
-            "KinsPageNumber": "241100",
-            "KinsPageName": "Deal Buying Entry",
-            "WorkStageNameKo": "[Desc.] 매입하려는 유가증권 내역의 상세정보를 등록한다.  Bond ID 입력 시 발행자 한도가 조회되며 한도초과인 경우 등록시 알림 생성 및 거래 Block"
+            "KinsPageNumber": "242010",
+            "KinsPageName": "Deal Validation",
+            "WorkStageNameKo": "[Desc.] 등록한 매입 거래에 대해 정합성을 최종 확인함"
         },
         {
             "ScenarioCode": "NW_SE_0001",
@@ -916,13 +927,13 @@
         {
             "ScenarioCode": "NW_SE_0001",
             "WorkflowName": "Bond Purchase",
-            "WorkStageName": "[KR] Deal Validation 수행 [EN] Deal validation",
+            "WorkStageName": "뉴욕지점?",
             "DisplayLayoutRow": "8",
             "DisplayLayoutColumn": "8",
-            "LoadingPageType": "Image",
-            "KinsPageNumber": "242010",
-            "KinsPageName": "Deal Validation",
-            "WorkStageNameKo": "[Desc.] 등록한 매입 거래에 대해 정합성을 최종 확인함"
+            "LoadingPageType": "Fork",
+            "KinsPageNumber": "",
+            "KinsPageName": "",
+            "WorkStageNameKo": ""
         },
         {
             "ScenarioCode": "NW_SE_0001",
@@ -930,7 +941,7 @@
             "WorkStageName": "",
             "DisplayLayoutRow": "8",
             "DisplayLayoutColumn": "9",
-            "LoadingPageType": "━",
+            "LoadingPageType": "No",
             "KinsPageNumber": "",
             "KinsPageName": "",
             "WorkStageNameKo": ""
@@ -962,8 +973,19 @@
             "WorkflowName": "Bond Purchase",
             "WorkStageName": "",
             "DisplayLayoutRow": "9",
-            "DisplayLayoutColumn": "3",
-            "LoadingPageType": "│",
+            "DisplayLayoutColumn": "2",
+            "LoadingPageType": "Up",
+            "KinsPageNumber": "",
+            "KinsPageName": "",
+            "WorkStageNameKo": ""
+        },
+        {
+            "ScenarioCode": "NW_SE_0001",
+            "WorkflowName": "Bond Purchase",
+            "WorkStageName": "",
+            "DisplayLayoutRow": "9",
+            "DisplayLayoutColumn": "8",
+            "LoadingPageType": "Yes",
             "KinsPageNumber": "",
             "KinsPageName": "",
             "WorkStageNameKo": ""
@@ -974,7 +996,7 @@
             "WorkStageName": "",
             "DisplayLayoutRow": "9",
             "DisplayLayoutColumn": "10",
-            "LoadingPageType": "Down",
+            "LoadingPageType": "│",
             "KinsPageNumber": "",
             "KinsPageName": "",
             "WorkStageNameKo": ""
@@ -987,8 +1009,8 @@
             "DisplayLayoutColumn": "0",
             "LoadingPageType": "Image",
             "KinsPageNumber": "",
-            "KinsPageName": "",
-            "WorkStageNameKo": "MUREX 연계시스템 입력"
+            "KinsPageName": "MUREX 연계시스템 입력",
+            "WorkStageNameKo": ""
         },
         {
             "ScenarioCode": "NW_SE_0001",
@@ -1015,13 +1037,13 @@
         {
             "ScenarioCode": "NW_SE_0001",
             "WorkflowName": "Bond Purchase",
-            "WorkStageName": "",
+            "WorkStageName": "거래에 대한 OFAC Check 수행",
             "DisplayLayoutRow": "10",
-            "DisplayLayoutColumn": "3",
-            "LoadingPageType": "┘",
-            "KinsPageNumber": "",
-            "KinsPageName": "",
-            "WorkStageNameKo": ""
+            "DisplayLayoutColumn": "8",
+            "LoadingPageType": "Workflow",
+            "KinsPageNumber": "NW_SC_0001",
+            "KinsPageName": "MUREX 연계시스템 입력",
+            "WorkStageNameKo": "뉴욕지점 실시간 거래에 대한 OFAC Check 업무 처리 절차"
         },
         {
             "ScenarioCode": "NW_SE_0001",
@@ -1095,7 +1117,7 @@
             "WorkStageName": "",
             "DisplayLayoutRow": "11",
             "DisplayLayoutColumn": "5",
-            "LoadingPageType": "Left",
+            "LoadingPageType": "━",
             "KinsPageNumber": "",
             "KinsPageName": "",
             "WorkStageNameKo": ""
@@ -1128,7 +1150,7 @@
             "WorkStageName": "",
             "DisplayLayoutRow": "11",
             "DisplayLayoutColumn": "8",
-            "LoadingPageType": "━",
+            "LoadingPageType": "┴",
             "KinsPageNumber": "",
             "KinsPageName": "",
             "WorkStageNameKo": ""
@@ -1158,7 +1180,7 @@
         {
             "ScenarioCode": "NW_SE_0001",
             "WorkflowName": "Bond Purchase",
-            "WorkStageName": "뉴욕지점?",
+            "WorkStageName": "중국지점(상해지점제외)의 위안화 채권 매입?",
             "DisplayLayoutRow": "12",
             "DisplayLayoutColumn": "0",
             "LoadingPageType": "Fork",
@@ -1183,7 +1205,7 @@
             "WorkStageName": "",
             "DisplayLayoutRow": "12",
             "DisplayLayoutColumn": "2",
-            "LoadingPageType": "┳",
+            "LoadingPageType": "━",
             "KinsPageNumber": "",
             "KinsPageName": "",
             "WorkStageNameKo": ""
@@ -1202,7 +1224,7 @@
         {
             "ScenarioCode": "NW_SE_0001",
             "WorkflowName": "Bond Purchase",
-            "WorkStageName": "중국지점(상해지점제외)의 위안화 채권 매입?",
+            "WorkStageName": "Custody 사용?",
             "DisplayLayoutRow": "12",
             "DisplayLayoutColumn": "4",
             "LoadingPageType": "Fork",
@@ -1227,7 +1249,7 @@
             "WorkStageName": "",
             "DisplayLayoutRow": "12",
             "DisplayLayoutColumn": "6",
-            "LoadingPageType": "┳",
+            "LoadingPageType": "━",
             "KinsPageNumber": "",
             "KinsPageName": "",
             "WorkStageNameKo": ""
@@ -1238,28 +1260,6 @@
             "WorkStageName": "",
             "DisplayLayoutRow": "12",
             "DisplayLayoutColumn": "7",
-            "LoadingPageType": "Right",
-            "KinsPageNumber": "",
-            "KinsPageName": "",
-            "WorkStageNameKo": ""
-        },
-        {
-            "ScenarioCode": "NW_SE_0001",
-            "WorkflowName": "Bond Purchase",
-            "WorkStageName": "",
-            "DisplayLayoutRow": "12",
-            "DisplayLayoutColumn": "8",
-            "LoadingPageType": "┳",
-            "KinsPageNumber": "",
-            "KinsPageName": "",
-            "WorkStageNameKo": ""
-        },
-        {
-            "ScenarioCode": "NW_SE_0001",
-            "WorkflowName": "Bond Purchase",
-            "WorkStageName": "",
-            "DisplayLayoutRow": "12",
-            "DisplayLayoutColumn": "9",
             "LoadingPageType": "━",
             "KinsPageNumber": "",
             "KinsPageName": "",
@@ -1270,7 +1270,7 @@
             "WorkflowName": "Bond Purchase",
             "WorkStageName": "",
             "DisplayLayoutRow": "12",
-            "DisplayLayoutColumn": "10",
+            "DisplayLayoutColumn": "8",
             "LoadingPageType": "┐",
             "KinsPageNumber": "",
             "KinsPageName": "",
@@ -1281,7 +1281,7 @@
             "WorkflowName": "Bond Purchase",
             "WorkStageName": "",
             "DisplayLayoutRow": "13",
-            "DisplayLayoutColumn": "2",
+            "DisplayLayoutColumn": "0",
             "LoadingPageType": "Yes",
             "KinsPageNumber": "",
             "KinsPageName": "",
@@ -1293,17 +1293,6 @@
             "WorkStageName": "",
             "DisplayLayoutRow": "13",
             "DisplayLayoutColumn": "4",
-            "LoadingPageType": "Up",
-            "KinsPageNumber": "",
-            "KinsPageName": "",
-            "WorkStageNameKo": ""
-        },
-        {
-            "ScenarioCode": "NW_SE_0001",
-            "WorkflowName": "Bond Purchase",
-            "WorkStageName": "",
-            "DisplayLayoutRow": "13",
-            "DisplayLayoutColumn": "6",
             "LoadingPageType": "Yes",
             "KinsPageNumber": "",
             "KinsPageName": "",
@@ -1315,51 +1304,7 @@
             "WorkStageName": "",
             "DisplayLayoutRow": "13",
             "DisplayLayoutColumn": "8",
-            "LoadingPageType": "Up",
-            "KinsPageNumber": "",
-            "KinsPageName": "",
-            "WorkStageNameKo": ""
-        },
-        {
-            "ScenarioCode": "NW_SE_0001",
-            "WorkflowName": "Bond Purchase",
-            "WorkStageName": "",
-            "DisplayLayoutRow": "13",
-            "DisplayLayoutColumn": "10",
-            "LoadingPageType": "Down",
-            "KinsPageNumber": "",
-            "KinsPageName": "",
-            "WorkStageNameKo": ""
-        },
-        {
-            "ScenarioCode": "NW_SE_0001",
-            "WorkflowName": "Bond Purchase",
-            "WorkStageName": "거래에 대한 OFAC Check 수행",
-            "DisplayLayoutRow": "14",
-            "DisplayLayoutColumn": "2",
-            "LoadingPageType": "Workflow",
-            "KinsPageNumber": "NW_SC_0001",
-            "KinsPageName": "",
-            "WorkStageNameKo": "뉴욕지점 실시간 거래에 대한 OFAC Check 업무 처리 절차"
-        },
-        {
-            "ScenarioCode": "NW_SE_0001",
-            "WorkflowName": "Bond Purchase",
-            "WorkStageName": "",
-            "DisplayLayoutRow": "14",
-            "DisplayLayoutColumn": "3",
-            "LoadingPageType": "━",
-            "KinsPageNumber": "",
-            "KinsPageName": "",
-            "WorkStageNameKo": ""
-        },
-        {
-            "ScenarioCode": "NW_SE_0001",
-            "WorkflowName": "Bond Purchase",
-            "WorkStageName": "",
-            "DisplayLayoutRow": "14",
-            "DisplayLayoutColumn": "4",
-            "LoadingPageType": "┘",
+            "LoadingPageType": "│",
             "KinsPageNumber": "",
             "KinsPageName": "",
             "WorkStageNameKo": ""
@@ -1369,22 +1314,66 @@
             "WorkflowName": "Bond Purchase",
             "WorkStageName": "가수금/가지급금 거래",
             "DisplayLayoutRow": "14",
-            "DisplayLayoutColumn": "6",
+            "DisplayLayoutColumn": "0",
             "LoadingPageType": "Workflow",
             "KinsPageNumber": "NW_SR_0010",
             "KinsPageName": "",
-            "WorkStageNameKo": "가수금/가지급금 거래 워크플로우 호출 SPR 생성"
+            "WorkStageNameKo": ""
         },
         {
             "ScenarioCode": "NW_SE_0001",
             "WorkflowName": "Bond Purchase",
             "WorkStageName": "",
             "DisplayLayoutRow": "14",
-            "DisplayLayoutColumn": "7",
-            "LoadingPageType": "━",
+            "DisplayLayoutColumn": "1",
+            "LoadingPageType": "Right",
             "KinsPageNumber": "",
             "KinsPageName": "",
             "WorkStageNameKo": ""
+        },
+        {
+            "ScenarioCode": "NW_SE_0001",
+            "WorkflowName": "Bond Purchase",
+            "WorkStageName": "가수금/가지급금 거래(결제일)",
+            "DisplayLayoutRow": "14",
+            "DisplayLayoutColumn": "2",
+            "LoadingPageType": "Workflow",
+            "KinsPageNumber": "NW_SR_0010",
+            "KinsPageName": "",
+            "WorkStageNameKo": "[Desc.] 중국의 규제로 인해 타 지점과 달리 가수금/가지급금 프로세스가 존재함."
+        },
+        {
+            "ScenarioCode": "NW_SE_0001",
+            "WorkflowName": "Bond Purchase",
+            "WorkStageName": "SWIFT발신",
+            "DisplayLayoutRow": "14",
+            "DisplayLayoutColumn": "4",
+            "LoadingPageType": "Workflow",
+            "KinsPageNumber": "NW_SM_0002",
+            "KinsPageName": "",
+            "WorkStageNameKo": "[Desc.] MT202 생성 (Nostro(Chase 등) 계좌 -> Euroclear(Custody) 內 KDB 계좌"
+        },
+        {
+            "ScenarioCode": "NW_SE_0001",
+            "WorkflowName": "Bond Purchase",
+            "WorkStageName": "",
+            "DisplayLayoutRow": "14",
+            "DisplayLayoutColumn": "5",
+            "LoadingPageType": "Right",
+            "KinsPageNumber": "",
+            "KinsPageName": "",
+            "WorkStageNameKo": ""
+        },
+        {
+            "ScenarioCode": "NW_SE_0001",
+            "WorkflowName": "Bond Purchase",
+            "WorkStageName": "예수금/예치금 계좌 입지급 거래",
+            "DisplayLayoutRow": "14",
+            "DisplayLayoutColumn": "6",
+            "LoadingPageType": "Workflow",
+            "KinsPageNumber": "NW_NV_0020",
+            "KinsPageName": "",
+            "WorkStageNameKo": "[Desc.] 자금 이체(Nostro(Chase 등) 계좌 -> Euroclear(Custody) 內 KDB 계좌)에 대한 전표처리"
         },
         {
             "ScenarioCode": "NW_SE_0001",
@@ -1392,17 +1381,6 @@
             "WorkStageName": "",
             "DisplayLayoutRow": "14",
             "DisplayLayoutColumn": "8",
-            "LoadingPageType": "┘",
-            "KinsPageNumber": "",
-            "KinsPageName": "",
-            "WorkStageNameKo": ""
-        },
-        {
-            "ScenarioCode": "NW_SE_0001",
-            "WorkflowName": "Bond Purchase",
-            "WorkStageName": "",
-            "DisplayLayoutRow": "14",
-            "DisplayLayoutColumn": "10",
             "LoadingPageType": "│",
             "KinsPageNumber": "",
             "KinsPageName": "",
@@ -1436,7 +1414,7 @@
             "WorkStageName": "",
             "DisplayLayoutRow": "15",
             "DisplayLayoutColumn": "2",
-            "LoadingPageType": "━",
+            "LoadingPageType": "┴",
             "KinsPageNumber": "",
             "KinsPageName": "",
             "WorkStageNameKo": ""
@@ -1469,7 +1447,7 @@
             "WorkStageName": "",
             "DisplayLayoutRow": "15",
             "DisplayLayoutColumn": "5",
-            "LoadingPageType": "Left",
+            "LoadingPageType": "━",
             "KinsPageNumber": "",
             "KinsPageName": "",
             "WorkStageNameKo": ""
@@ -1480,7 +1458,7 @@
             "WorkStageName": "",
             "DisplayLayoutRow": "15",
             "DisplayLayoutColumn": "6",
-            "LoadingPageType": "━",
+            "LoadingPageType": "┴",
             "KinsPageNumber": "",
             "KinsPageName": "",
             "WorkStageNameKo": ""
@@ -1502,28 +1480,6 @@
             "WorkStageName": "",
             "DisplayLayoutRow": "15",
             "DisplayLayoutColumn": "8",
-            "LoadingPageType": "━",
-            "KinsPageNumber": "",
-            "KinsPageName": "",
-            "WorkStageNameKo": ""
-        },
-        {
-            "ScenarioCode": "NW_SE_0001",
-            "WorkflowName": "Bond Purchase",
-            "WorkStageName": "",
-            "DisplayLayoutRow": "15",
-            "DisplayLayoutColumn": "9",
-            "LoadingPageType": "━",
-            "KinsPageNumber": "",
-            "KinsPageName": "",
-            "WorkStageNameKo": ""
-        },
-        {
-            "ScenarioCode": "NW_SE_0001",
-            "WorkflowName": "Bond Purchase",
-            "WorkStageName": "",
-            "DisplayLayoutRow": "15",
-            "DisplayLayoutColumn": "10",
             "LoadingPageType": "┘",
             "KinsPageNumber": "",
             "KinsPageName": "",
@@ -1532,7 +1488,7 @@
         {
             "ScenarioCode": "NW_SE_0001",
             "WorkflowName": "Bond Purchase",
-            "WorkStageName": "중국지점(상해지점제외)의 위안화 채권 매입?",
+            "WorkStageName": "선PO 발송건?",
             "DisplayLayoutRow": "16",
             "DisplayLayoutColumn": "0",
             "LoadingPageType": "Fork",
@@ -1554,13 +1510,13 @@
         {
             "ScenarioCode": "NW_SE_0001",
             "WorkflowName": "Bond Purchase",
-            "WorkStageName": "Custody 사용?",
+            "WorkStageName": "[KR] 결제 회계처리 [EN] Settlement accounting",
             "DisplayLayoutRow": "16",
             "DisplayLayoutColumn": "2",
-            "LoadingPageType": "Fork",
-            "KinsPageNumber": "",
-            "KinsPageName": "",
-            "WorkStageNameKo": ""
+            "LoadingPageType": "Image",
+            "KinsPageNumber": "242020",
+            "KinsPageName": "Settlement accounting",
+            "WorkStageNameKo": "[Desc.] 회계처리 및 PO발송(필요시)을 처리함"
         },
         {
             "ScenarioCode": "NW_SE_0001",
@@ -1568,7 +1524,7 @@
             "WorkStageName": "",
             "DisplayLayoutRow": "16",
             "DisplayLayoutColumn": "3",
-            "LoadingPageType": "No",
+            "LoadingPageType": "Right",
             "KinsPageNumber": "",
             "KinsPageName": "",
             "WorkStageNameKo": ""
@@ -1579,106 +1535,7 @@
             "WorkStageName": "",
             "DisplayLayoutRow": "16",
             "DisplayLayoutColumn": "4",
-            "LoadingPageType": "━",
-            "KinsPageNumber": "",
-            "KinsPageName": "",
-            "WorkStageNameKo": ""
-        },
-        {
-            "ScenarioCode": "NW_SE_0001",
-            "WorkflowName": "Bond Purchase",
-            "WorkStageName": "",
-            "DisplayLayoutRow": "16",
-            "DisplayLayoutColumn": "5",
-            "LoadingPageType": "━",
-            "KinsPageNumber": "",
-            "KinsPageName": "",
-            "WorkStageNameKo": ""
-        },
-        {
-            "ScenarioCode": "NW_SE_0001",
-            "WorkflowName": "Bond Purchase",
-            "WorkStageName": "",
-            "DisplayLayoutRow": "16",
-            "DisplayLayoutColumn": "6",
-            "LoadingPageType": "━",
-            "KinsPageNumber": "",
-            "KinsPageName": "",
-            "WorkStageNameKo": ""
-        },
-        {
-            "ScenarioCode": "NW_SE_0001",
-            "WorkflowName": "Bond Purchase",
-            "WorkStageName": "",
-            "DisplayLayoutRow": "16",
-            "DisplayLayoutColumn": "7",
-            "LoadingPageType": "┳",
-            "KinsPageNumber": "",
-            "KinsPageName": "",
-            "WorkStageNameKo": ""
-        },
-        {
-            "ScenarioCode": "NW_SE_0001",
-            "WorkflowName": "Bond Purchase",
-            "WorkStageName": "",
-            "DisplayLayoutRow": "16",
-            "DisplayLayoutColumn": "8",
-            "LoadingPageType": "Fork",
-            "KinsPageNumber": "",
-            "KinsPageName": "",
-            "WorkStageNameKo": ""
-        },
-        {
-            "ScenarioCode": "NW_SE_0001",
-            "WorkflowName": "Bond Purchase",
-            "WorkStageName": "",
-            "DisplayLayoutRow": "16",
-            "DisplayLayoutColumn": "9",
-            "LoadingPageType": "No",
-            "KinsPageNumber": "",
-            "KinsPageName": "",
-            "WorkStageNameKo": ""
-        },
-        {
-            "ScenarioCode": "NW_SE_0001",
-            "WorkflowName": "Bond Purchase",
-            "WorkStageName": "",
-            "DisplayLayoutRow": "16",
-            "DisplayLayoutColumn": "10",
-            "LoadingPageType": "━",
-            "KinsPageNumber": "",
-            "KinsPageName": "",
-            "WorkStageNameKo": ""
-        },
-        {
-            "ScenarioCode": "NW_SE_0001",
-            "WorkflowName": "Bond Purchase",
-            "WorkStageName": "",
-            "DisplayLayoutRow": "16",
-            "DisplayLayoutColumn": "11",
-            "LoadingPageType": "━",
-            "KinsPageNumber": "",
-            "KinsPageName": "",
-            "WorkStageNameKo": ""
-        },
-        {
-            "ScenarioCode": "NW_SE_0001",
-            "WorkflowName": "Bond Purchase",
-            "WorkStageName": "",
-            "DisplayLayoutRow": "16",
-            "DisplayLayoutColumn": "12",
-            "LoadingPageType": "━",
-            "KinsPageNumber": "",
-            "KinsPageName": "",
-            "WorkStageNameKo": ""
-        },
-        {
-            "ScenarioCode": "NW_SE_0001",
-            "WorkflowName": "Bond Purchase",
-            "WorkStageName": "",
-            "DisplayLayoutRow": "16",
-            "DisplayLayoutColumn": "13",
-            "LoadingPageType": "┐",
+            "LoadingPageType": "End",
             "KinsPageNumber": "",
             "KinsPageName": "",
             "WorkStageNameKo": ""
@@ -1700,17 +1557,6 @@
             "WorkStageName": "",
             "DisplayLayoutRow": "17",
             "DisplayLayoutColumn": "2",
-            "LoadingPageType": "Yes",
-            "KinsPageNumber": "",
-            "KinsPageName": "",
-            "WorkStageNameKo": ""
-        },
-        {
-            "ScenarioCode": "NW_SE_0001",
-            "WorkflowName": "Bond Purchase",
-            "WorkStageName": "",
-            "DisplayLayoutRow": "17",
-            "DisplayLayoutColumn": "7",
             "LoadingPageType": "Up",
             "KinsPageNumber": "",
             "KinsPageName": "",
@@ -1719,64 +1565,9 @@
         {
             "ScenarioCode": "NW_SE_0001",
             "WorkflowName": "Bond Purchase",
-            "WorkStageName": "",
-            "DisplayLayoutRow": "17",
-            "DisplayLayoutColumn": "8",
-            "LoadingPageType": "Yes",
-            "KinsPageNumber": "",
-            "KinsPageName": "",
-            "WorkStageNameKo": ""
-        },
-        {
-            "ScenarioCode": "NW_SE_0001",
-            "WorkflowName": "Bond Purchase",
-            "WorkStageName": "",
-            "DisplayLayoutRow": "17",
-            "DisplayLayoutColumn": "11",
-            "LoadingPageType": "┳",
-            "KinsPageNumber": "",
-            "KinsPageName": "",
-            "WorkStageNameKo": ""
-        },
-        {
-            "ScenarioCode": "NW_SE_0001",
-            "WorkflowName": "Bond Purchase",
-            "WorkStageName": "SWIFT발신",
-            "DisplayLayoutRow": "18",
-            "DisplayLayoutColumn": "2",
-            "LoadingPageType": "Workflow",
-            "KinsPageNumber": "NW_SM_0002",
-            "KinsPageName": "",
-            "WorkStageNameKo": "[Desc.] MT202 생성 (Nostro(Chase 등) 계좌 -> Euroclear(Custody) 內 KDB 계좌"
-        },
-        {
-            "ScenarioCode": "NW_SE_0001",
-            "WorkflowName": "Bond Purchase",
-            "WorkStageName": "",
-            "DisplayLayoutRow": "18",
-            "DisplayLayoutColumn": "3",
-            "LoadingPageType": "Right",
-            "KinsPageNumber": "",
-            "KinsPageName": "",
-            "WorkStageNameKo": ""
-        },
-        {
-            "ScenarioCode": "NW_SE_0001",
-            "WorkflowName": "Bond Purchase",
-            "WorkStageName": "예수금/예치금 계좌 입지급 거래",
-            "DisplayLayoutRow": "18",
-            "DisplayLayoutColumn": "4",
-            "LoadingPageType": "Workflow",
-            "KinsPageNumber": "NW_NV_0020",
-            "KinsPageName": "",
-            "WorkStageNameKo": "[Desc.] 자금 이체(Nostro(Chase 등) 계좌 -> Euroclear(Custody) 內 KDB 계좌)에 대한 전표처리"
-        },
-        {
-            "ScenarioCode": "NW_SE_0001",
-            "WorkflowName": "Bond Purchase",
             "WorkStageName": "[KR] PO 작성 [EN] PO Making",
             "DisplayLayoutRow": "18",
-            "DisplayLayoutColumn": "8",
+            "DisplayLayoutColumn": "0",
             "LoadingPageType": "Image",
             "KinsPageNumber": "541010",
             "KinsPageName": "PO Making",
@@ -1787,7 +1578,7 @@
             "WorkflowName": "Bond Purchase",
             "WorkStageName": "",
             "DisplayLayoutRow": "18",
-            "DisplayLayoutColumn": "9",
+            "DisplayLayoutColumn": "1",
             "LoadingPageType": "Right",
             "KinsPageNumber": "",
             "KinsPageName": "",
@@ -1798,20 +1589,9 @@
             "WorkflowName": "Bond Purchase",
             "WorkStageName": "당행 자금지급 Outgoing SWIFT Message",
             "DisplayLayoutRow": "18",
-            "DisplayLayoutColumn": "10",
+            "DisplayLayoutColumn": "2",
             "LoadingPageType": "Workflow",
             "KinsPageNumber": "NW_SM_0002",
-            "KinsPageName": "",
-            "WorkStageNameKo": ""
-        },
-        {
-            "ScenarioCode": "",
-            "WorkflowName": "",
-            "WorkStageName": "",
-            "DisplayLayoutRow": "18",
-            "DisplayLayoutColumn": "11",
-            "LoadingPageType": "┘",
-            "KinsPageNumber": "",
             "KinsPageName": "",
             "WorkStageNameKo": ""
         }

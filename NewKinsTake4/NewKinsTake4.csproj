@@ -18,6 +18,9 @@
     <Content Update="wwwroot\data\DomainStructure.json">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
+    <Content Update="wwwroot\data\workflow_QO_SE.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
     <Content Update="wwwroot\data\workflow_QU_AL.json">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
