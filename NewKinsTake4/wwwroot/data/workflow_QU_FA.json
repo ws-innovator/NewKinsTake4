@@ -9,13 +9,7 @@
             "LoadingPageType": "Image",
             "KinsPageNumber": "수작업",
             "KinsPageName": "",
-            " ": "",
-            "Unnamed: 9": "",
-            "Unnamed: 10": "",
-            "Unnamed: 11": "",
-            "Unnamed: 12": "",
-            "Unnamed: 13": "",
-            "Unnamed: 14": ""
+            "WorkStageNameKo": ""
         },
         {
             "ScenarioCode": "NW_FA_0001",
@@ -26,13 +20,7 @@
             "LoadingPageType": "Right",
             "KinsPageNumber": "",
             "KinsPageName": "",
-            " ": "",
-            "Unnamed: 9": "",
-            "Unnamed: 10": "",
-            "Unnamed: 11": "",
-            "Unnamed: 12": "",
-            "Unnamed: 13": "",
-            "Unnamed: 14": ""
+            "WorkStageNameKo": ""
         },
         {
             "ScenarioCode": "NW_FA_0001",
@@ -43,13 +31,7 @@
             "LoadingPageType": "Image",
             "KinsPageNumber": "",
             "KinsPageName": "",
-            " ": "",
-            "Unnamed: 9": "",
-            "Unnamed: 10": "",
-            "Unnamed: 11": "",
-            "Unnamed: 12": "",
-            "Unnamed: 13": "",
-            "Unnamed: 14": ""
+            "WorkStageNameKo": ""
         },
         {
             "ScenarioCode": "NW_FA_0001",
@@ -60,13 +42,7 @@
             "LoadingPageType": "Right",
             "KinsPageNumber": "",
             "KinsPageName": "",
-            " ": "",
-            "Unnamed: 9": "",
-            "Unnamed: 10": "",
-            "Unnamed: 11": "",
-            "Unnamed: 12": "",
-            "Unnamed: 13": "",
-            "Unnamed: 14": ""
+            "WorkStageNameKo": ""
         },
         {
             "ScenarioCode": "NW_FA_0001",
@@ -77,13 +53,7 @@
             "LoadingPageType": "Image",
             "KinsPageNumber": "331400",
             "KinsPageName": "New Asset",
-            " ": "",
-            "Unnamed: 9": "",
-            "Unnamed: 10": "",
-            "Unnamed: 11": "",
-            "Unnamed: 12": "",
-            "Unnamed: 13": "",
-            "Unnamed: 14": ""
+            "WorkStageNameKo": ""
         },
         {
             "ScenarioCode": "NW_FA_0001",
@@ -94,13 +64,7 @@
             "LoadingPageType": "Right",
             "KinsPageNumber": "",
             "KinsPageName": "",
-            " ": "",
-            "Unnamed: 9": "",
-            "Unnamed: 10": "",
-            "Unnamed: 11": "",
-            "Unnamed: 12": "",
-            "Unnamed: 13": "",
-            "Unnamed: 14": ""
+            "WorkStageNameKo": ""
         },
         {
             "ScenarioCode": "NW_FA_0001",
@@ -111,13 +75,7 @@
             "LoadingPageType": "Fork",
             "KinsPageNumber": "",
             "KinsPageName": "",
-            " ": "",
-            "Unnamed: 9": "",
-            "Unnamed: 10": "",
-            "Unnamed: 11": "",
-            "Unnamed: 12": "",
-            "Unnamed: 13": "",
-            "Unnamed: 14": ""
+            "WorkStageNameKo": ""
         },
         {
             "ScenarioCode": "NW_FA_0001",
@@ -128,13 +86,7 @@
             "LoadingPageType": "No",
             "KinsPageNumber": "",
             "KinsPageName": "",
-            " ": "",
-            "Unnamed: 9": "",
-            "Unnamed: 10": "",
-            "Unnamed: 11": "",
-            "Unnamed: 12": "",
-            "Unnamed: 13": "",
-            "Unnamed: 14": ""
+            "WorkStageNameKo": ""
         },
         {
             "ScenarioCode": "NW_FA_0001",
@@ -145,13 +97,7 @@
             "LoadingPageType": "Image",
             "KinsPageNumber": "331400",
             "KinsPageName": "New Asset",
-            " ": "",
-            "Unnamed: 9": "",
-            "Unnamed: 10": "",
-            "Unnamed: 11": "",
-            "Unnamed: 12": "",
-            "Unnamed: 13": "",
-            "Unnamed: 14": ""
+            "WorkStageNameKo": ""
         },
         {
             "ScenarioCode": "NW_FA_0001",
@@ -162,13 +108,7 @@
             "LoadingPageType": "Yes",
             "KinsPageNumber": "",
             "KinsPageName": "",
-            " ": "",
-            "Unnamed: 9": "",
-            "Unnamed: 10": "",
-            "Unnamed: 11": "",
-            "Unnamed: 12": "",
-            "Unnamed: 13": "",
-            "Unnamed: 14": ""
+            "WorkStageNameKo": ""
         },
         {
             "ScenarioCode": "NW_FA_0001",
@@ -179,13 +119,7 @@
             "LoadingPageType": "└",
             "KinsPageNumber": "",
             "KinsPageName": "",
-            " ": "",
-            "Unnamed: 9": "",
-            "Unnamed: 10": "",
-            "Unnamed: 11": "",
-            "Unnamed: 12": "",
-            "Unnamed: 13": "",
-            "Unnamed: 14": ""
+            "WorkStageNameKo": ""
         },
         {
             "ScenarioCode": "NW_FA_0001",
@@ -196,13 +130,7 @@
             "LoadingPageType": "RIght",
             "KinsPageNumber": "",
             "KinsPageName": "",
-            " ": "",
-            "Unnamed: 9": "",
-            "Unnamed: 10": "",
-            "Unnamed: 11": "",
-            "Unnamed: 12": "",
-            "Unnamed: 13": "",
-            "Unnamed: 14": ""
+            "WorkStageNameKo": ""
         },
         {
             "ScenarioCode": "NW_FA_0001",
@@ -213,13 +141,7 @@
             "LoadingPageType": "Image",
             "KinsPageNumber": "331400",
             "KinsPageName": "New Asset",
-            " ": "",
-            "Unnamed: 9": "",
-            "Unnamed: 10": "",
-            "Unnamed: 11": "",
-            "Unnamed: 12": "",
-            "Unnamed: 13": "",
-            "Unnamed: 14": ""
+            "WorkStageNameKo": ""
         },
         {
             "ScenarioCode": "NW_FA_0001",
@@ -230,13 +152,7 @@
             "LoadingPageType": "Right",
             "KinsPageNumber": "",
             "KinsPageName": "",
-            " ": "",
-            "Unnamed: 9": "",
-            "Unnamed: 10": "",
-            "Unnamed: 11": "",
-            "Unnamed: 12": "",
-            "Unnamed: 13": "",
-            "Unnamed: 14": ""
+            "WorkStageNameKo": ""
         },
         {
             "ScenarioCode": "NW_FA_0001",
@@ -247,13 +163,7 @@
             "LoadingPageType": "End",
             "KinsPageNumber": "",
             "KinsPageName": "",
-            " ": "",
-            "Unnamed: 9": "",
-            "Unnamed: 10": "",
-            "Unnamed: 11": "",
-            "Unnamed: 12": "",
-            "Unnamed: 13": "",
-            "Unnamed: 14": ""
+            "WorkStageNameKo": ""
         },
         {
             "ScenarioCode": "NW_FA_0002",
@@ -264,13 +174,7 @@
             "LoadingPageType": "Workflow",
             "KinsPageNumber": "NW_FA_0001",
             "KinsPageName": "",
-            " ": "",
-            "Unnamed: 9": "",
-            "Unnamed: 10": "",
-            "Unnamed: 11": "",
-            "Unnamed: 12": "",
-            "Unnamed: 13": "",
-            "Unnamed: 14": ""
+            "WorkStageNameKo": ""
         },
         {
             "ScenarioCode": "NW_FA_0002",
@@ -281,13 +185,7 @@
             "LoadingPageType": "Right",
             "KinsPageNumber": "",
             "KinsPageName": "",
-            " ": "",
-            "Unnamed: 9": "",
-            "Unnamed: 10": "",
-            "Unnamed: 11": "",
-            "Unnamed: 12": "",
-            "Unnamed: 13": "",
-            "Unnamed: 14": ""
+            "WorkStageNameKo": ""
         },
         {
             "ScenarioCode": "NW_FA_0002",
@@ -298,13 +196,7 @@
             "LoadingPageType": "Image",
             "KinsPageNumber": "332400",
             "KinsPageName": "Inquire / Dispose",
-            " ": "",
-            "Unnamed: 9": "",
-            "Unnamed: 10": "",
-            "Unnamed: 11": "",
-            "Unnamed: 12": "",
-            "Unnamed: 13": "",
-            "Unnamed: 14": ""
+            "WorkStageNameKo": ""
         },
         {
             "ScenarioCode": "NW_FA_0002",
@@ -315,13 +207,7 @@
             "LoadingPageType": "Right",
             "KinsPageNumber": "",
             "KinsPageName": "",
-            " ": "",
-            "Unnamed: 9": "",
-            "Unnamed: 10": "",
-            "Unnamed: 11": "",
-            "Unnamed: 12": "",
-            "Unnamed: 13": "",
-            "Unnamed: 14": ""
+            "WorkStageNameKo": ""
         },
         {
             "ScenarioCode": "NW_FA_0002",
@@ -332,13 +218,7 @@
             "LoadingPageType": "Image",
             "KinsPageNumber": "332400",
             "KinsPageName": "Inquire / Dispose",
-            " ": " ",
-            "Unnamed: 9": "",
-            "Unnamed: 10": "",
-            "Unnamed: 11": "",
-            "Unnamed: 12": "",
-            "Unnamed: 13": "",
-            "Unnamed: 14": ""
+            "WorkStageNameKo": ""
         },
         {
             "ScenarioCode": "NW_FA_0002",
@@ -349,13 +229,7 @@
             "LoadingPageType": "Right",
             "KinsPageNumber": "",
             "KinsPageName": "",
-            " ": "",
-            "Unnamed: 9": "",
-            "Unnamed: 10": "",
-            "Unnamed: 11": "",
-            "Unnamed: 12": "",
-            "Unnamed: 13": "",
-            "Unnamed: 14": ""
+            "WorkStageNameKo": ""
         },
         {
             "ScenarioCode": "NW_FA_0002",
@@ -366,13 +240,7 @@
             "LoadingPageType": "Image",
             "KinsPageNumber": "332400",
             "KinsPageName": "Inquire / Dispose",
-            " ": "",
-            "Unnamed: 9": "",
-            "Unnamed: 10": "",
-            "Unnamed: 11": "",
-            "Unnamed: 12": "",
-            "Unnamed: 13": "",
-            "Unnamed: 14": ""
+            "WorkStageNameKo": ""
         },
         {
             "ScenarioCode": "NW_FA_0002",
@@ -383,13 +251,7 @@
             "LoadingPageType": "Right",
             "KinsPageNumber": "",
             "KinsPageName": "",
-            " ": "",
-            "Unnamed: 9": "",
-            "Unnamed: 10": "",
-            "Unnamed: 11": "",
-            "Unnamed: 12": "",
-            "Unnamed: 13": "",
-            "Unnamed: 14": ""
+            "WorkStageNameKo": ""
         },
         {
             "ScenarioCode": "NW_FA_0002",
@@ -400,13 +262,7 @@
             "LoadingPageType": "Image",
             "KinsPageNumber": "332400",
             "KinsPageName": "Inquire / Dispose",
-            " ": " ",
-            "Unnamed: 9": "",
-            "Unnamed: 10": "",
-            "Unnamed: 11": "",
-            "Unnamed: 12": "",
-            "Unnamed: 13": "",
-            "Unnamed: 14": ""
+            "WorkStageNameKo": ""
         },
         {
             "ScenarioCode": "NW_FA_0002",
@@ -417,13 +273,7 @@
             "LoadingPageType": "Right",
             "KinsPageNumber": "",
             "KinsPageName": "",
-            " ": "",
-            "Unnamed: 9": "",
-            "Unnamed: 10": "",
-            "Unnamed: 11": "",
-            "Unnamed: 12": "",
-            "Unnamed: 13": "",
-            "Unnamed: 14": ""
+            "WorkStageNameKo": ""
         },
         {
             "ScenarioCode": "NW_FA_0002",
@@ -434,13 +284,7 @@
             "LoadingPageType": "End",
             "KinsPageNumber": "",
             "KinsPageName": "",
-            " ": " ",
-            "Unnamed: 9": "",
-            "Unnamed: 10": "",
-            "Unnamed: 11": "",
-            "Unnamed: 12": "",
-            "Unnamed: 13": "",
-            "Unnamed: 14": ""
+            "WorkStageNameKo": ""
         },
         {
             "ScenarioCode": "NW_FA_0002",
@@ -451,13 +295,7 @@
             "LoadingPageType": "│",
             "KinsPageNumber": "",
             "KinsPageName": "",
-            " ": "",
-            "Unnamed: 9": "",
-            "Unnamed: 10": "",
-            "Unnamed: 11": "",
-            "Unnamed: 12": "",
-            "Unnamed: 13": "",
-            "Unnamed: 14": ""
+            "WorkStageNameKo": ""
         },
         {
             "ScenarioCode": "NW_FA_0002",
@@ -468,13 +306,7 @@
             "LoadingPageType": "Picture",
             "KinsPageNumber": "332400",
             "KinsPageName": "",
-            " ": "",
-            "Unnamed: 9": "",
-            "Unnamed: 10": "",
-            "Unnamed: 11": "",
-            "Unnamed: 12": "",
-            "Unnamed: 13": "",
-            "Unnamed: 14": " "
+            "WorkStageNameKo": ""
         },
         {
             "ScenarioCode": "NW_FA_0003",
@@ -485,13 +317,7 @@
             "LoadingPageType": "Workflow",
             "KinsPageNumber": "NW_FA_0001",
             "KinsPageName": "",
-            " ": "",
-            "Unnamed: 9": "",
-            "Unnamed: 10": "",
-            "Unnamed: 11": "",
-            "Unnamed: 12": "",
-            "Unnamed: 13": "",
-            "Unnamed: 14": ""
+            "WorkStageNameKo": ""
         },
         {
             "ScenarioCode": "NW_FA_0003",
@@ -502,13 +328,7 @@
             "LoadingPageType": "Right",
             "KinsPageNumber": "",
             "KinsPageName": "",
-            " ": "",
-            "Unnamed: 9": "",
-            "Unnamed: 10": "",
-            "Unnamed: 11": "",
-            "Unnamed: 12": "",
-            "Unnamed: 13": "",
-            "Unnamed: 14": ""
+            "WorkStageNameKo": ""
         },
         {
             "ScenarioCode": "NW_FA_0003",
@@ -519,13 +339,7 @@
             "LoadingPageType": "Image",
             "KinsPageNumber": "332200",
             "KinsPageName": "Inquire / Modify",
-            " ": "",
-            "Unnamed: 9": "",
-            "Unnamed: 10": "",
-            "Unnamed: 11": "",
-            "Unnamed: 12": "",
-            "Unnamed: 13": "",
-            "Unnamed: 14": ""
+            "WorkStageNameKo": ""
         },
         {
             "ScenarioCode": "NW_FA_0003",
@@ -536,13 +350,7 @@
             "LoadingPageType": "Right",
             "KinsPageNumber": "",
             "KinsPageName": "",
-            " ": "",
-            "Unnamed: 9": "",
-            "Unnamed: 10": "",
-            "Unnamed: 11": "",
-            "Unnamed: 12": "",
-            "Unnamed: 13": "",
-            "Unnamed: 14": ""
+            "WorkStageNameKo": ""
         },
         {
             "ScenarioCode": "NW_FA_0003",
@@ -553,13 +361,7 @@
             "LoadingPageType": "Image",
             "KinsPageNumber": "332200",
             "KinsPageName": "Inquire / Modify",
-            " ": "",
-            "Unnamed: 9": "",
-            "Unnamed: 10": "",
-            "Unnamed: 11": "",
-            "Unnamed: 12": "",
-            "Unnamed: 13": "",
-            "Unnamed: 14": ""
+            "WorkStageNameKo": ""
         },
         {
             "ScenarioCode": "NW_FA_0003",
@@ -570,13 +372,7 @@
             "LoadingPageType": "Right",
             "KinsPageNumber": "",
             "KinsPageName": "",
-            " ": "",
-            "Unnamed: 9": "",
-            "Unnamed: 10": "",
-            "Unnamed: 11": "",
-            "Unnamed: 12": "",
-            "Unnamed: 13": "",
-            "Unnamed: 14": ""
+            "WorkStageNameKo": ""
         },
         {
             "ScenarioCode": "NW_FA_0003",
@@ -587,13 +383,7 @@
             "LoadingPageType": "Image",
             "KinsPageNumber": "332200",
             "KinsPageName": "Inquire / Modify",
-            " ": "",
-            "Unnamed: 9": "",
-            "Unnamed: 10": "",
-            "Unnamed: 11": "",
-            "Unnamed: 12": "",
-            "Unnamed: 13": "",
-            "Unnamed: 14": ""
+            "WorkStageNameKo": ""
         },
         {
             "ScenarioCode": "NW_FA_0003",
@@ -604,13 +394,7 @@
             "LoadingPageType": "Right",
             "KinsPageNumber": "",
             "KinsPageName": "",
-            " ": "",
-            "Unnamed: 9": "",
-            "Unnamed: 10": " ",
-            "Unnamed: 11": "",
-            "Unnamed: 12": "",
-            "Unnamed: 13": "",
-            "Unnamed: 14": ""
+            "WorkStageNameKo": ""
         },
         {
             "ScenarioCode": "NW_FA_0003",
@@ -621,13 +405,7 @@
             "LoadingPageType": "End",
             "KinsPageNumber": "",
             "KinsPageName": "",
-            " ": "",
-            "Unnamed: 9": "",
-            "Unnamed: 10": "",
-            "Unnamed: 11": "",
-            "Unnamed: 12": "",
-            "Unnamed: 13": "",
-            "Unnamed: 14": ""
+            "WorkStageNameKo": ""
         },
         {
             "ScenarioCode": "NW_FA_0004",
@@ -638,13 +416,7 @@
             "LoadingPageType": "Workflow",
             "KinsPageNumber": "NW_FA_0001",
             "KinsPageName": "",
-            " ": "",
-            "Unnamed: 9": "",
-            "Unnamed: 10": "",
-            "Unnamed: 11": "",
-            "Unnamed: 12": "",
-            "Unnamed: 13": "",
-            "Unnamed: 14": ""
+            "WorkStageNameKo": ""
         },
         {
             "ScenarioCode": "NW_FA_0004",
@@ -655,13 +427,7 @@
             "LoadingPageType": "Right",
             "KinsPageNumber": "",
             "KinsPageName": "",
-            " ": "",
-            "Unnamed: 9": "",
-            "Unnamed: 10": "",
-            "Unnamed: 11": "",
-            "Unnamed: 12": "",
-            "Unnamed: 13": "",
-            "Unnamed: 14": ""
+            "WorkStageNameKo": ""
         },
         {
             "ScenarioCode": "NW_FA_0004",
@@ -672,13 +438,7 @@
             "LoadingPageType": "Image",
             "KinsPageNumber": "수작업",
             "KinsPageName": "",
-            " ": "",
-            "Unnamed: 9": "",
-            "Unnamed: 10": "",
-            "Unnamed: 11": "",
-            "Unnamed: 12": "",
-            "Unnamed: 13": "",
-            "Unnamed: 14": ""
+            "WorkStageNameKo": ""
         },
         {
             "ScenarioCode": "NW_FA_0004",
@@ -689,13 +449,7 @@
             "LoadingPageType": "Right",
             "KinsPageNumber": "",
             "KinsPageName": "",
-            " ": "",
-            "Unnamed: 9": "",
-            "Unnamed: 10": "",
-            "Unnamed: 11": "",
-            "Unnamed: 12": "",
-            "Unnamed: 13": "",
-            "Unnamed: 14": ""
+            "WorkStageNameKo": ""
         },
         {
             "ScenarioCode": "NW_FA_0004",
@@ -706,13 +460,7 @@
             "LoadingPageType": "Image",
             "KinsPageNumber": "332700",
             "KinsPageName": "Return Expense for Fixed Asset",
-            " ": "",
-            "Unnamed: 9": "",
-            "Unnamed: 10": "",
-            "Unnamed: 11": "",
-            "Unnamed: 12": "",
-            "Unnamed: 13": "",
-            "Unnamed: 14": ""
+            "WorkStageNameKo": ""
         },
         {
             "ScenarioCode": "NW_FA_0004",
@@ -723,13 +471,7 @@
             "LoadingPageType": "Right",
             "KinsPageNumber": "",
             "KinsPageName": "",
-            " ": "",
-            "Unnamed: 9": "",
-            "Unnamed: 10": "",
-            "Unnamed: 11": "",
-            "Unnamed: 12": "",
-            "Unnamed: 13": "",
-            "Unnamed: 14": ""
+            "WorkStageNameKo": ""
         },
         {
             "ScenarioCode": "NW_FA_0004",
@@ -740,13 +482,7 @@
             "LoadingPageType": "Image",
             "KinsPageNumber": "332700",
             "KinsPageName": "Return Expense for Fixed Asset",
-            " ": "",
-            "Unnamed: 9": "",
-            "Unnamed: 10": "",
-            "Unnamed: 11": "",
-            "Unnamed: 12": "",
-            "Unnamed: 13": "",
-            "Unnamed: 14": ""
+            "WorkStageNameKo": ""
         },
         {
             "ScenarioCode": "NW_FA_0004",
@@ -757,13 +493,7 @@
             "LoadingPageType": "Right",
             "KinsPageNumber": "",
             "KinsPageName": "",
-            " ": "",
-            "Unnamed: 9": "",
-            "Unnamed: 10": "",
-            "Unnamed: 11": "",
-            "Unnamed: 12": "",
-            "Unnamed: 13": "",
-            "Unnamed: 14": ""
+            "WorkStageNameKo": ""
         },
         {
             "ScenarioCode": "NW_FA_0004",
@@ -774,13 +504,7 @@
             "LoadingPageType": "Image",
             "KinsPageNumber": "332700",
             "KinsPageName": "Return Expense for Fixed Asset",
-            " ": "",
-            "Unnamed: 9": "",
-            "Unnamed: 10": "",
-            "Unnamed: 11": "",
-            "Unnamed: 12": "",
-            "Unnamed: 13": "",
-            "Unnamed: 14": ""
+            "WorkStageNameKo": ""
         },
         {
             "ScenarioCode": "NW_FA_0004",
@@ -791,13 +515,7 @@
             "LoadingPageType": "Right",
             "KinsPageNumber": "",
             "KinsPageName": "",
-            " ": "",
-            "Unnamed: 9": "",
-            "Unnamed: 10": "",
-            "Unnamed: 11": "",
-            "Unnamed: 12": "",
-            "Unnamed: 13": "",
-            "Unnamed: 14": ""
+            "WorkStageNameKo": ""
         },
         {
             "ScenarioCode": "NW_FA_0004",
@@ -808,13 +526,7 @@
             "LoadingPageType": "Image",
             "KinsPageNumber": "332700",
             "KinsPageName": "Return Expense for Fixed Asset",
-            " ": "",
-            "Unnamed: 9": "",
-            "Unnamed: 10": "",
-            "Unnamed: 11": "",
-            "Unnamed: 12": "",
-            "Unnamed: 13": "",
-            "Unnamed: 14": ""
+            "WorkStageNameKo": ""
         },
         {
             "ScenarioCode": "NW_FA_0004",
@@ -825,13 +537,7 @@
             "LoadingPageType": "Right",
             "KinsPageNumber": "",
             "KinsPageName": "",
-            " ": "",
-            "Unnamed: 9": "",
-            "Unnamed: 10": "",
-            "Unnamed: 11": "",
-            "Unnamed: 12": "",
-            "Unnamed: 13": "",
-            "Unnamed: 14": ""
+            "WorkStageNameKo": ""
         },
         {
             "ScenarioCode": "NW_FA_0004",
@@ -842,13 +548,7 @@
             "LoadingPageType": "End",
             "KinsPageNumber": "",
             "KinsPageName": "",
-            " ": "",
-            "Unnamed: 9": "",
-            "Unnamed: 10": "",
-            "Unnamed: 11": "",
-            "Unnamed: 12": "",
-            "Unnamed: 13": "",
-            "Unnamed: 14": ""
+            "WorkStageNameKo": ""
         },
         {
             "ScenarioCode": "NW_FA_0004",
@@ -859,13 +559,7 @@
             "LoadingPageType": "│",
             "KinsPageNumber": "",
             "KinsPageName": "",
-            " ": "",
-            "Unnamed: 9": "",
-            "Unnamed: 10": "",
-            "Unnamed: 11": "",
-            "Unnamed: 12": "",
-            "Unnamed: 13": "",
-            "Unnamed: 14": ""
+            "WorkStageNameKo": ""
         },
         {
             "ScenarioCode": "NW_FA_0004",
@@ -876,13 +570,7 @@
             "LoadingPageType": "Picture",
             "KinsPageNumber": "332700",
             "KinsPageName": "",
-            " ": "",
-            "Unnamed: 9": "",
-            "Unnamed: 10": "",
-            "Unnamed: 11": "",
-            "Unnamed: 12": "",
-            "Unnamed: 13": "",
-            "Unnamed: 14": ""
+            "WorkStageNameKo": ""
         },
         {
             "ScenarioCode": "NW_FA_0005",
@@ -893,13 +581,7 @@
             "LoadingPageType": "Image",
             "KinsPageNumber": "330010",
             "KinsPageName": "Renew Guarantee Deposit",
-            " ": "",
-            "Unnamed: 9": "",
-            "Unnamed: 10": "",
-            "Unnamed: 11": "",
-            "Unnamed: 12": "",
-            "Unnamed: 13": "",
-            "Unnamed: 14": ""
+            "WorkStageNameKo": ""
         },
         {
             "ScenarioCode": "NW_FA_0005",
@@ -910,13 +592,7 @@
             "LoadingPageType": "Right",
             "KinsPageNumber": "",
             "KinsPageName": "",
-            " ": "",
-            "Unnamed: 9": "",
-            "Unnamed: 10": "",
-            "Unnamed: 11": "",
-            "Unnamed: 12": "",
-            "Unnamed: 13": "",
-            "Unnamed: 14": ""
+            "WorkStageNameKo": ""
         },
         {
             "ScenarioCode": "NW_FA_0005",
@@ -927,13 +603,7 @@
             "LoadingPageType": "Image",
             "KinsPageNumber": "00486_P",
             "KinsPageName": "Guarantee Deposit No. (팝업)",
-            " ": "",
-            "Unnamed: 9": "",
-            "Unnamed: 10": "",
-            "Unnamed: 11": "",
-            "Unnamed: 12": "",
-            "Unnamed: 13": "",
-            "Unnamed: 14": ""
+            "WorkStageNameKo": ""
         },
         {
             "ScenarioCode": "NW_FA_0005",
@@ -944,13 +614,7 @@
             "LoadingPageType": "Right",
             "KinsPageNumber": "",
             "KinsPageName": "",
-            " ": "",
-            "Unnamed: 9": "",
-            "Unnamed: 10": "",
-            "Unnamed: 11": "",
-            "Unnamed: 12": "",
-            "Unnamed: 13": "",
-            "Unnamed: 14": ""
+            "WorkStageNameKo": ""
         },
         {
             "ScenarioCode": "NW_FA_0005",
@@ -961,13 +625,7 @@
             "LoadingPageType": "Image",
             "KinsPageNumber": "330010",
             "KinsPageName": "Renew Guarantee Deposit",
-            " ": "",
-            "Unnamed: 9": "",
-            "Unnamed: 10": "",
-            "Unnamed: 11": "",
-            "Unnamed: 12": "",
-            "Unnamed: 13": "",
-            "Unnamed: 14": ""
+            "WorkStageNameKo": ""
         },
         {
             "ScenarioCode": "NW_FA_0005",
@@ -978,13 +636,7 @@
             "LoadingPageType": "Right",
             "KinsPageNumber": "",
             "KinsPageName": "",
-            " ": "",
-            "Unnamed: 9": "",
-            "Unnamed: 10": "",
-            "Unnamed: 11": "",
-            "Unnamed: 12": "",
-            "Unnamed: 13": "",
-            "Unnamed: 14": ""
+            "WorkStageNameKo": ""
         },
         {
             "ScenarioCode": "NW_FA_0005",
@@ -995,13 +647,7 @@
             "LoadingPageType": "Image",
             "KinsPageNumber": "330010",
             "KinsPageName": "Renew Guarantee Deposit",
-            " ": "",
-            "Unnamed: 9": "",
-            "Unnamed: 10": "",
-            "Unnamed: 11": "",
-            "Unnamed: 12": "",
-            "Unnamed: 13": "",
-            "Unnamed: 14": ""
+            "WorkStageNameKo": ""
         },
         {
             "ScenarioCode": "NW_FA_0005",
@@ -1012,13 +658,7 @@
             "LoadingPageType": "Right",
             "KinsPageNumber": "",
             "KinsPageName": "",
-            " ": "",
-            "Unnamed: 9": "",
-            "Unnamed: 10": "",
-            "Unnamed: 11": "",
-            "Unnamed: 12": "",
-            "Unnamed: 13": "",
-            "Unnamed: 14": ""
+            "WorkStageNameKo": ""
         },
         {
             "ScenarioCode": "NW_FA_0005",
@@ -1029,13 +669,7 @@
             "LoadingPageType": "End",
             "KinsPageNumber": "",
             "KinsPageName": "",
-            " ": "",
-            "Unnamed: 9": "",
-            "Unnamed: 10": "",
-            "Unnamed: 11": "",
-            "Unnamed: 12": "",
-            "Unnamed: 13": "",
-            "Unnamed: 14": ""
+            "WorkStageNameKo": ""
         },
         {
             "ScenarioCode": "NW_FA_0006",
@@ -1046,13 +680,7 @@
             "LoadingPageType": "Image",
             "KinsPageNumber": "334600",
             "KinsPageName": "Daily Depreciation History",
-            " ": "",
-            "Unnamed: 9": "",
-            "Unnamed: 10": "",
-            "Unnamed: 11": "",
-            "Unnamed: 12": "",
-            "Unnamed: 13": "",
-            "Unnamed: 14": ""
+            "WorkStageNameKo": ""
         },
         {
             "ScenarioCode": "NW_FA_0006",
@@ -1063,13 +691,7 @@
             "LoadingPageType": "Right",
             "KinsPageNumber": "",
             "KinsPageName": "",
-            " ": "",
-            "Unnamed: 9": "",
-            "Unnamed: 10": "",
-            "Unnamed: 11": "",
-            "Unnamed: 12": "",
-            "Unnamed: 13": "",
-            "Unnamed: 14": ""
+            "WorkStageNameKo": ""
         },
         {
             "ScenarioCode": "NW_FA_0006",
@@ -1080,13 +702,7 @@
             "LoadingPageType": "Image",
             "KinsPageNumber": "334600",
             "KinsPageName": "Daily Depreciation History",
-            " ": "",
-            "Unnamed: 9": "",
-            "Unnamed: 10": "",
-            "Unnamed: 11": "",
-            "Unnamed: 12": "",
-            "Unnamed: 13": "",
-            "Unnamed: 14": ""
+            "WorkStageNameKo": ""
         },
         {
             "ScenarioCode": "NW_FA_0006",
@@ -1097,13 +713,7 @@
             "LoadingPageType": "Right",
             "KinsPageNumber": "",
             "KinsPageName": "",
-            " ": "",
-            "Unnamed: 9": "",
-            "Unnamed: 10": "",
-            "Unnamed: 11": "",
-            "Unnamed: 12": "",
-            "Unnamed: 13": "",
-            "Unnamed: 14": ""
+            "WorkStageNameKo": ""
         },
         {
             "ScenarioCode": "NW_FA_0006",
@@ -1114,13 +724,7 @@
             "LoadingPageType": "Image",
             "KinsPageNumber": "334600",
             "KinsPageName": "Daily Depreciation History",
-            " ": "",
-            "Unnamed: 9": "",
-            "Unnamed: 10": "",
-            "Unnamed: 11": "",
-            "Unnamed: 12": "",
-            "Unnamed: 13": "",
-            "Unnamed: 14": ""
+            "WorkStageNameKo": ""
         },
         {
             "ScenarioCode": "NW_FA_0006",
@@ -1131,13 +735,7 @@
             "LoadingPageType": "Right",
             "KinsPageNumber": "",
             "KinsPageName": "",
-            " ": "",
-            "Unnamed: 9": "",
-            "Unnamed: 10": "",
-            "Unnamed: 11": "",
-            "Unnamed: 12": "",
-            "Unnamed: 13": "",
-            "Unnamed: 14": ""
+            "WorkStageNameKo": ""
         },
         {
             "ScenarioCode": "NW_FA_0006",
@@ -1148,13 +746,7 @@
             "LoadingPageType": "End",
             "KinsPageNumber": "",
             "KinsPageName": "",
-            " ": "",
-            "Unnamed: 9": "",
-            "Unnamed: 10": "",
-            "Unnamed: 11": "",
-            "Unnamed: 12": "",
-            "Unnamed: 13": "",
-            "Unnamed: 14": ""
+            "WorkStageNameKo": ""
         },
         {
             "ScenarioCode": "NW_FA_0006",
@@ -1165,13 +757,7 @@
             "LoadingPageType": "│",
             "KinsPageNumber": "",
             "KinsPageName": "",
-            " ": "",
-            "Unnamed: 9": "",
-            "Unnamed: 10": "",
-            "Unnamed: 11": "",
-            "Unnamed: 12": "",
-            "Unnamed: 13": "",
-            "Unnamed: 14": ""
+            "WorkStageNameKo": ""
         },
         {
             "ScenarioCode": "NW_FA_0006",
@@ -1182,13 +768,7 @@
             "LoadingPageType": "Picture",
             "KinsPageNumber": "334600",
             "KinsPageName": "",
-            " ": "",
-            "Unnamed: 9": "",
-            "Unnamed: 10": "",
-            "Unnamed: 11": "",
-            "Unnamed: 12": "",
-            "Unnamed: 13": "",
-            "Unnamed: 14": ""
+            "WorkStageNameKo": ""
         }
     ]
 }
