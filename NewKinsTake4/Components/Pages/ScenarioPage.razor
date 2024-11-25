@@ -203,14 +203,20 @@ else
             return;
         }
 
-        // Ensure workflows are not null before processing unique workflows
-        uniqueWorkflows = workflows
-            .Where(w => !string.IsNullOrEmpty(w.ScenarioCode))
+        // Create unique workflows
+        uniqueWorkflows = domainStructureState?.DomainStructure?.Workflow?
+            .SelectMany(domain => domain.SubDomainNames ?? Enumerable.Empty<SubDomainModel>())
+            .SelectMany(subDomain => subDomain.Workflows ?? Enumerable.Empty<WorkflowModel>())
             .GroupBy(w => w.ScenarioCode)
             .Select(g => g.First())
-            .ToList();
+            .ToList() ?? new List<WorkflowModel>();
 
-        workflows = selectedSubDomain.Workflows.Where(x => x.ScenarioCode == ScenarioCode).ToList().OrderBy(x => x.DisplayLayoutRow).ThenBy(x => x.DisplayLayoutColumn).ToList();
+        // Filter and sort workflows
+        workflows = selectedSubDomain.Workflows
+            .Where(x => x.ScenarioCode == ScenarioCode)
+            .OrderBy(x => x.DisplayLayoutRow)
+            .ThenBy(x => x.DisplayLayoutColumn)
+            .ToList();
 
     
 

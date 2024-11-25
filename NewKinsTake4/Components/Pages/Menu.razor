@@ -72,7 +72,7 @@ else
             .Where(w => !string.IsNullOrEmpty(w.ScenarioCode))
             .GroupBy(w => w.ScenarioCode)
             .Select(g => g.First())
-            .ToList();
+            .ToList().OrderBy(x => x.ScenarioCode).ToList();
     }
 
     private void NavigateToScenario(WorkflowModel? workflow)
