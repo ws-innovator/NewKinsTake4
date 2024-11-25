@@ -993,7 +993,7 @@
         {
             "ScenarioCode": "NW_LN_0030",
             "WorkflowName": "Transaction List",
-            "WorkStageName": "input text here",
+            "WorkStageName": "The function of this screen is to **retrieve and display loan transaction history**.<br>The results are presented as a **Loan Transaction List**, which includes details such as **Debit Amount**, **Credit Amount**, **Transaction Description**, and the **Remaining Loan Principal Balance**. <br><br>① Enter search criteria, including **Product Type**, **Date From**, and **Date To**. <br> ② Click the **Print** button to execute the search and generate the report. <br><br>This functionality allows users to efficiently query loan transaction data for review or printing purposes.",
             "DisplayLayoutRow": "0",
             "DisplayLayoutColumn": "2",
             "LoadingPageType": "Image",
@@ -1009,7 +1009,7 @@
             "DisplayLayoutColumn": "2",
             "LoadingPageType": "Picture",
             "KinsPageNumber": "154500",
-            "KinsPageName": "",
+            "KinsPageName": "**Loan Transaction List** by CIF number",
             "WorkStageNameKo": ""
         },
         {
@@ -6003,7 +6003,7 @@
             "DisplayLayoutColumn": "4",
             "LoadingPageType": "Picture",
             "KinsPageNumber": "153400",
-            "KinsPageName": "",
+            "KinsPageName": "Voucher for Reclassify Loan",
             "WorkStageNameKo": ""
         },
         {
