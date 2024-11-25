@@ -1,0 +1,19 @@
+﻿/* Arrow container styling */
+.N-shaft {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+
+    /* SVG styling within arrows */
+    .N-shaft svg {
+        display: block;
+    }
+
+.N-arrow text {
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    fill: black;
+}

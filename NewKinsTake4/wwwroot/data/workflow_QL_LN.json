@@ -24,7 +24,7 @@
         },
         {
             "ScenarioCode": "NW_LN_0001",
-            "WorkflowName": "kdb",
+            "WorkflowName": "Contract Management",
             "WorkStageName": "Is this a **Loan**?",
             "DisplayLayoutRow": "0",
             "DisplayLayoutColumn": "2",
@@ -3184,6 +3184,17 @@
             "WorkflowName": "Loan Fee Management",
             "WorkStageName": "",
             "DisplayLayoutRow": "0",
+            "DisplayLayoutColumn": "12",
+            "LoadingPageType": "",
+            "KinsPageNumber": "",
+            "KinsPageName": "",
+            "WorkStageNameKo": ""
+        },
+        {
+            "ScenarioCode": "NW_LN_0010",
+            "WorkflowName": "Loan Fee Management",
+            "WorkStageName": "",
+            "DisplayLayoutRow": "0",
             "DisplayLayoutColumn": "2",
             "LoadingPageType": "Image",
             "KinsPageNumber": "151300",
@@ -3204,35 +3215,13 @@
         {
             "ScenarioCode": "NW_LN_0010",
             "WorkflowName": "Loan Fee Management",
-            "WorkStageName": "",
+            "WorkStageName": "input text here",
             "DisplayLayoutRow": "0",
             "DisplayLayoutColumn": "4",
-            "LoadingPageType": "",
-            "KinsPageNumber": "",
-            "KinsPageName": "",
-            "WorkStageNameKo": ""
-        },
-        {
-            "ScenarioCode": "NW_LN_0010",
-            "WorkflowName": "Loan Fee Management",
-            "WorkStageName": "",
-            "DisplayLayoutRow": "0",
-            "DisplayLayoutColumn": "5",
-            "LoadingPageType": "Right",
-            "KinsPageNumber": "",
-            "KinsPageName": "",
-            "WorkStageNameKo": ""
-        },
-        {
-            "ScenarioCode": "NW_LN_0010",
-            "WorkflowName": "Loan Fee Management",
-            "WorkStageName": "",
-            "DisplayLayoutRow": "0",
-            "DisplayLayoutColumn": "12",
-            "LoadingPageType": "",
-            "KinsPageNumber": "",
-            "KinsPageName": "",
-            "WorkStageNameKo": ""
+            "LoadingPageType": "Image",
+            "KinsPageNumber": "154570",
+            "KinsPageName": "Collection Commitmnet Fee",
+            "WorkStageNameKo": "'입력 텍스트 여기'"
         },
         {
             "ScenarioCode": "NW_LN_0011",
@@ -5701,32 +5690,10 @@
         {
             "ScenarioCode": "NW_LN_0010",
             "WorkflowName": "Loan Fee Management",
-            "WorkStageName": "input text here",
+            "WorkStageName": "",
             "DisplayLayoutRow": "0",
-            "DisplayLayoutColumn": "4",
-            "LoadingPageType": "Image",
-            "KinsPageNumber": "154570",
-            "KinsPageName": "Collection Commitmnet Fee",
-            "WorkStageNameKo": "'입력 텍스트 여기'"
-        },
-        {
-            "ScenarioCode": "",
-            "WorkflowName": "",
-            "WorkStageName": "",
-            "DisplayLayoutRow": "",
-            "DisplayLayoutColumn": "",
-            "LoadingPageType": "",
-            "KinsPageNumber": "",
-            "KinsPageName": "",
-            "WorkStageNameKo": ""
-        },
-        {
-            "ScenarioCode": "",
-            "WorkflowName": "",
-            "WorkStageName": "",
-            "DisplayLayoutRow": "",
-            "DisplayLayoutColumn": "",
-            "LoadingPageType": "",
+            "DisplayLayoutColumn": "5",
+            "LoadingPageType": "Right",
             "KinsPageNumber": "",
             "KinsPageName": "",
             "WorkStageNameKo": ""

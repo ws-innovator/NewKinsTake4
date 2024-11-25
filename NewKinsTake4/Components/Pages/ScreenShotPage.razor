@@ -1,0 +1,68 @@
+﻿@page "/ScreenShot/{DomainCode}/{SubDomainCode}/{ScenarioCode}/{KinsPageNumber}"
+@inject NavigationManager Navigation
+@inject DomainStructureState domainStructureState
+
+<div class="screenshot-container">
+    <!-- Left Section -->
+    <div class="left-section">
+        <img src="@imageString" alt="Cover Image" class="cover-image" />
+    </div>
+
+    <!-- Right Section -->
+    <div class="right-section">
+        @if (workflows != null && workflows.Count > 0)
+        {
+            <ul class="link-list">
+                @foreach (var item in workflows)
+                {
+                    bool isOpen = item.KinsPageNumber == KinsPageNumber;
+                    string address = $"/ScreenShot/{DomainCode}/{SubDomainCode}/{ScenarioCode}/{item.KinsPageNumber}";
+                    <BrotherScreenLink Link="item" IsOpen="isOpen" Address="@address" />
+                }
+            </ul>
+        }
+        else
+        {
+            <p>No workflows available.</p>
+        }
+    </div>
+</div>
+
+@code {
+    [Parameter]
+    public string? KinsPageNumber { get; set; }
+
+    [Parameter]
+    public string? ScenarioCode { get; set; }
+
+    [Parameter]
+    public string? DomainCode { get; set; }
+
+    [Parameter]
+    public string? SubDomainCode { get; set; }
+
+    private string? imageString;
+    private List<WorkflowModel> workflows = new();
+
+    protected override void OnParametersSet()
+    {
+        // Clear workflows to avoid duplication
+        workflows.Clear();
+
+        // Safely fetch the workflows for the specified domain and subdomain
+        var domain = domainStructureState.DomainStructure?.Workflow
+            ?.FirstOrDefault(x => x.DomainCode == DomainCode);
+
+        var subDomain = domain?.SubDomainNames
+            ?.FirstOrDefault(x => x.SubDomainCode == SubDomainCode);
+
+        workflows = subDomain?.Workflows
+            ?.Where(x => x.ScenarioCode == ScenarioCode)
+            ?.ToList() ?? new List<WorkflowModel>();
+
+        // Safely construct the image string
+        imageString = !string.IsNullOrEmpty(KinsPageNumber)
+            ? $"screenShotImages/{KinsPageNumber}.png"
+            : string.Empty;
+    }
+}

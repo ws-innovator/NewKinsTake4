@@ -109,8 +109,16 @@ else
                                 <NoShaft />
                                 break;
 
+                            case '노':
+                                <NoVerticalShaft />
+                                break;
+
                             case 'Y':
                                 <YesShaft />
+                                break;
+
+                            case '예':
+                                <YesHorizontalShaft />
                                 break;
 
                             default:
@@ -202,7 +210,7 @@ else
             .Select(g => g.First())
             .ToList();
 
-        workflows = selectedSubDomain.Workflows.Where(x => x.ScenarioCode == ScenarioCode).ToList();
+        workflows = selectedSubDomain.Workflows.Where(x => x.ScenarioCode == ScenarioCode).ToList().OrderBy(x => x.DisplayLayoutRow).ThenBy(x => x.DisplayLayoutColumn).ToList();
 
     
 
@@ -285,6 +293,7 @@ else
         if (workflow is null || string.IsNullOrEmpty(workflow.KinsPageNumber))
             return;
 
-        Navigation.NavigateTo($"/ScreenShot/{workflow.ScenarioCode}/{workflow.KinsPageNumber}");
+        Navigation.NavigateTo($"/ScreenShot/{DomainCode}/{SubDomainCode}/{workflow.ScenarioCode}/{workflow.KinsPageNumber}");
     }
 }
+
