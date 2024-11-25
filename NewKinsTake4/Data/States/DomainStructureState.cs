@@ -5,5 +5,9 @@ namespace NewKinsTake4.Data.States
     public class DomainStructureState
     {
         public JsonRootModel? DomainStructure { get; set; }
+        
     }
+
+ 
+
 }

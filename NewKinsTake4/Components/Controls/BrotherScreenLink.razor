@@ -7,7 +7,7 @@
         @if (Link?.LoadingPageType == "Image")
         {
             <li class="link-item">
-                <a @onclick="IsOpen ? null : () => NavigateToWorkScreen(Link)"
+                <a @onclick="IsOpen ? null : NavigateToWorkScreen"
                    class="@(IsOpen ? "active-link" : "")">
                     @Link.KinsPageName
                 </a>
@@ -24,13 +24,18 @@
     [Parameter]
     public bool IsOpen { get; set; } = false;
 
+
+    [Parameter]
+    public string? Address { get; set; }
+
+
     private List<WorkflowModel>? uniqueWorkflows;
 
-    private void NavigateToWorkScreen(WorkflowModel? workflow)
+    private void NavigateToWorkScreen()
     {
-        if (!string.IsNullOrEmpty(workflow?.KinsPageNumber))
+        if (!string.IsNullOrEmpty(Address))
         {
-            Navigation.NavigateTo($"/ScreenShot/{workflow.ScenarioCode}/{workflow.KinsPageNumber}");
+            Navigation.NavigateTo(Address);
         }
     }
 }

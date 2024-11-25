@@ -110,7 +110,7 @@
     margin-left: 0.2rem;
     border-left: 2px solid rgba(255, 255, 255, 0.1);
     display: none; /* Hidden by default */
-    max-width:200px;
+    max-width:180px;
 }
 
     .accordion.active {
