@@ -80,12 +80,12 @@
         {
             "ScenarioCode": "NW_LN_0032",
             "WorkflowName": "Registration of Corporate Account Handling(Exception Classification Settings)",
-            "WorkStageName": "input text here",
+            "WorkStageName": "The function of this screen is to **register exception classifications for corporate account handling**. <br>This feature is designed for cases where standard processing logic cannot be applied to a loan account. In such situations:  <br><br>① **Automatic interest calculation** and **automatic principal repayment schedule generation** are disabled.  <br>② Results manually calculated by the user can be registered.  <br><br>The screen allows the user to manage **exception registration** for such accounts, ensuring accurate handling and compliance with unique requirements.",
             "DisplayLayoutRow": "0",
             "DisplayLayoutColumn": "2",
             "LoadingPageType": "Image",
-            "KinsPageNumber": "00447_M",
-            "KinsPageName": "Registration of Corporate Account Handling(Exception Classification Settings)",
+            "KinsPageNumber": "150420",
+            "KinsPageName": "Registration of Corporate Account Handling",
             "WorkStageNameKo": "'입력 텍스트 여기'"
         },
         {
@@ -245,12 +245,12 @@
         {
             "ScenarioCode": "NW_LN_0033",
             "WorkflowName": "Report for Drawdown, Repayment and Outstanding Balance",
-            "WorkStageName": "input text here",
+            "WorkStageName": "The function of this screen is to **generate a comprehensive report** detailing the amounts for **drawdowns, repayments, and outstanding balances**.<br><br>① Users can view a summarized breakdown of **loan withdrawals** (drawdowns), **payments made** (repayments), and the **remaining balance**.<br>  ② The report provides **precise financial insights** for monitoring and managing loan-related activities.<br>  <br>This screen ensures accurate reporting for both **transaction history** and **current financial standings** to facilitate effective decision-making.",
             "DisplayLayoutRow": "0",
             "DisplayLayoutColumn": "2",
             "LoadingPageType": "Image",
             "KinsPageNumber": "150410",
-            "KinsPageName": "Report for Drawdown, Repayment and Outstanding Balance\n",
+            "KinsPageName": "Report for Drawdown, Repayment and Outstanding Balance",
             "WorkStageNameKo": "'입력 텍스트 여기'"
         },
         {
@@ -1202,7 +1202,7 @@
         {
             "ScenarioCode": "NW_LN_0031",
             "WorkflowName": "Cancel Loan Transaction",
-            "WorkStageName": "input text here",
+            "WorkStageName": "The function of this screen is to **cancel previously processed loan transactions** and generate a **Cancel Loan Transaction Voucher**.  <br><br>① **Enter** the **Transaction Number** in the input field and initiate an **inquiry**.  <br>  ② Review the displayed details to confirm the transaction you wish to cancel.  <br>  ③ Once verified, **click the Enter button** to complete the cancellation process.  ",
             "DisplayLayoutRow": "0",
             "DisplayLayoutColumn": "2",
             "LoadingPageType": "Image",
@@ -1218,7 +1218,7 @@
             "DisplayLayoutColumn": "2",
             "LoadingPageType": "Picture",
             "KinsPageNumber": "155110",
-            "KinsPageName": "",
+            "KinsPageName": "Voucher for Cancel Loan Transaction",
             "WorkStageNameKo": ""
         },
         {
