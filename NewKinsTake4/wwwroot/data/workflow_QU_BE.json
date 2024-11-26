@@ -25,7 +25,7 @@
         {
             "ScenarioCode": "NW_BE_0001",
             "WorkflowName": "Budget Allocation",
-            "WorkStageName": "해당 점포가 지점이 아닌가?",
+            "WorkStageName": "해당 점포가 지점인가? ",
             "DisplayLayoutRow": "0",
             "DisplayLayoutColumn": "2",
             "LoadingPageType": "Fork",
@@ -39,7 +39,7 @@
             "WorkStageName": "",
             "DisplayLayoutRow": "0",
             "DisplayLayoutColumn": "3",
-            "LoadingPageType": "Right",
+            "LoadingPageType": "예",
             "KinsPageNumber": "",
             "KinsPageName": "",
             "WorkStageNameKo": ""
@@ -147,17 +147,6 @@
             "ScenarioCode": "NW_BE_0001",
             "WorkflowName": "Budget Allocation",
             "WorkStageName": "",
-            "DisplayLayoutRow": "0",
-            "DisplayLayoutColumn": "13",
-            "LoadingPageType": "┐",
-            "KinsPageNumber": "",
-            "KinsPageName": "",
-            "WorkStageNameKo": ""
-        },
-        {
-            "ScenarioCode": "NW_BE_0001",
-            "WorkflowName": "Budget Allocation",
-            "WorkStageName": "",
             "DisplayLayoutRow": "1",
             "DisplayLayoutColumn": "12",
             "LoadingPageType": "│",
@@ -171,8 +160,173 @@
             "WorkStageName": "",
             "DisplayLayoutRow": "2",
             "DisplayLayoutColumn": "12",
-            "LoadingPageType": "Image",
+            "LoadingPageType": "Picture",
             "KinsPageNumber": "342600",
+            "KinsPageName": "",
+            "WorkStageNameKo": ""
+        },
+        {
+            "ScenarioCode": "NW_BE_0001",
+            "WorkflowName": "Budget Allocation",
+            "WorkStageName": "",
+            "DisplayLayoutRow": "3",
+            "DisplayLayoutColumn": "12",
+            "LoadingPageType": "Down",
+            "KinsPageNumber": "",
+            "KinsPageName": "",
+            "WorkStageNameKo": ""
+        },
+        {
+            "ScenarioCode": "NW_BE_0001",
+            "WorkflowName": "Budget Allocation",
+            "WorkStageName": "",
+            "DisplayLayoutRow": "1",
+            "DisplayLayoutColumn": "2",
+            "LoadingPageType": "노",
+            "KinsPageNumber": "",
+            "KinsPageName": "",
+            "WorkStageNameKo": ""
+        },
+        {
+            "ScenarioCode": "NW_BE_0001",
+            "WorkflowName": "Budget Allocation",
+            "WorkStageName": "",
+            "DisplayLayoutRow": "2",
+            "DisplayLayoutColumn": "2",
+            "LoadingPageType": "│",
+            "KinsPageNumber": "",
+            "KinsPageName": "",
+            "WorkStageNameKo": ""
+        },
+        {
+            "ScenarioCode": "NW_BE_0001",
+            "WorkflowName": "Budget Allocation",
+            "WorkStageName": "",
+            "DisplayLayoutRow": "3",
+            "DisplayLayoutColumn": "2",
+            "LoadingPageType": "│",
+            "KinsPageNumber": "",
+            "KinsPageName": "",
+            "WorkStageNameKo": ""
+        },
+        {
+            "ScenarioCode": "NW_BE_0001",
+            "WorkflowName": "Budget Allocation",
+            "WorkStageName": "",
+            "DisplayLayoutRow": "4",
+            "DisplayLayoutColumn": "2",
+            "LoadingPageType": "└",
+            "KinsPageNumber": "",
+            "KinsPageName": "",
+            "WorkStageNameKo": ""
+        },
+        {
+            "ScenarioCode": "NW_BE_0001",
+            "WorkflowName": "Budget Allocation",
+            "WorkStageName": "",
+            "DisplayLayoutRow": "4",
+            "DisplayLayoutColumn": "3",
+            "LoadingPageType": "Right",
+            "KinsPageNumber": "",
+            "KinsPageName": "",
+            "WorkStageNameKo": ""
+        },
+        {
+            "ScenarioCode": "NW_BE_0001",
+            "WorkflowName": "Budget Allocation",
+            "WorkStageName": "(KR) 법인은 예산 배정 내역이 포함된 사업 계획을 작성 및 결재 (EN) Global Network subsidiary submits a budget plan included in its annual business plan ",
+            "DisplayLayoutRow": "4",
+            "DisplayLayoutColumn": "4",
+            "LoadingPageType": "Image",
+            "KinsPageNumber": "수작업",
+            "KinsPageName": "",
+            "WorkStageNameKo": ""
+        },
+        {
+            "ScenarioCode": "NW_BE_0001",
+            "WorkflowName": "Budget Allocation",
+            "WorkStageName": "",
+            "DisplayLayoutRow": "4",
+            "DisplayLayoutColumn": "5",
+            "LoadingPageType": "Right",
+            "KinsPageNumber": "",
+            "KinsPageName": "",
+            "WorkStageNameKo": ""
+        },
+        {
+            "ScenarioCode": "NW_BE_0001",
+            "WorkflowName": "Budget Allocation",
+            "WorkStageName": "(KR) 해외사업실은 사업 계획을 검토 후, 법인 앞으로 승인을 통보 (EN) HQ Global Business Department reviews submitted annual business plan and notifies to each subsidiary after an approval ",
+            "DisplayLayoutRow": "4",
+            "DisplayLayoutColumn": "6",
+            "LoadingPageType": "Image",
+            "KinsPageNumber": "수작업",
+            "KinsPageName": "",
+            "WorkStageNameKo": ""
+        },
+        {
+            "ScenarioCode": "NW_BE_0001",
+            "WorkflowName": "Budget Allocation",
+            "WorkStageName": "",
+            "DisplayLayoutRow": "4",
+            "DisplayLayoutColumn": "7",
+            "LoadingPageType": "Right",
+            "KinsPageNumber": "",
+            "KinsPageName": "",
+            "WorkStageNameKo": ""
+        },
+        {
+            "ScenarioCode": "NW_BE_0001",
+            "WorkflowName": "Budget Allocation",
+            "WorkStageName": "(KR) 해외 법인은 항목별 승인된 예산 입력 후 Enter 버튼 클릭 (EN) Global Network subsidiary fills in required fields for processing budget allocation and press Enter button ",
+            "DisplayLayoutRow": "4",
+            "DisplayLayoutColumn": "8",
+            "LoadingPageType": "Image",
+            "KinsPageNumber": "342400",
+            "KinsPageName": "Allocation / Adjustment",
+            "WorkStageNameKo": ""
+        },
+        {
+            "ScenarioCode": "NW_BE_0001",
+            "WorkflowName": "Budget Allocation",
+            "WorkStageName": "",
+            "DisplayLayoutRow": "4",
+            "DisplayLayoutColumn": "9",
+            "LoadingPageType": "━",
+            "KinsPageNumber": "",
+            "KinsPageName": "",
+            "WorkStageNameKo": ""
+        },
+        {
+            "ScenarioCode": "NW_BE_0001",
+            "WorkflowName": "Budget Allocation",
+            "WorkStageName": "",
+            "DisplayLayoutRow": "4",
+            "DisplayLayoutColumn": "10",
+            "LoadingPageType": "━",
+            "KinsPageNumber": "",
+            "KinsPageName": "",
+            "WorkStageNameKo": ""
+        },
+        {
+            "ScenarioCode": "NW_BE_0001",
+            "WorkflowName": "Budget Allocation",
+            "WorkStageName": "",
+            "DisplayLayoutRow": "4",
+            "DisplayLayoutColumn": "11",
+            "LoadingPageType": "Right",
+            "KinsPageNumber": "",
+            "KinsPageName": "",
+            "WorkStageNameKo": ""
+        },
+        {
+            "ScenarioCode": "NW_BE_0001",
+            "WorkflowName": "Budget Allocation",
+            "WorkStageName": "",
+            "DisplayLayoutRow": "4",
+            "DisplayLayoutColumn": "12",
+            "LoadingPageType": "End",
+            "KinsPageNumber": "",
             "KinsPageName": "",
             "WorkStageNameKo": ""
         },
@@ -234,7 +388,7 @@
         {
             "ScenarioCode": "NW_BE_0003",
             "WorkflowName": "Register Payment Authorization",
-            "WorkStageName": "등록된 반복지급 경비 건을 안 사용하는가?",
+            "WorkStageName": "등록된 반복지급 경비 건을 사용하는가?",
             "DisplayLayoutRow": "0",
             "DisplayLayoutColumn": "0",
             "LoadingPageType": "Fork",
@@ -248,7 +402,7 @@
             "WorkStageName": "",
             "DisplayLayoutRow": "0",
             "DisplayLayoutColumn": "1",
-            "LoadingPageType": "No",
+            "LoadingPageType": "예",
             "KinsPageNumber": "",
             "KinsPageName": "",
             "WorkStageNameKo": ""
@@ -358,7 +512,7 @@
             "WorkStageName": "",
             "DisplayLayoutRow": "1",
             "DisplayLayoutColumn": "0",
-            "LoadingPageType": "Yes",
+            "LoadingPageType": "노",
             "KinsPageNumber": "",
             "KinsPageName": "",
             "WorkStageNameKo": ""
@@ -366,7 +520,7 @@
         {
             "ScenarioCode": "NW_BE_0003",
             "WorkflowName": "Register Payment Authorization",
-            "WorkStageName": "",
+            "WorkStageName": "일괄 등록 템플릿을 사용하는가?",
             "DisplayLayoutRow": "2",
             "DisplayLayoutColumn": "0",
             "LoadingPageType": "Fork",
@@ -380,7 +534,7 @@
             "WorkStageName": "",
             "DisplayLayoutRow": "2",
             "DisplayLayoutColumn": "1",
-            "LoadingPageType": "No",
+            "LoadingPageType": "예",
             "KinsPageNumber": "",
             "KinsPageName": "",
             "WorkStageNameKo": ""
@@ -490,7 +644,7 @@
             "WorkStageName": "",
             "DisplayLayoutRow": "3",
             "DisplayLayoutColumn": "0",
-            "LoadingPageType": "Yes",
+            "LoadingPageType": "노",
             "KinsPageNumber": "",
             "KinsPageName": "",
             "WorkStageNameKo": ""
@@ -685,7 +839,7 @@
         {
             "ScenarioCode": "NW_BE_0004",
             "WorkflowName": "Process Expense",
-            "WorkStageName": "승인된 경비 집행 품의 내역이 부존재하는가?",
+            "WorkStageName": "승인된 경비 집행 품의 내역이 존재하는가?",
             "DisplayLayoutRow": "0",
             "DisplayLayoutColumn": "2",
             "LoadingPageType": "Fork",
@@ -699,7 +853,7 @@
             "WorkStageName": "",
             "DisplayLayoutRow": "0",
             "DisplayLayoutColumn": "3",
-            "LoadingPageType": "No",
+            "LoadingPageType": "예",
             "KinsPageNumber": "",
             "KinsPageName": "",
             "WorkStageNameKo": ""
@@ -820,7 +974,7 @@
             "WorkStageName": "",
             "DisplayLayoutRow": "1",
             "DisplayLayoutColumn": "2",
-            "LoadingPageType": "Yes",
+            "LoadingPageType": "노",
             "KinsPageNumber": "",
             "KinsPageName": "",
             "WorkStageNameKo": ""
@@ -828,7 +982,7 @@
         {
             "ScenarioCode": "NW_BE_0004",
             "WorkflowName": "Process Expense",
-            "WorkStageName": "등록된 반복지급 경비 건을 안 사용하는가?",
+            "WorkStageName": "등록된 반복지급 경비 건을 사용하는가?",
             "DisplayLayoutRow": "2",
             "DisplayLayoutColumn": "2",
             "LoadingPageType": "Fork",
@@ -842,7 +996,7 @@
             "WorkStageName": "",
             "DisplayLayoutRow": "2",
             "DisplayLayoutColumn": "3",
-            "LoadingPageType": "No",
+            "LoadingPageType": "예",
             "KinsPageNumber": "",
             "KinsPageName": "",
             "WorkStageNameKo": ""
@@ -949,7 +1103,7 @@
         {
             "ScenarioCode": "NW_BE_0004",
             "WorkflowName": "Process Expense",
-            "WorkStageName": "",
+            "WorkStageName": "3-+ ",
             "DisplayLayoutRow": "3",
             "DisplayLayoutColumn": "12",
             "LoadingPageType": "│",
@@ -963,7 +1117,7 @@
             "WorkStageName": "",
             "DisplayLayoutRow": "3",
             "DisplayLayoutColumn": "2",
-            "LoadingPageType": "Yes",
+            "LoadingPageType": "노",
             "KinsPageNumber": "",
             "KinsPageName": "",
             "WorkStageNameKo": ""
@@ -971,7 +1125,7 @@
         {
             "ScenarioCode": "NW_BE_0004",
             "WorkflowName": "Process Expense",
-            "WorkStageName": "일괄 등록 템플릿을 안 사용하는가?",
+            "WorkStageName": "일괄 등록 템플릿을 사용하는가?",
             "DisplayLayoutRow": "4",
             "DisplayLayoutColumn": "2",
             "LoadingPageType": "Fork",
@@ -985,7 +1139,7 @@
             "WorkStageName": "",
             "DisplayLayoutRow": "4",
             "DisplayLayoutColumn": "3",
-            "LoadingPageType": "No",
+            "LoadingPageType": "예",
             "KinsPageNumber": "",
             "KinsPageName": "",
             "WorkStageNameKo": ""
@@ -1106,7 +1260,7 @@
             "WorkStageName": "",
             "DisplayLayoutRow": "5",
             "DisplayLayoutColumn": "2",
-            "LoadingPageType": "Yes",
+            "LoadingPageType": "노",
             "KinsPageNumber": "",
             "KinsPageName": "",
             "WorkStageNameKo": ""
@@ -1447,7 +1601,7 @@
             "WorkStageName": "",
             "DisplayLayoutRow": "0",
             "DisplayLayoutColumn": "3",
-            "LoadingPageType": "No",
+            "LoadingPageType": "예",
             "KinsPageNumber": "",
             "KinsPageName": "",
             "WorkStageNameKo": ""
@@ -1568,7 +1722,7 @@
             "WorkStageName": "",
             "DisplayLayoutRow": "1",
             "DisplayLayoutColumn": "2",
-            "LoadingPageType": "Yes",
+            "LoadingPageType": "노",
             "KinsPageNumber": "",
             "KinsPageName": "",
             "WorkStageNameKo": ""
@@ -1590,7 +1744,7 @@
             "WorkStageName": "",
             "DisplayLayoutRow": "2",
             "DisplayLayoutColumn": "3",
-            "LoadingPageType": "No",
+            "LoadingPageType": "예",
             "KinsPageNumber": "",
             "KinsPageName": "",
             "WorkStageNameKo": ""
@@ -1711,7 +1865,7 @@
             "WorkStageName": "",
             "DisplayLayoutRow": "3",
             "DisplayLayoutColumn": "2",
-            "LoadingPageType": "Yes",
+            "LoadingPageType": "노",
             "KinsPageNumber": "",
             "KinsPageName": "",
             "WorkStageNameKo": ""
@@ -1799,7 +1953,7 @@
             "WorkStageName": "",
             "DisplayLayoutRow": "4",
             "DisplayLayoutColumn": "9",
-            "LoadingPageType": "No",
+            "LoadingPageType": "예",
             "KinsPageNumber": "",
             "KinsPageName": "",
             "WorkStageNameKo": ""
@@ -1854,7 +2008,7 @@
             "WorkStageName": "",
             "DisplayLayoutRow": "5",
             "DisplayLayoutColumn": "8",
-            "LoadingPageType": "Yes",
+            "LoadingPageType": "노",
             "KinsPageNumber": "",
             "KinsPageName": "",
             "WorkStageNameKo": ""
@@ -2107,7 +2261,7 @@
             "WorkStageName": "",
             "DisplayLayoutRow": "0",
             "DisplayLayoutColumn": "1",
-            "LoadingPageType": "No",
+            "LoadingPageType": "예",
             "KinsPageNumber": "",
             "KinsPageName": "",
             "WorkStageNameKo": ""
@@ -2206,7 +2360,7 @@
             "WorkStageName": "",
             "DisplayLayoutRow": "1",
             "DisplayLayoutColumn": "0",
-            "LoadingPageType": "Yes",
+            "LoadingPageType": "노",
             "KinsPageNumber": "",
             "KinsPageName": "",
             "WorkStageNameKo": ""
@@ -2767,7 +2921,7 @@
             "WorkStageName": "",
             "DisplayLayoutRow": "0",
             "DisplayLayoutColumn": "7",
-            "LoadingPageType": "No",
+            "LoadingPageType": "예",
             "KinsPageNumber": "",
             "KinsPageName": "",
             "WorkStageNameKo": ""
@@ -2822,7 +2976,7 @@
             "WorkStageName": "",
             "DisplayLayoutRow": "1",
             "DisplayLayoutColumn": "6",
-            "LoadingPageType": "Yes",
+            "LoadingPageType": "노",
             "KinsPageNumber": "",
             "KinsPageName": "",
             "WorkStageNameKo": ""

@@ -69,7 +69,7 @@
         {
             "ScenarioCode": "NW_FA_0001",
             "WorkflowName": "Register Fixed Asset",
-            "WorkStageName": "",
+            "WorkStageName": "등록하는 신규 고정 자산이 예술품인가?",
             "DisplayLayoutRow": "0",
             "DisplayLayoutColumn": "6",
             "LoadingPageType": "Fork",
@@ -83,7 +83,7 @@
             "WorkStageName": "",
             "DisplayLayoutRow": "0",
             "DisplayLayoutColumn": "7",
-            "LoadingPageType": "No",
+            "LoadingPageType": "예",
             "KinsPageNumber": "",
             "KinsPageName": "",
             "WorkStageNameKo": ""
@@ -105,7 +105,7 @@
             "WorkStageName": "",
             "DisplayLayoutRow": "1",
             "DisplayLayoutColumn": "6",
-            "LoadingPageType": "Yes",
+            "LoadingPageType": "노",
             "KinsPageNumber": "",
             "KinsPageName": "",
             "WorkStageNameKo": ""

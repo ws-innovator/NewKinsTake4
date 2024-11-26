@@ -83,7 +83,7 @@
             "WorkStageName": "",
             "DisplayLayoutRow": "0",
             "DisplayLayoutColumn": "7",
-            "LoadingPageType": "No",
+            "LoadingPageType": "예",
             "KinsPageNumber": "",
             "KinsPageName": "",
             "WorkStageNameKo": ""
@@ -94,7 +94,7 @@
             "WorkStageName": "",
             "DisplayLayoutRow": "1",
             "DisplayLayoutColumn": "6",
-            "LoadingPageType": "Yes",
+            "LoadingPageType": "노",
             "KinsPageNumber": "",
             "KinsPageName": "",
             "WorkStageNameKo": ""
