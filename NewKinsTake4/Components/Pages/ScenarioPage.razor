@@ -1,4 +1,5 @@
 ﻿@page "/Scenario/{DomainCode}/{SubDomainCode}/{ScenarioCode}"
+
 @inject NavigationManager Navigation
 @inject DomainStructureState domainStructureState
 
@@ -218,7 +219,7 @@ else
             .ThenBy(x => x.DisplayLayoutColumn)
             .ToList();
 
-    
+
 
 
         if (string.IsNullOrEmpty(ScenarioCode))
@@ -291,7 +292,24 @@ else
         if (workflow is null || string.IsNullOrEmpty(workflow.KinsPageNumber))
             return;
 
-        Navigation.NavigateTo($"/Scenario/{workflow.KinsPageNumber}");
+
+        string navigationAddressString = "";
+
+        if (domainStructureState?.DomainStructure?.Workflow != null && workflow?.KinsPageNumber != null)
+        {
+            navigationAddressString = domainStructureState.DomainStructure.Workflow
+                .SelectMany(domain => domain?.SubDomainNames ?? Enumerable.Empty<SubDomainModel>(),
+                            (domain, subDomain) => new { domain, subDomain })
+                .SelectMany(ds => ds.subDomain?.Workflows ?? Enumerable.Empty<WorkflowModel>(),
+                            (ds, scenario) => new { ds.domain, ds.subDomain, scenario })
+                .Where(dss => dss.scenario?.ScenarioCode == workflow.KinsPageNumber)
+                .Select(dss => $"{dss.domain.DomainCode}/{dss.subDomain.SubDomainCode}/{dss.scenario.ScenarioCode}")
+                .FirstOrDefault() ?? string.Empty;
+        }
+
+
+
+        Navigation.NavigateTo($"/Scenario/{navigationAddressString}");
     }
 
     private void NavigateToScreenShotPage(WorkflowModel? workflow)
