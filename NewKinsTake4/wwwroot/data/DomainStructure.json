@@ -364,6 +364,11 @@
                     "Scenarios": []
                 },
                 {
+                    "SubDomainCode": "LA",
+                    "SubDomainName": "Loan related Amendments",
+                    "Scenarios": []
+                },
+                {
                     "SubDomainCode": "LM",
                     "SubDomainName": "Loan Post-Management",
                     "Scenarios": []
@@ -381,6 +386,11 @@
                 {
                     "SubDomainCode": "LO",
                     "SubDomainName": "Loan Common",
+                    "Scenarios": []
+                },
+                {
+                    "SubDomainCode": "LI",
+                    "SubDomainName": "Loan related Inquiries",
                     "Scenarios": []
                 }
             ]
