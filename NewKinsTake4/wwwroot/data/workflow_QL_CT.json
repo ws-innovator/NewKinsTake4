@@ -597,12 +597,12 @@
         {
             "ScenarioCode": "NW_CT_0003",
             "WorkflowName": "Collateral Disposition Registration Management",
-            "WorkStageName": "(KR) 채권 보전 회수관련  법원 경매,공매 진행 처리 (EN)  [Desc.] 고객이 신용이 악화되거나 대출채권이 연체가 되어 회수 불가능하다 판단될 경우 담보물건 의 경매,공매,기타 매각처분을 통해서 대출계좌 상환에 사용된 처분할 담보를 등록한다After customer submit the  ",
+            "WorkStageName": "If a customer's credit deteriorates or a loan becomes **delinquent** and is deemed **uncollectible**, the bank **registers the collateral** designated for loan repayment with the **court**. This is done to facilitate disposal through auction, public sale, or other means of liquidation.",
             "DisplayLayoutRow": "0",
             "DisplayLayoutColumn": "2",
             "LoadingPageType": "Image",
-            "KinsPageNumber": "수작업",
-            "KinsPageName": "채권 보전 회수관련 법원 경매, 공매 처리",
+            "KinsPageNumber": "430800_Related_Work",
+            "KinsPageName": "Registers Collateral with Court",
             "WorkStageNameKo": ""
         },
         {
