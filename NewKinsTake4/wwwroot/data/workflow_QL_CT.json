@@ -3,7 +3,7 @@
         {
             "ScenarioCode": "NW_CT_0001",
             "WorkflowName": "Collateral",
-            "WorkStageName": "신규담보코드 생성 필요 Y/N?",
+            "WorkStageName": "Need to register a **new collateral code**? Y/N",
             "DisplayLayoutRow": "0",
             "DisplayLayoutColumn": "0",
             "LoadingPageType": "Fork",
@@ -47,7 +47,7 @@
         {
             "ScenarioCode": "NW_CT_0001",
             "WorkflowName": "Collateral",
-            "WorkStageName": "(KR) 고객으로부터 제공받은 담보물건의 세부 정보를 등록 (EN) Register collateral info. given by customer   [Desc.] 담보 시스템에서 관리되는 담보형태는 부동산(기계), 동산, 예적금, 신용장, 유가증권이 있음 담보는 개별담보로 등록이 되어야 함 담보종류가 예적금 담보이고 예금이 당행예적금이면, 질권설정이 자동으로 등록/해제됨",
+            "WorkStageName": "The function of this screen is to **register detailed collateral information** provided by customers.  <br>  <br>  ① The system supports various types of collateral, including **real estate (machinery)**, **movables**, **deposits**, **letters of credit**, and **securities**.  <br>  ② Each collateral must be registered **individually**.  <br>  ③ For **deposit-based collateral**, if the deposit is held within the bank, the **pledge registration and release** processes are managed **automatically**.  <br>  <br>  This screen ensures **accurate and efficient management** of customer-provided collateral data for compliance and operational needs.",
             "DisplayLayoutRow": "0",
             "DisplayLayoutColumn": "4",
             "LoadingPageType": "Image",
@@ -69,7 +69,7 @@
         {
             "ScenarioCode": "NW_CT_0001",
             "WorkflowName": "Collateral",
-            "WorkStageName": "(KR) 담보연결 등록 (EN) Link collateral   [Desc.] 담보내역을 조회하여 Loan과 연결  재평가 분류 ,  담보평가, 설정 순서 확인",
+            "WorkStageName": "The function of this screen is to view registered **collateral** records and **link them to loans**.  <br>  <br>  It allows users to:  <br>  ① Classify and review **re-evaluation methods**,  <br>  ② Select **collateral evaluation methods**,  <br>  ③ Determine and confirm **priority rankings** and related details.  <br>  <br>  This screen provides comprehensive management of collateral linking processes, ensuring precise and systematic handling of **loan-collateral connections**.",
             "DisplayLayoutRow": "0",
             "DisplayLayoutColumn": "6",
             "LoadingPageType": "Image",
@@ -91,7 +91,7 @@
         {
             "ScenarioCode": "NW_CT_0001",
             "WorkflowName": "Collateral",
-            "WorkStageName": "(KR) 담보물에 대한 최신 평가가치액 담보정보를 등록 (EN) Register collateral appraisal info.   [Desc.] 담보물에 대한 최신 평가가치액 담보정보 등록한다  ",
+            "WorkStageName": "The function of this screen is to **register and update collateral information** by reflecting the **latest appraised value** of the collateral.<br><br>① **Register** the appraisal information of collateral items.<br>  ② **Update** existing collateral information to ensure it aligns with the most recent appraised values.<br>  This ensures accurate and up-to-date **collateral management** for appraisal purposes.",
             "DisplayLayoutRow": "0",
             "DisplayLayoutColumn": "8",
             "LoadingPageType": "Image",
@@ -113,7 +113,7 @@
         {
             "ScenarioCode": "NW_CT_0001",
             "WorkflowName": "Collateral",
-            "WorkStageName": "(KR) 담보에 대해서 질권설정/ 근저당권등록 정보를 등록 (EN) Register Mortgage/Pledge info.   [Desc.] 담보에 대해서 질권설정/근저당 등록 정보 등록 한다  ",
+            "WorkStageName": "The function of this screen is to **register details of pledges and mortgages** associated with collateral.  <br><br>① **Record** information about the establishment of **pledges** and **mortgage** for collateral items.  <br>② Ensure accurate documentation of the registration process for legal and financial management.  <br>  <br>This functionality provides a streamlined interface for securely managing **pledge and mortgage registration details**, ensuring compliance with legal and operational requirements.",
             "DisplayLayoutRow": "0",
             "DisplayLayoutColumn": "10",
             "LoadingPageType": "Image",
@@ -135,7 +135,7 @@
         {
             "ScenarioCode": "NW_CT_0001",
             "WorkflowName": "Collateral",
-            "WorkStageName": "(KR) 신규 담보 분류 코드를 등록 (EN) Create new collateral code ",
+            "WorkStageName": "The function of this screen is to **create and manage new collateral classification codes** when the required type of collateral code is not available in the system.<br><br>① Users can input details to register a **new collateral code**.<br>  ② The system validates the input to ensure accuracy and compliance.<br>  ③ Once registered, the newly created collateral code becomes available for use in relevant processes.<br>  <br>This feature allows for efficient and precise updates to the system, ensuring all required collateral types are properly categorized and accessible.",
             "DisplayLayoutRow": "2",
             "DisplayLayoutColumn": "0",
             "LoadingPageType": "Image",
@@ -322,7 +322,7 @@
         {
             "ScenarioCode": "NW_CT_0001",
             "WorkflowName": "Collateral",
-            "WorkStageName": "(중국전지점)  CBRIC 데이터 전송 ",
+            "WorkStageName": "(**China branches** only)<br> Send data to **CBIRC**? <br>Y/N",
             "DisplayLayoutRow": "4",
             "DisplayLayoutColumn": "0",
             "LoadingPageType": "Fork",
@@ -355,12 +355,12 @@
         {
             "ScenarioCode": "NW_CT_0001",
             "WorkflowName": "Collateral",
-            "WorkStageName": "(KR) (상하이)CBRIC에 정확한 데이터를 전송하기 위해 해당 담보물 관련 정보는 43090 거래에서다시 (정확한 데이터) 입력 (EN) Register collateral appraisal info.   [Desc.] 중국전지점인경우 CBRIC 데이터 전송을 위해 담보물 관련 정보 등록  ",
+            "WorkStageName": "The function of this screen is to **register collateral information** for **CBIRC** data transmission. <br>  <br>  ① This screen is used by all branches in **China** to input and manage collateral-related details for accurate submission to **CBRIC**.  <br>  ② Specifically, it ensures that collateral appraisal information is entered or updated through **Transaction Code 430900** to maintain **data accuracy**.  <br>  ③ This process is essential to send correct and complete collateral data to the **Shanghai CBIRC system**, aligning with regulatory requirements.",
             "DisplayLayoutRow": "6",
             "DisplayLayoutColumn": "0",
             "LoadingPageType": "Image",
             "KinsPageNumber": "430900",
-            "KinsPageName": "CBRIC Register collateral",
+            "KinsPageName": "CBIRC Register collateral",
             "WorkStageNameKo": ""
         },
         {
@@ -399,7 +399,7 @@
         {
             "ScenarioCode": "NW_CT_0002",
             "WorkflowName": "Guarantor",
-            "WorkStageName": "신규 관계코드 생성 필요 Y/N? ",
+            "WorkStageName": "Nead a **new code** for the **guarantor relationship**? Y/N?\"",
             "DisplayLayoutRow": "0",
             "DisplayLayoutColumn": "0",
             "LoadingPageType": "Fork",
@@ -454,12 +454,12 @@
         {
             "ScenarioCode": "NW_CT_0002",
             "WorkflowName": "Guarantor",
-            "WorkStageName": "(KR) 보증인을 등록 (EN) Register Guarantor   [Desc.] 보증인 등록 ",
+            "WorkStageName": "The function of this screen is to **register a new guarantor** in the system.<br>  Registered guarantors can later be linked to loan accounts through the **[432200] Link Guarantor** screen.  <br><br>① Use this screen to input and save guarantor details.<br>  ② Once saved, guarantors are made available for selection and association with loan accounts.<br>  ",
             "DisplayLayoutRow": "0",
             "DisplayLayoutColumn": "4",
             "LoadingPageType": "Image",
-            "KinsPageNumber": "",
-            "KinsPageName": "",
+            "KinsPageNumber": "432100",
+            "KinsPageName": "Register Guarantor",
             "WorkStageNameKo": ""
         },
         {
@@ -476,12 +476,12 @@
         {
             "ScenarioCode": "NW_CT_0002",
             "WorkflowName": "Guarantor",
-            "WorkStageName": "(KR) 등록된 보증인에 여신승인번호를 연결 (EN) Link Guarantor related to loan approval no.   [Desc.] 등록된 보증인에 여신승인번호를 연결하는 기능 ",
+            "WorkStageName": "The function of this screen is to **link registered guarantors** to **loan applications** using the associated **loan approval number**.<br>  <br>① Search for a guarantor registered in the system.<br>  ② Enter or select the corresponding **loan approval number**.<br>  ③ Establish the link between the guarantor and the loan application.<br>  <br>This screen enables precise and efficient management of guarantor information by ensuring their connection to specific loans.",
             "DisplayLayoutRow": "0",
             "DisplayLayoutColumn": "6",
             "LoadingPageType": "Image",
-            "KinsPageNumber": "",
-            "KinsPageName": "",
+            "KinsPageNumber": "432200",
+            "KinsPageName": "Link Guarantor",
             "WorkStageNameKo": ""
         },
         {
@@ -509,12 +509,12 @@
         {
             "ScenarioCode": "NW_CT_0002",
             "WorkflowName": "Guarantor",
-            "WorkStageName": "(KR) 신규 관계 코드를 등록 (EN) Create new Relationship Code     [Desc.] 신규관계코드 등록 ",
+            "WorkStageName": "The function of this screen is to **create and register a new Relationship Code** that defines additional types of guarantor-debtor relationships beyond those already available in the system.<br><br>① Users can generate **new relationship codes** as needed.<br>  ② The screen provides options to input and save details for these custom relationship types.<br>  <br>This functionality ensures the system can accommodate diverse guarantor-debtor relationship categories, enhancing its flexibility and usability.",
             "DisplayLayoutRow": "2",
             "DisplayLayoutColumn": "0",
             "LoadingPageType": "Image",
-            "KinsPageNumber": "",
-            "KinsPageName": "",
+            "KinsPageNumber": "432300",
+            "KinsPageName": "Setup Relationship Code",
             "WorkStageNameKo": ""
         },
         {
@@ -597,12 +597,12 @@
         {
             "ScenarioCode": "NW_CT_0003",
             "WorkflowName": "Collateral Disposition Registration Management",
-            "WorkStageName": "(KR) 채권 보전 회수관련  법원 경매,공매 진행 처리 (EN)  [Desc.] 고객이 신용이 악화되거나 대출채권이 연체가 되어 회수 불가능하다 판단될 경우 담보물건 의 경매,공매,기타 매각처분을 통해서 대출계좌 상환에 사용된 처분할 담보를 등록한다After customer submit the  ",
+            "WorkStageName": "If a customer's credit deteriorates or a loan becomes **delinquent** and is deemed **uncollectible**,<br><br> the bank **registers the collateral** designated for loan repayment with the **court**. This is done to facilitate disposal through auction, public sale, or other means of liquidation.",
             "DisplayLayoutRow": "0",
             "DisplayLayoutColumn": "2",
             "LoadingPageType": "Image",
-            "KinsPageNumber": "수작업",
-            "KinsPageName": "채권 보전 회수관련 법원 경매, 공매 처리",
+            "KinsPageNumber": "430800_Related_Work",
+            "KinsPageName": "Registers Collateral with Court",
             "WorkStageNameKo": ""
         },
         {
@@ -1492,6 +1492,17 @@
             "DisplayLayoutRow": "0",
             "DisplayLayoutColumn": "4",
             "LoadingPageType": "End",
+            "KinsPageNumber": "",
+            "KinsPageName": "",
+            "WorkStageNameKo": ""
+        },
+        {
+            "ScenarioCode": "NW_CT_0001",
+            "WorkflowName": "Collateral",
+            "WorkStageName": "",
+            "DisplayLayoutRow": "5",
+            "DisplayLayoutColumn": "2",
+            "LoadingPageType": "Down",
             "KinsPageNumber": "",
             "KinsPageName": "",
             "WorkStageNameKo": ""

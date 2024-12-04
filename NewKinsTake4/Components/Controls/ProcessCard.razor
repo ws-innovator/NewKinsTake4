@@ -1,7 +1,7 @@
-﻿<div class="process-box">
+﻿<div class="process-box" style="@backgroundColor">
     <div class="process-box-inner">
         <!-- Frontside Card -->
-        <div class="frontside-card" @onclick="ClickOnCardHappened">
+        <div class="frontside-card" @onclick="ClickOnCardHappened" style="@backgroundColor">
             <div class="image-section">
                 <img src="@imageString" alt="Card Image" class="front-image">
             </div>
@@ -67,6 +67,9 @@
     private string imageString = "";
     private string frontCardText = "";
     private string backCardText = "";
+    private string backgroundColor = "";
+
+
     private string isThumbnailVisible = "display:none;";
     private bool isEnglishSelected = true;
     private bool isKoreanSelected = false;
@@ -80,6 +83,10 @@
         frontCardText = string.IsNullOrEmpty(Workflow?.KinsPageName)
             ? "Untitled"
             : "**" + Workflow.KinsPageName + "** (" + Workflow.KinsPageNumber + ")";
+
+        backgroundColor = string.IsNullOrEmpty(Workflow?.KinsPageNumber)
+            ? ""
+            : Workflow.KinsPageNumber.EndsWith("_Related_Work") ? "background-color: rgba(248, 248, 248, 0.7);" : "";
 
         UpdateBackCardText();
     }
@@ -102,7 +109,13 @@
     {
         if (Workflow != null)
         {
-            await OnClickOnCard.InvokeAsync(Workflow);
+            if (!string.IsNullOrEmpty(Workflow.KinsPageNumber))
+            {
+                if (!Workflow.KinsPageNumber.EndsWith("_Related_Work"))
+                {
+                    await OnClickOnCard.InvokeAsync(Workflow);
+                }
+            }
         }
     }
 

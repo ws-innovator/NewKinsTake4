@@ -11,6 +11,8 @@
 }
 else
 {
+    <h1 class="m-4 fw-bold">@workflows.FirstOrDefault()?.WorkflowName</h1>
+
     <div class="process-layout">
         @for (int rowIndex = 0; rowIndex < ProcessLayout.Count; rowIndex++)
         {
