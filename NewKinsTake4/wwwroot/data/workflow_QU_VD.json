@@ -399,7 +399,7 @@
         {
             "ScenarioCode": "NW_VD_0005",
             "WorkflowName": "Cancel Valued Documents",
-            "WorkStageName": "",
+            "WorkStageName": "[KR] 중요증서 거래 건 취소 요청 접수 [EN] Transaction cancel for Valued Documents is requested ",
             "DisplayLayoutRow": "0",
             "DisplayLayoutColumn": "2",
             "LoadingPageType": "Image",
@@ -421,7 +421,7 @@
         {
             "ScenarioCode": "NW_VD_0005",
             "WorkflowName": "Cancel Valued Documents",
-            "WorkStageName": "중요증서 Register 건에 대한_x000B_거래 취소인가?",
+            "WorkStageName": "중요증서 Register 건에 대한 거래 취소인가? ",
             "DisplayLayoutRow": "0",
             "DisplayLayoutColumn": "4",
             "LoadingPageType": "Fork",
@@ -443,12 +443,12 @@
         {
             "ScenarioCode": "NW_VD_0005",
             "WorkflowName": "Cancel Valued Documents",
-            "WorkStageName": "",
+            "WorkStageName": "(KR) Cancel 모드에서 Transaction No. 선택 후 Inquiry 버튼 클릭 (EN) Select Transaction No. and press Inquiry button from Cancel mode ",
             "DisplayLayoutRow": "0",
             "DisplayLayoutColumn": "6",
             "LoadingPageType": "Image",
-            "KinsPageNumber": "",
-            "KinsPageName": "",
+            "KinsPageNumber": "380000",
+            "KinsPageName": "Register Valued Documents",
             "WorkStageNameKo": ""
         },
         {
@@ -465,12 +465,12 @@
         {
             "ScenarioCode": "NW_VD_0005",
             "WorkflowName": "Cancel Valued Documents",
-            "WorkStageName": "",
+            "WorkStageName": "(KR) 취소하고자 하는 중요증서 거래 내역 확인 후 Enter 버튼 클릭 (EN) Review the transaction information to cancel and press Enter button ",
             "DisplayLayoutRow": "0",
             "DisplayLayoutColumn": "8",
             "LoadingPageType": "Image",
-            "KinsPageNumber": "",
-            "KinsPageName": "",
+            "KinsPageNumber": "380000",
+            "KinsPageName": "Register Valued Documents",
             "WorkStageNameKo": ""
         },
         {
@@ -512,7 +512,7 @@
             "WorkStageName": "",
             "DisplayLayoutRow": "1",
             "DisplayLayoutColumn": "4",
-            "LoadingPageType": "Yes_",
+            "LoadingPageType": "노",
             "KinsPageNumber": "",
             "KinsPageName": "",
             "WorkStageNameKo": ""
@@ -520,7 +520,7 @@
         {
             "ScenarioCode": "NW_VD_0005",
             "WorkflowName": "Cancel Valued Documents",
-            "WorkStageName": "",
+            "WorkStageName": "중요증서 Use 건에 대한 거래 취소인가? ",
             "DisplayLayoutRow": "2",
             "DisplayLayoutColumn": "4",
             "LoadingPageType": "Fork",
@@ -534,7 +534,7 @@
             "WorkStageName": "",
             "DisplayLayoutRow": "2",
             "DisplayLayoutColumn": "5",
-            "LoadingPageType": "No_",
+            "LoadingPageType": "예",
             "KinsPageNumber": "",
             "KinsPageName": "",
             "WorkStageNameKo": ""
@@ -542,12 +542,12 @@
         {
             "ScenarioCode": "NW_VD_0005",
             "WorkflowName": "Cancel Valued Documents",
-            "WorkStageName": "",
+            "WorkStageName": "(KR) Cancel 모드에서 Transaction No. 선택 후 Inquiry 버튼 클릭 (EN) Select Transaction No. and press Inquiry button from Cancel mode ",
             "DisplayLayoutRow": "2",
             "DisplayLayoutColumn": "6",
             "LoadingPageType": "Image",
-            "KinsPageNumber": "",
-            "KinsPageName": "",
+            "KinsPageNumber": "380700",
+            "KinsPageName": "Use Valued Documents",
             "WorkStageNameKo": ""
         },
         {
@@ -564,12 +564,12 @@
         {
             "ScenarioCode": "NW_VD_0005",
             "WorkflowName": "Cancel Valued Documents",
-            "WorkStageName": "",
+            "WorkStageName": "(KR) 취소하고자 하는 중요증서 거래 내역 확인 후 Enter 버튼 클릭 (EN) Review the transaction information to cancel and press Enter button ",
             "DisplayLayoutRow": "2",
             "DisplayLayoutColumn": "8",
             "LoadingPageType": "Image",
-            "KinsPageNumber": "",
-            "KinsPageName": "",
+            "KinsPageNumber": "380700",
+            "KinsPageName": "Use Valued Documents",
             "WorkStageNameKo": ""
         },
         {
@@ -611,7 +611,7 @@
             "WorkStageName": "",
             "DisplayLayoutRow": "3",
             "DisplayLayoutColumn": "4",
-            "LoadingPageType": "Yes",
+            "LoadingPageType": "노",
             "KinsPageNumber": "",
             "KinsPageName": "",
             "WorkStageNameKo": ""
@@ -641,12 +641,12 @@
         {
             "ScenarioCode": "NW_VD_0005",
             "WorkflowName": "Cancel Valued Documents",
-            "WorkStageName": "",
+            "WorkStageName": "(KR) Cancel 모드에서 Transaction No. 선택 후 Inquiry 버튼 클릭 (EN) Select Transaction No. and press Inquiry button from Cancel mode ",
             "DisplayLayoutRow": "4",
             "DisplayLayoutColumn": "6",
             "LoadingPageType": "Image",
-            "KinsPageNumber": "",
-            "KinsPageName": "",
+            "KinsPageNumber": "380800",
+            "KinsPageName": "Dispose Valued Documents",
             "WorkStageNameKo": ""
         },
         {
@@ -663,12 +663,12 @@
         {
             "ScenarioCode": "NW_VD_0005",
             "WorkflowName": "Cancel Valued Documents",
-            "WorkStageName": "",
+            "WorkStageName": "(KR) 취소하고자 하는 중요증서 거래 내역 확인 후 Enter 버튼 클릭 (EN) Review the transaction information to cancel and press Enter button ",
             "DisplayLayoutRow": "4",
             "DisplayLayoutColumn": "8",
             "LoadingPageType": "Image",
-            "KinsPageNumber": "",
-            "KinsPageName": "",
+            "KinsPageNumber": "380800",
+            "KinsPageName": "Dispose Valued Documents",
             "WorkStageNameKo": ""
         },
         {
@@ -685,12 +685,12 @@
         {
             "ScenarioCode": "NW_VD_0005",
             "WorkflowName": "Cancel Valued Documents",
-            "WorkStageName": "",
+            "WorkStageName": "(KR) 승인자는 제출된 중요증서 거래 취소 정보 확인 후 Approve 버튼 클릭 (EN) Approver reviews submitted Valued Document cancellation information and press Approve button ",
             "DisplayLayoutRow": "4",
             "DisplayLayoutColumn": "10",
             "LoadingPageType": "Image",
-            "KinsPageNumber": "",
-            "KinsPageName": "",
+            "KinsPageNumber": "380800",
+            "KinsPageName": "Dispose Valued Documents",
             "WorkStageNameKo": ""
         },
         {
@@ -773,12 +773,12 @@
         {
             "ScenarioCode": "NW_VD_0005",
             "WorkflowName": "Cancel Valued Documents",
-            "WorkStageName": "",
+            "WorkStageName": "(KR) 재고량을 조회하고자 하는 Document Type 선택 후 Inquiry 버튼 클릭 (EN) Select Document Type to check its inventory and press Enter button ",
             "DisplayLayoutRow": "6",
             "DisplayLayoutColumn": "4",
             "LoadingPageType": "Image",
-            "KinsPageNumber": "",
-            "KinsPageName": "",
+            "KinsPageNumber": "382100",
+            "KinsPageName": "Inquiry Valued Document Inventory",
             "WorkStageNameKo": ""
         },
         {
@@ -795,10 +795,109 @@
         {
             "ScenarioCode": "NW_VD_0005",
             "WorkflowName": "Cancel Valued Documents",
-            "WorkStageName": "",
+            "WorkStageName": "(KR) 취소 거래 승인에 따른 환원된 재고량 확인 (EN) Check the returned Valued Documents in the inventory ",
             "DisplayLayoutRow": "6",
             "DisplayLayoutColumn": "6",
+            "LoadingPageType": "Image",
+            "KinsPageNumber": "382100",
+            "KinsPageName": "Inquiry Valued Document Inventory",
+            "WorkStageNameKo": ""
+        },
+        {
+            "ScenarioCode": "NW_VD_0005",
+            "WorkflowName": "Cancel Valued Documents",
+            "WorkStageName": "",
+            "DisplayLayoutRow": "6",
+            "DisplayLayoutColumn": "7",
+            "LoadingPageType": "Right",
+            "KinsPageNumber": "",
+            "KinsPageName": "",
+            "WorkStageNameKo": ""
+        },
+        {
+            "ScenarioCode": "NW_VD_0005",
+            "WorkflowName": "Cancel Valued Documents",
+            "WorkStageName": "",
+            "DisplayLayoutRow": "6",
+            "DisplayLayoutColumn": "8",
             "LoadingPageType": "End",
+            "KinsPageNumber": "",
+            "KinsPageName": "",
+            "WorkStageNameKo": ""
+        },
+        {
+            "ScenarioCode": "NW_VD_0006",
+            "WorkflowName": "Inquire & Print Documents Transaction",
+            "WorkStageName": "(KR) Transaction Type, Transaction Date 등 조회 조건 입력 후 Inquiry 버튼 클릭 (EN) Fill in information such as Transaction Type, Transaction Date and press Inquiry button ",
+            "DisplayLayoutRow": "0",
+            "DisplayLayoutColumn": "0",
+            "LoadingPageType": "Image",
+            "KinsPageNumber": "수작업",
+            "KinsPageName": "",
+            "WorkStageNameKo": ""
+        },
+        {
+            "ScenarioCode": "NW_VD_0006",
+            "WorkflowName": "Inquire & Print Documents Transaction",
+            "WorkStageName": "",
+            "DisplayLayoutRow": "0",
+            "DisplayLayoutColumn": "1",
+            "LoadingPageType": "Right",
+            "KinsPageNumber": "",
+            "KinsPageName": "",
+            "WorkStageNameKo": ""
+        },
+        {
+            "ScenarioCode": "NW_VD_0006",
+            "WorkflowName": "Inquire & Print Documents Transaction",
+            "WorkStageName": "(KR) 조회된 중요증서 거래 내역 확인 후 Pirnt 버튼 클릭 (계좌 신규 시, 사용된 중요증서 정보가 입력되면 본 거래 내역에 조회됨) (EN) Check Valued Document transactions from the search result, and press Print button (If Valued Document information is taken  when opening a new Deposit account, the transaction is shown in this Inquiry) ",
+            "DisplayLayoutRow": "0",
+            "DisplayLayoutColumn": "2",
+            "LoadingPageType": "Image",
+            "KinsPageNumber": "382200",
+            "KinsPageName": "Inquiry Document Transaction",
+            "WorkStageNameKo": ""
+        },
+        {
+            "ScenarioCode": "NW_VD_0006",
+            "WorkflowName": "Inquire & Print Documents Transaction",
+            "WorkStageName": "",
+            "DisplayLayoutRow": "0",
+            "DisplayLayoutColumn": "3",
+            "LoadingPageType": "Right",
+            "KinsPageNumber": "",
+            "KinsPageName": "",
+            "WorkStageNameKo": ""
+        },
+        {
+            "ScenarioCode": "NW_VD_0006",
+            "WorkflowName": "Inquire & Print Documents Transaction",
+            "WorkStageName": "",
+            "DisplayLayoutRow": "0",
+            "DisplayLayoutColumn": "4",
+            "LoadingPageType": "End",
+            "KinsPageNumber": "",
+            "KinsPageName": "",
+            "WorkStageNameKo": ""
+        },
+        {
+            "ScenarioCode": "NW_VD_0006",
+            "WorkflowName": "Inquire & Print Documents Transaction",
+            "WorkStageName": "",
+            "DisplayLayoutRow": "1",
+            "DisplayLayoutColumn": "2",
+            "LoadingPageType": "│",
+            "KinsPageNumber": "",
+            "KinsPageName": "",
+            "WorkStageNameKo": ""
+        },
+        {
+            "ScenarioCode": "NW_VD_0006",
+            "WorkflowName": "Inquire & Print Documents Transaction",
+            "WorkStageName": "",
+            "DisplayLayoutRow": "2",
+            "DisplayLayoutColumn": "2",
+            "LoadingPageType": "Picture",
             "KinsPageNumber": "",
             "KinsPageName": "",
             "WorkStageNameKo": ""
