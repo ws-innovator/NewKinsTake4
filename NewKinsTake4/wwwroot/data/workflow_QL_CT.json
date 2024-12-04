@@ -597,7 +597,7 @@
         {
             "ScenarioCode": "NW_CT_0003",
             "WorkflowName": "Collateral Disposition Registration Management",
-            "WorkStageName": "If a customer's credit deteriorates or a loan becomes **delinquent** and is deemed **uncollectible**, the bank **registers the collateral** designated for loan repayment with the **court**. This is done to facilitate disposal through auction, public sale, or other means of liquidation.",
+            "WorkStageName": "If a customer's credit deteriorates or a loan becomes **delinquent** and is deemed **uncollectible**,<br><br> the bank **registers the collateral** designated for loan repayment with the **court**. This is done to facilitate disposal through auction, public sale, or other means of liquidation.",
             "DisplayLayoutRow": "0",
             "DisplayLayoutColumn": "2",
             "LoadingPageType": "Image",
