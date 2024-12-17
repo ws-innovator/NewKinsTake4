@@ -619,7 +619,7 @@
         {
             "ScenarioCode": "NW_CT_0003",
             "WorkflowName": "Collateral Disposition Registration Management",
-            "WorkStageName": "[KR] Reference No. 입력 또는 조회 클릭후 해당건 선택 클릭 [EN]    [Desc.] 채무자가 채무를 변제하지 못하여, 담보를 처분하여 대출채권을    회수하는 경우, 담보처분에 대한 정보를 등록한다",
+            "WorkStageName": "The function of this screen is to **register and manage information related to the disposal of collateral** in cases where a debtor fails to repay their debt. This includes recording details of collateral sales used to recover loan claims.<br><br>① Enter the **Reference No.** or click **Search**, then select the appropriate item.<br>  ② Input auction-related details for each collateral item (e.g., case number, auction application amount) and press **Enter**.<br>  ③ Record **financial details** related to auctions or public sales, such as the **case number** and **application amount**.<br><br>This ensures accurate tracking and management of collateral disposal activities.",
             "DisplayLayoutRow": "0",
             "DisplayLayoutColumn": "4",
             "LoadingPageType": "Image",
@@ -641,12 +641,12 @@
         {
             "ScenarioCode": "NW_CT_0003",
             "WorkflowName": "Collateral Disposition Registration Management",
-            "WorkStageName": "[KR]  담보건별  경매 관련 항목 입력후  엔터 클릭 [EN]    [Desc.] 경매,공매관련  사건번호 , 경매신청금액등  입력 ",
+            "WorkStageName": "",
             "DisplayLayoutRow": "0",
             "DisplayLayoutColumn": "6",
-            "LoadingPageType": "Image",
-            "KinsPageNumber": "430800",
-            "KinsPageName": "Disposal",
+            "LoadingPageType": "",
+            "KinsPageNumber": "",
+            "KinsPageName": "",
             "WorkStageNameKo": ""
         },
         {
@@ -655,7 +655,7 @@
             "WorkStageName": "",
             "DisplayLayoutRow": "0",
             "DisplayLayoutColumn": "7",
-            "LoadingPageType": "Right",
+            "LoadingPageType": "",
             "KinsPageNumber": "",
             "KinsPageName": "",
             "WorkStageNameKo": ""
@@ -663,12 +663,12 @@
         {
             "ScenarioCode": "NW_CT_0003",
             "WorkflowName": "Collateral Disposition Registration Management",
-            "WorkStageName": "[KR] 시제관련 대체 내역  처리 [EN]    [Desc.] 경매,공매관련  사건번호 , 경매신청금액등  입력 ",
+            "WorkStageName": "",
             "DisplayLayoutRow": "0",
             "DisplayLayoutColumn": "8",
-            "LoadingPageType": "Image",
-            "KinsPageNumber": "POPUP",
-            "KinsPageName": "재무관련 입력사항",
+            "LoadingPageType": "",
+            "KinsPageNumber": "",
+            "KinsPageName": "",
             "WorkStageNameKo": ""
         },
         {
