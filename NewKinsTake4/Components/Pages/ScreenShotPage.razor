@@ -15,9 +15,17 @@
             <ul class="link-list">
                 @foreach (var item in workflows)
                 {
-                    bool isOpen = item.KinsPageNumber == KinsPageNumber;
-                    string address = $"/ScreenShot/{DomainCode}/{SubDomainCode}/{ScenarioCode}/{item.KinsPageNumber}";
-                    <BrotherScreenLink Link="item" IsOpen="isOpen" Address="@address" />
+                    if (!string.IsNullOrEmpty(item.KinsPageNumber))
+                    {
+                        if (!item.KinsPageNumber.EndsWith("_Related_Work"))
+                        {
+                            
+                            bool isOpen = item.KinsPageNumber == KinsPageNumber;
+                            string address = $"/ScreenShot/{DomainCode}/{SubDomainCode}/{ScenarioCode}/{item.KinsPageNumber}";
+                            <BrotherScreenLink Link="item" IsOpen="isOpen" Address="@address" />
+                        }
+                        
+                    }
                 }
             </ul>
         }
@@ -56,8 +64,13 @@
         var subDomain = domain?.SubDomainNames
             ?.FirstOrDefault(x => x.SubDomainCode == SubDomainCode);
 
+
+
         workflows = subDomain?.Workflows
             ?.Where(x => x.ScenarioCode == ScenarioCode)
+            ?.Where(x => x.LoadingPageType == "Image")
+            .GroupBy(w => w.KinsPageNumber)
+            .Select(g => g.First())
             ?.ToList() ?? new List<WorkflowModel>();
 
         // Safely construct the image string
