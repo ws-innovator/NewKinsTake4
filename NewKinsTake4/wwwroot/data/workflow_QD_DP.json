@@ -2874,12 +2874,12 @@
         {
             "ScenarioCode": "NW_DP_0006",
             "WorkflowName": "Close Account - Demand Deposit Account / Savings Account",
-            "WorkStageName": "(KR) 고객으로부터 요구불 예금 또는 정기적금 해지 신청서 수령 (EN) Collect an application for closing the account (DDA/SAV) from customer ",
+            "WorkStageName": "Receive **the closing the account (DDA/SAV) application** from the customer.",
             "DisplayLayoutRow": "0",
             "DisplayLayoutColumn": "2",
             "LoadingPageType": "Image",
-            "KinsPageNumber": "수작업",
-            "KinsPageName": "",
+            "KinsPageNumber": "131400_1_Related_Work",
+            "KinsPageName": "**Closing DDA/SAV Application**",
             "WorkStageNameKo": ""
         },
         {
@@ -2888,7 +2888,7 @@
             "WorkStageName": "",
             "DisplayLayoutRow": "0",
             "DisplayLayoutColumn": "3",
-            "LoadingPageType": "Right",
+            "LoadingPageType": "━",
             "KinsPageNumber": "",
             "KinsPageName": "",
             "WorkStageNameKo": ""
@@ -2896,12 +2896,12 @@
         {
             "ScenarioCode": "NW_DP_0006",
             "WorkflowName": "Close Account - Demand Deposit Account / Savings Account",
-            "WorkStageName": "(KR) 조회 버튼을 클릭하여 요구불 예금 또는 정기적금 건을 확인 (EN) Click Inquiry button to show account (DDA/SAV) list ",
+            "WorkStageName": "",
             "DisplayLayoutRow": "0",
             "DisplayLayoutColumn": "4",
-            "LoadingPageType": "Image",
-            "KinsPageNumber": "131400",
-            "KinsPageName": "Close Account (DDA/SAV)",
+            "LoadingPageType": "━",
+            "KinsPageNumber": "",
+            "KinsPageName": "",
             "WorkStageNameKo": ""
         },
         {
@@ -2918,7 +2918,7 @@
         {
             "ScenarioCode": "NW_DP_0006",
             "WorkflowName": "Close Account - Demand Deposit Account / Savings Account",
-            "WorkStageName": "(KR) 해지 대상 계좌를 클릭하고, Apply Interest Rate 항목에서 기 입력된 이자율 확인 또는 기입 (EN) Click an account to close and check pre-entered Apply Interest Rate field or fill in ",
+            "WorkStageName": "The function of this screen is to facilitate the closure of Demand Deposit Accounts (DDA) and Savings Accounts (SAV). <br><br>① Click the **Inquiry** button to display a list of available DDA/SAV accounts. <br>② Select the account to be closed. <br>③ Verify or input the **Apply Interest Rate** in the designated field before proceeding with the closure.",
             "DisplayLayoutRow": "0",
             "DisplayLayoutColumn": "6",
             "LoadingPageType": "Image",
@@ -2940,7 +2940,7 @@
         {
             "ScenarioCode": "NW_DP_0006",
             "WorkflowName": "Close Account - Demand Deposit Account / Savings Account",
-            "WorkStageName": "해지 해당 계좌 내 잔액 존재 여부 ",
+            "WorkStageName": "Is there a **balance** in the account to be closed?",
             "DisplayLayoutRow": "0",
             "DisplayLayoutColumn": "8",
             "LoadingPageType": "Fork",
@@ -3017,7 +3017,7 @@
         {
             "ScenarioCode": "NW_DP_0006",
             "WorkflowName": "Close Account - Demand Deposit Account / Savings Account",
-            "WorkStageName": "잔액 폐기 여부 (폐기 시, 영업외이익 계좌로 이체) ",
+            "WorkStageName": "Should **remaining balance** in closed customer accounts be recorded as **non-operating gain**?",
             "DisplayLayoutRow": "2",
             "DisplayLayoutColumn": "8",
             "LoadingPageType": "Fork",
@@ -3039,7 +3039,7 @@
         {
             "ScenarioCode": "NW_DP_0006",
             "WorkflowName": "Close Account - Demand Deposit Account / Savings Account",
-            "WorkStageName": "(KR) Transaction Information 영역에서  Transaction Code를 \"G/L Credit\"로 선택하고 GL Code \"C70230200\" 입력 후 Enter 버튼 클릭 (EN) Select \"G/L Credit\" for Transaction Code and fill in GL Code with \"C70230200\" at Transaction Information section and press Enter button ",
+            "WorkStageName": "In this case, <br><br>① In the Transaction Information area, select **\"G/L Credit\"** as the **Transaction Code**. <br>② Enter \"C70230200\" as the **GL Code** and click the **Enter** button.",
             "DisplayLayoutRow": "2",
             "DisplayLayoutColumn": "10",
             "LoadingPageType": "Image",
@@ -3120,8 +3120,8 @@
             "DisplayLayoutRow": "4",
             "DisplayLayoutColumn": "10",
             "LoadingPageType": "Picture",
-            "KinsPageNumber": "131400",
-            "KinsPageName": "",
+            "KinsPageNumber": "131400_1",
+            "KinsPageName": "**Non-operating Gain**",
             "WorkStageNameKo": ""
         },
         {
@@ -3248,7 +3248,7 @@
         {
             "ScenarioCode": "NW_DP_0006",
             "WorkflowName": "Close Account - Demand Deposit Account / Savings Account",
-            "WorkStageName": "(KR) Transaction Information 영역에서  Transaction Code를 \"Suspense Payable Credit\"로 선택하고 Second Key \"Suspense Payable others\" 입력 후 Enter 버튼 클릭 (EN) Select \"Suspense Payable Credit\" for Transaction Code and fill in Second Key with \"Suspense Payable others\" at Transaction Information section and press Enter button ",
+            "WorkStageName": "In this case, <br><br>① In the Transaction Information area, select **\"Suspense Payable Credit\"** and as the **Second Key** input **\"Suspense Payable others\"** . <br>② Click the **Enter** button.",
             "DisplayLayoutRow": "6",
             "DisplayLayoutColumn": "0",
             "LoadingPageType": "Image",
@@ -3270,7 +3270,7 @@
         {
             "ScenarioCode": "NW_DP_0006",
             "WorkflowName": "Close Account - Demand Deposit Account / Savings Account",
-            "WorkStageName": "NewYork 지점? ",
+            "WorkStageName": "Is NewYork Branch? ",
             "DisplayLayoutRow": "6",
             "DisplayLayoutColumn": "2",
             "LoadingPageType": "Fork",
@@ -3292,7 +3292,7 @@
         {
             "ScenarioCode": "NW_DP_0006",
             "WorkflowName": "Close Account - Demand Deposit Account / Savings Account",
-            "WorkStageName": "(KR) 담당자는 해당 은행에 개설된 타 계좌로 잔액 송금을 위해 Payment Type을 \"999\" 선택 후 송금 정보를 입력 (EN) Select \"999\" for Payment Type and fill in information to transfer the remained balance to the customers' other account ",
+            "WorkStageName": "The function of this screen is to process a single payment entry (Swift) for transferring remaining balances to other accounts within the same bank. <br><br>① Select \"**999**\" as the **Payment Type**. <br>② In the **Transaction Information** section, choose \"**Suspense Payable Debit**\" as the **Transaction Code** and \"**Suspense Payable others**\" as the **Second Key**. <br>③ Select the **Reference No.** from the transaction generated by process **[131400]**. <br>④ Click the **Enter** button.",
             "DisplayLayoutRow": "6",
             "DisplayLayoutColumn": "4",
             "LoadingPageType": "Image",
@@ -3306,7 +3306,7 @@
             "WorkStageName": "",
             "DisplayLayoutRow": "6",
             "DisplayLayoutColumn": "5",
-            "LoadingPageType": "Right",
+            "LoadingPageType": "━",
             "KinsPageNumber": "",
             "KinsPageName": "",
             "WorkStageNameKo": ""
@@ -3314,12 +3314,12 @@
         {
             "ScenarioCode": "NW_DP_0006",
             "WorkflowName": "Close Account - Demand Deposit Account / Savings Account",
-            "WorkStageName": "(KR) Transaction Information 영역에서  Transaction Code를 \"Suspense Payable Debit\"으로 선택, Second Key \"Suspense Payable others\" 입력 및 Refernece No.를 [13140] 거래를 통해 작성한 건을 선택하고 Enter 버튼 클릭  (EN) At Transaction Information section, select \"Suspense Payable Debit\" for Transaction Code, \"Suspense Payable others\" for Second Key, Reference No. from the transaction from [13140] and press Enter button ",
+            "WorkStageName": "",
             "DisplayLayoutRow": "6",
             "DisplayLayoutColumn": "6",
-            "LoadingPageType": "Image",
-            "KinsPageNumber": "553000",
-            "KinsPageName": "Single Payment Entry (Swift)",
+            "LoadingPageType": "━",
+            "KinsPageNumber": "",
+            "KinsPageName": "",
             "WorkStageNameKo": ""
         },
         {
@@ -3416,7 +3416,7 @@
             "WorkStageName": "",
             "DisplayLayoutRow": "7",
             "DisplayLayoutColumn": "4",
-            "LoadingPageType": "│",
+            "LoadingPageType": "Up",
             "KinsPageNumber": "",
             "KinsPageName": "",
             "WorkStageNameKo": ""
@@ -3439,8 +3439,8 @@
             "DisplayLayoutRow": "8",
             "DisplayLayoutColumn": "0",
             "LoadingPageType": "Picture",
-            "KinsPageNumber": "131400",
-            "KinsPageName": "",
+            "KinsPageNumber": "131400_2",
+            "KinsPageName": "**Suspense Payable-Others**",
             "WorkStageNameKo": ""
         },
         {
