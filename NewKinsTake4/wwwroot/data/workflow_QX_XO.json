@@ -1,0 +1,15 @@
+{
+    "Workflow": [
+        {
+            "ScenarioCode": "NW_XO_0001",
+            "WorkflowName": "Settle Fee Inqury",
+            "WorkStageName": "[KR]거래내역 조회 [EN] View the transaction ",
+            "DisplayLayoutRow": "Image",
+            "DisplayLayoutColumn": "0",
+            "LoadingPageType": 0,
+            "KinsPageNumber": "322010",
+            "KinsPageName": "Inquire Fee Details ",
+            "WorkStageNameKo": ""
+        }
+    ]
+}
