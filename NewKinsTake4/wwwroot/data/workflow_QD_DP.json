@@ -5184,75 +5184,9 @@
         {
             "ScenarioCode": "NW_DP_0018",
             "WorkflowName": "Partial Withdraw - Time Deposit",
-            "WorkStageName": "(KR) 출금 해당 계좌 번호를 입력하고 Inquiry 버튼 클릭 (EN) Fill in Withdraw Account Number and press Inquiry button  ",
+            "WorkStageName": "The function of this screen is to **facilitate partial withdrawals** from a selected account. <br><br>① Enter the **Withdraw Account Number** and click the **Inquiry** button. <br>  ② Select the account, input the **Partial Withdrawal Amount** and **Apply Interest Rate**, then press **Check Interest Rate**. <br>  ③ Review the **Early Termination Interest Rate** comparison in the pop-up and click **Proceed** to continue. <br>  ④ Confirm the **Total Payment Amount**, provide the required **Transaction Information** based on the withdrawal method, and click **Enter** to finalize the process.",
             "DisplayLayoutRow": "0",
             "DisplayLayoutColumn": "4",
-            "LoadingPageType": "Image",
-            "KinsPageNumber": "132000",
-            "KinsPageName": "Partial Withdraw TDA",
-            "WorkStageNameKo": ""
-        },
-        {
-            "ScenarioCode": "NW_DP_0018",
-            "WorkflowName": "Partial Withdraw - Time Deposit",
-            "WorkStageName": "",
-            "DisplayLayoutRow": "0",
-            "DisplayLayoutColumn": "5",
-            "LoadingPageType": "Right",
-            "KinsPageNumber": "",
-            "KinsPageName": "",
-            "WorkStageNameKo": ""
-        },
-        {
-            "ScenarioCode": "NW_DP_0018",
-            "WorkflowName": "Partial Withdraw - Time Deposit",
-            "WorkStageName": "(KR) 출금 해당 계좌를 선택 후, Partial Withdrawal Amount 및 Apply Interest Rate 입력 후 금리 확인 버튼 클릭 (EN) Select an account, fill in Partial Withdrawal Amount and Apply Interest Rate, and press Check Interest Rate ",
-            "DisplayLayoutRow": "0",
-            "DisplayLayoutColumn": "6",
-            "LoadingPageType": "Image",
-            "KinsPageNumber": "132000",
-            "KinsPageName": "Partial Withdraw TDA",
-            "WorkStageNameKo": ""
-        },
-        {
-            "ScenarioCode": "NW_DP_0018",
-            "WorkflowName": "Partial Withdraw - Time Deposit",
-            "WorkStageName": "",
-            "DisplayLayoutRow": "0",
-            "DisplayLayoutColumn": "7",
-            "LoadingPageType": "Right",
-            "KinsPageNumber": "",
-            "KinsPageName": "",
-            "WorkStageNameKo": ""
-        },
-        {
-            "ScenarioCode": "NW_DP_0018",
-            "WorkflowName": "Partial Withdraw - Time Deposit",
-            "WorkStageName": "(KR) 중도해지금리와 비교 팝업 확인 후 진행 여부 확인 버튼 클릭 (EN) After confirming the Pop-up message comparing Early Close Interest Rate, click Proceed Button ",
-            "DisplayLayoutRow": "0",
-            "DisplayLayoutColumn": "8",
-            "LoadingPageType": "Image",
-            "KinsPageNumber": "132000",
-            "KinsPageName": "Partial Withdraw TDA",
-            "WorkStageNameKo": ""
-        },
-        {
-            "ScenarioCode": "NW_DP_0018",
-            "WorkflowName": "Partial Withdraw - Time Deposit",
-            "WorkStageName": "",
-            "DisplayLayoutRow": "0",
-            "DisplayLayoutColumn": "9",
-            "LoadingPageType": "Right",
-            "KinsPageNumber": "",
-            "KinsPageName": "",
-            "WorkStageNameKo": ""
-        },
-        {
-            "ScenarioCode": "NW_DP_0018",
-            "WorkflowName": "Partial Withdraw - Time Deposit",
-            "WorkStageName": "(KR) 최종 지급 금액 확인 및  지급 방식에 따른 Transaction Information 입력 후 Enter 버튼 클릭   (EN) Confirm Total Payment Amount, fill in Transaction Information as per the withdrawal method and press Enter button ",
-            "DisplayLayoutRow": "0",
-            "DisplayLayoutColumn": "10",
             "LoadingPageType": "Image",
             "KinsPageNumber": "132000",
             "KinsPageName": "Partial Withdraw TDA",
@@ -5299,7 +5233,7 @@
             "DisplayLayoutColumn": "10",
             "LoadingPageType": "Picture",
             "KinsPageNumber": "132000",
-            "KinsPageName": "",
+            "KinsPageName": "**Voucher for Partial Withdrawal**",
             "WorkStageNameKo": ""
         },
         {
