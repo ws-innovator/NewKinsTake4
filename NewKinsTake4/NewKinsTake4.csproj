@@ -60,6 +60,9 @@
     <Content Update="wwwroot\data\workflow_QU_VD.json">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
+    <Content Update="wwwroot\data\workflow_QX_IM.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
     <Content Update="wwwroot\data\workflow_QZ_AD.json">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>

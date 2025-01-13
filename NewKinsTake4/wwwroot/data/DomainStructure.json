@@ -121,6 +121,12 @@
                     "SubDomainCode": "DP",
                     "SubDomainName": "Deposits",
                     "Scenarios": []
+                },
+                {
+                    "SubDomainCode": "DV",
+                    "SubDomainName": "Deposit related inquiries",
+                    "Scenarios": []
+
                 }
             ]
         },
