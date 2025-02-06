@@ -3,7 +3,7 @@
         {
             "ScenarioCode": "NW_CL_0001",
             "WorkflowName": "Register Limit by Nation/Group",
-            "WorkStageName": "(KR) 그룹/국가별 한도를 등록함 (EN) Register limit by group and nation ",
+            "WorkStageName": "The function of this screen is to **set and manage credit limits** based on **groups and nations**. <br>  \n① **Define and register** credit limits for specific **corporate groups or national entities**. <br>  \n② **Modify existing limits** to ensure compliance with internal policies and regulatory requirements. <br>  \n③ **Monitor and enforce** credit restrictions to mitigate financial risk. <br>  \nThis screen helps **maintain structured credit control**, ensuring that **credit allocations are properly managed** across different entities.",
             "DisplayLayoutRow": "0",
             "DisplayLayoutColumn": "0",
             "LoadingPageType": "Image",
@@ -36,7 +36,7 @@
         {
             "ScenarioCode": "NW_CL_0002",
             "WorkflowName": "Register MDDR Limit",
-            "WorkStageName": "(KR) MDDR(Maximum Daily Delivery Report)에 대한 한도를 등록함 (EN) Register limit for MDDR ",
+            "WorkStageName": "The function of this screen is to **register and manage the limit for Maximum Daily Delivery Report (MDDR)**. <br>  \n① Users can **input, modify, or update** the daily delivery limit for transactions. <br>  \n② The system **validates the entered limit** to ensure compliance with predefined policies. <br>  \n③ Once registered, the limit is **applied to transaction processing and reporting**. <br>  \n④ Users can **review historical limits and changes** for audit purposes. <br>  \nThis screen helps ensure that **daily delivery transactions remain within the approved threshold**, supporting compliance and operational control.",
             "DisplayLayoutRow": "0",
             "DisplayLayoutColumn": "0",
             "LoadingPageType": "Image",
@@ -69,7 +69,7 @@
         {
             "ScenarioCode": "NW_CL_0003",
             "WorkflowName": "Inquire Limit by Customer Group",
-            "WorkStageName": "(KR) 해당 점포의 한도 보고서 리스트를 조회함 (EN) Inquire list of credit reports ",
+            "WorkStageName": "The function of this screen is to **retrieve and display a list of credit reports** for a specific branch. <br>  \n① The system queries the database to fetch credit report records associated with the selected branch. <br>  \n② Users can view key details such as report ID, approval status, and credit limits. <br>  \n③ Filtering and sorting options allow users to refine the report list based on specific criteria. <br>  \n④ Authorized users can access detailed reports by selecting an entry from the list. <br>  \nThis screen helps monitor and manage branch-level credit limits efficiently.",
             "DisplayLayoutRow": "0",
             "DisplayLayoutColumn": "0",
             "LoadingPageType": "Image",
@@ -124,7 +124,7 @@
         {
             "ScenarioCode": "NW_CL_0004",
             "WorkflowName": "Inquire MDDR Limit",
-            "WorkStageName": "(KR) MDDR(Maximum Daily Delivery Report)에 대한 한도를 조회함 (EN) Inquire limit for MDDR ",
+            "WorkStageName": "The function of this screen is to **inquire about the limit for MDDR (Maximum Daily Delivery Report)**. <br>  \n① Users can enter specific criteria to retrieve the current MDDR limit. <br>  \n② The system processes the request and displays the **maximum daily delivery limit** based on predefined parameters. <br>  \n③ Additional details, such as limit usage and remaining capacity, may also be provided. <br>  \nThis screen helps users efficiently monitor and manage delivery limits to ensure compliance with operational constraints.",
             "DisplayLayoutRow": "0",
             "DisplayLayoutColumn": "0",
             "LoadingPageType": "Image",
@@ -157,7 +157,7 @@
         {
             "ScenarioCode": "NW_CL_0005",
             "WorkflowName": "Inquire Country/Group Exposure",
-            "WorkStageName": "(KR) 국가 및 그룹별 익스포져를 조회함 (EN) Inquire country and group exposure ",
+            "WorkStageName": "The function of this screen is to **inquire and analyze exposure by country and group** within the system. <br>  \nIt allows users to: <br>  \n① **Retrieve exposure data** based on specific countries and corporate groups. <br>  \n② **View detailed breakdowns** of risk, credit limits, and outstanding balances. <br>  \n③ **Filter and sort results** to assess financial exposure across multiple entities. <br>  \n④ **Generate reports** for regulatory compliance and risk management. <br>  \nThis screen supports financial institutions in **monitoring and managing risk** effectively by providing real-time visibility into country and group-level exposures.",
             "DisplayLayoutRow": "0",
             "DisplayLayoutColumn": "0",
             "LoadingPageType": "Image",
@@ -212,7 +212,7 @@
         {
             "ScenarioCode": "NW_CL_0006",
             "WorkflowName": "Inquire Industry Exposure",
-            "WorkStageName": "(KR) 산업별 익스포져를 조회함 (EN) Inquire industry exposure ",
+            "WorkStageName": "The function of this screen is to **inquire industry exposure** by retrieving and displaying relevant financial data. <br>  \n① Users can **select an industry category** to view its associated exposure metrics. <br>  \n② The system **aggregates and analyzes data**, providing insights into credit risk, outstanding balances, and industry-specific financial trends. <br>  \n③ Users can **filter results** by parameters such as region, time period, and exposure type. <br>  \n④ The screen also supports **exporting data** for further analysis or reporting.",
             "DisplayLayoutRow": "0",
             "DisplayLayoutColumn": "0",
             "LoadingPageType": "Image",
@@ -267,7 +267,7 @@
         {
             "ScenarioCode": "NW_CL_0007",
             "WorkflowName": "Inquire Exposure by Reference No.",
-            "WorkStageName": "(KR) 계좌별 익스포져를 조회함 (EN) Inquire exposure by Reference No. ",
+            "WorkStageName": "The function of this screen is to **inquire exposure for each account based on a reference number**. <br>  \n① The user inputs a **reference number** associated with a specific account. <br>  \n② The system retrieves and displays **exposure details**, including outstanding amounts, limits, and risk factors. <br>  \n③ Additional filtering options allow users to refine the search by date, transaction type, or exposure category. <br>  \n④ The results can be **exported or printed** for further analysis. <br>  \nThis screen helps users efficiently **monitor financial exposure** for corporate or individual accounts, ensuring better risk assessment and decision-making.",
             "DisplayLayoutRow": "0",
             "DisplayLayoutColumn": "0",
             "LoadingPageType": "Image",
@@ -322,7 +322,7 @@
         {
             "ScenarioCode": "NW_CL_0008",
             "WorkflowName": "Setup Limit by Customer",
-            "WorkStageName": "(KR) 고객별 운용한도를 등록함 (EN) Register limit by customer ",
+            "WorkStageName": "The function of this screen is to **register and manage operational limits for each customer**. <br>  \n① Users can **set, modify, or view** the predefined operational limits assigned to individual customers. <br>  \n② The system ensures compliance by **validating limit adjustments** based on internal policies. <br>  \n③ Authorized users can **review historical changes** to track modifications over time. <br>  \nThis feature helps maintain **risk control and efficient fund allocation** by ensuring that each customer operates within the approved limits.",
             "DisplayLayoutRow": "0",
             "DisplayLayoutColumn": "0",
             "LoadingPageType": "Image",
@@ -355,7 +355,7 @@
         {
             "ScenarioCode": "NW_CL_0009",
             "WorkflowName": "Setup Limit by Product",
-            "WorkStageName": "(KR) 상품별 운용한도를 조회함 (EN] Register limit by product ",
+            "WorkStageName": "The function of this screen is to **inquire and manage operational limits by product**. <br>  \n① Users can **view the operational limits** set for each financial product. <br>  \n② They can **modify or register new limits** based on business requirements. <br>  \n③ The system ensures **compliance with predefined policies** by restricting unauthorized changes. <br>  \n④ Users may also **generate reports** summarizing limit details for analysis and decision-making.",
             "DisplayLayoutRow": "0",
             "DisplayLayoutColumn": "0",
             "LoadingPageType": "Image",
